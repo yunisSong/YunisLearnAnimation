@@ -103,14 +103,14 @@
                                     <rect key="frame" x="190" y="64" width="135" height="12"/>
                                     <animations/>
                                     <fontDescription key="fontDescription" type="system" pointSize="10"/>
-                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="￥98.99" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wMJ-WP-Iot">
                                     <rect key="frame" x="190" y="91" width="135" height="26"/>
                                     <animations/>
                                     <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                             </subviews>
@@ -179,7 +179,7 @@
                         </button>
                     </subviews>
                     <animations/>
-                    <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="225" id="2Jq-Gw-A59"/>
                         <constraint firstItem="sds-iS-vV0" firstAttribute="leading" secondItem="9pu-jW-m8J" secondAttribute="trailing" id="E8b-Tf-B4O"/>

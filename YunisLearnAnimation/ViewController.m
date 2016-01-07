@@ -7,7 +7,9 @@
 //
 
 #import "ViewController.h"
-
+#import "UITableView+emptyView.h"
+#import "UITableView+hideSeparatorLeftInset.h"
+#import "UITableViewCell+hideSeparatorLeftInset.h"
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tab;
 @property(nonatomic,strong)NSArray *sourceArray;
@@ -21,6 +23,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     //加载页面
+    [self.tab hideSeparatorLeftInset];
+    self.title = @"动画学习";
 //
 }
 - (void)viewWillAppear:(BOOL)animated
@@ -32,6 +36,9 @@
 {
     [super viewDidAppear:animated];
     //监听事件
+    if (self.sourceArray.count == 0) {
+        [self.tab addEmptyViewWithImageName:@"wuyanzu" title:@"没有数据"];
+    }
 }
 - (void)dealloc
 {
@@ -47,24 +54,10 @@
 //代理方法
 #pragma mark -
 #pragma mark Table View DataSource Methods
-
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
-{
-    return 1;
-}
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return self.sourceArray.count;
-//    return self.sourceArray.count;
 }
-//- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
-//    return <#sectionViewHeigth#>;
-//}
-//- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
-//{
-//    return <#sectionHeaderView#>;
-//}
-
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     return 44;
@@ -80,33 +73,25 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:identifier];
         
     }
-//    [cell.contentView removeAllSubviews];
     cell.textLabel.text = self.sourceArray[indexPath.row];
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     cell.backgroundColor = [UIColor clearColor];
+    [cell hideSeparatorLeftInset];
     return cell;
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-//    Class s = NSClassFromString(self.ctrSourceArray[indexPath.row]);
-//    [self.navigationController pushViewController:[[s alloc] init ] animated:YES];
     if (indexPath.row >= self.ctrSourceArray.count) {
         return;
     }
     Class cls = NSClassFromString(self.ctrSourceArray[indexPath.row]);
-    
     if ( cls )
     {
         UIViewController *ctr = [cls new];
         ctr.title = self.ctrSourceArray[indexPath.row];
         [self.navigationController pushViewController:ctr animated:YES];
-
     }
-
-    
-    
-    
 }
 #pragma mark - Event Response
 //点击响应事件
@@ -118,7 +103,7 @@
 - (NSArray *)sourceArray{
     if (_sourceArray == nil) {
         _sourceArray = ({
-            NSArray *arr = @[@"点击圆圈动画",@"模仿彦祖写的动画",@"简单的画线",@"转场动画合集"];
+            NSArray *arr = @[@"点击圆圈动画",@"模仿彦祖写的动画",@"简单的画线",@"qq音乐转场动画",@"3d转场动画"];
             arr;
         });
     }
@@ -129,7 +114,7 @@
 - (NSArray *)ctrSourceArray{
     if (_ctrSourceArray == nil) {
         _ctrSourceArray = ({
-            NSArray *arr = @[@"CircleSpreadTransition",@"FollowWuYanZhu",@"DrawLineViewController"];
+            NSArray *arr = @[@"CircleSpreadTransition",@"FollowWuYanZhu",@"DrawLineViewController",@"QQMusicViewController",@"Transition3DViewController"];
             arr;
         });
     }

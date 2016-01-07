@@ -32,6 +32,35 @@
 		8B3A2C161C3D0062001F4E93 /* FollowWuYanZhu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B3A2C141C3D0062001F4E93 /* FollowWuYanZhu.xib */; };
 		8B3A2C181C3D0832001F4E93 /* wuyanzu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B3A2C171C3D0832001F4E93 /* wuyanzu.jpg */; };
 		8B3A2C1B1C3D0CC9001F4E93 /* TBAnimationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3A2C1A1C3D0CC9001F4E93 /* TBAnimationButton.m */; };
+		8B3CC15D1C3E34CA0071F6E5 /* UITableView+emptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3CC15C1C3E34CA0071F6E5 /* UITableView+emptyView.m */; settings = {ASSET_TAGS = (); }; };
+		8B3CC1601C3E38920071F6E5 /* UITableViewCell+hideSeparatorLeftInset.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3CC15F1C3E38920071F6E5 /* UITableViewCell+hideSeparatorLeftInset.m */; settings = {ASSET_TAGS = (); }; };
+		8B3CC1631C3E38B20071F6E5 /* UITableView+hideSeparatorLeftInset.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3CC1621C3E38B20071F6E5 /* UITableView+hideSeparatorLeftInset.m */; settings = {ASSET_TAGS = (); }; };
+		8B3CC16A1C3E47480071F6E5 /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3CC1691C3E47480071F6E5 /* Line.m */; settings = {ASSET_TAGS = (); }; };
+		8B3CC1701C3E4EBD0071F6E5 /* QQMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3CC16E1C3E4EBD0071F6E5 /* QQMusicViewController.m */; settings = {ASSET_TAGS = (); }; };
+		8B3CC1711C3E4EBD0071F6E5 /* QQMusicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC16F1C3E4EBD0071F6E5 /* QQMusicViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		8B3CC1751C3E4F1C0071F6E5 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3CC1731C3E4F1C0071F6E5 /* InfoViewController.m */; settings = {ASSET_TAGS = (); }; };
+		8B3CC17B1C3E508E0071F6E5 /* TransitionFromSecondToFirst.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3CC1781C3E508E0071F6E5 /* TransitionFromSecondToFirst.m */; settings = {ASSET_TAGS = (); }; };
+		8B3CC17C1C3E508E0071F6E5 /* TransitionFromFirstToSecond.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3CC17A1C3E508E0071F6E5 /* TransitionFromFirstToSecond.m */; settings = {ASSET_TAGS = (); }; };
+		8B3CC17F1C3E53E20071F6E5 /* UIView+snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3CC17E1C3E53E20071F6E5 /* UIView+snapshot.m */; settings = {ASSET_TAGS = (); }; };
+		8B3CC1831C3E601B0071F6E5 /* File in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC1821C3E601B0071F6E5 /* File */; settings = {ASSET_TAGS = (); }; };
+		8B3CC1851C3E60D80071F6E5 /* 动画思路.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC1841C3E60D80071F6E5 /* 动画思路.rtf */; settings = {ASSET_TAGS = (); }; };
+		8B3CC1891C3E67A30071F6E5 /* 3d.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC1881C3E67A30071F6E5 /* 3d.rtfd */; settings = {ASSET_TAGS = (); }; };
+		8B3CC18B1C3E68FC0071F6E5 /* File.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC18A1C3E68FC0071F6E5 /* File.rtf */; settings = {ASSET_TAGS = (); }; };
+		8B3CC18E1C3E69310071F6E5 /* 漂移.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC18D1C3E69310071F6E5 /* 漂移.rtfd */; settings = {ASSET_TAGS = (); }; };
+		8B3CC1971C3E6A6D0071F6E5 /* Transition3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3CC1951C3E6A6D0071F6E5 /* Transition3DViewController.m */; settings = {ASSET_TAGS = (); }; };
+		8B3CC1981C3E6A6D0071F6E5 /* Transition3DViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC1961C3E6A6D0071F6E5 /* Transition3DViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		8B3CC19C1C3E6A9C0071F6E5 /* TwoTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3CC19A1C3E6A9C0071F6E5 /* TwoTransitionViewController.m */; settings = {ASSET_TAGS = (); }; };
+		8B3CC19D1C3E6A9C0071F6E5 /* TwoTransitionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC19B1C3E6A9C0071F6E5 /* TwoTransitionViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		8B3CC1A01C3E6C080071F6E5 /* 点击圆形转场.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC19F1C3E6C080071F6E5 /* 点击圆形转场.rtf */; settings = {ASSET_TAGS = (); }; };
+		8B3CC1AB1C3E6D5C0071F6E5 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC1A21C3E6D5C0071F6E5 /* 1.jpg */; settings = {ASSET_TAGS = (); }; };
+		8B3CC1AC1C3E6D5C0071F6E5 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC1A31C3E6D5C0071F6E5 /* 2.jpg */; settings = {ASSET_TAGS = (); }; };
+		8B3CC1AD1C3E6D5C0071F6E5 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC1A41C3E6D5C0071F6E5 /* 3.jpg */; settings = {ASSET_TAGS = (); }; };
+		8B3CC1AE1C3E6D5C0071F6E5 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC1A51C3E6D5C0071F6E5 /* 4.jpg */; settings = {ASSET_TAGS = (); }; };
+		8B3CC1AF1C3E6D5C0071F6E5 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC1A61C3E6D5C0071F6E5 /* 5.jpg */; settings = {ASSET_TAGS = (); }; };
+		8B3CC1B01C3E6D5C0071F6E5 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC1A71C3E6D5C0071F6E5 /* 6.jpg */; settings = {ASSET_TAGS = (); }; };
+		8B3CC1B11C3E6D5C0071F6E5 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC1A81C3E6D5C0071F6E5 /* 7.jpg */; settings = {ASSET_TAGS = (); }; };
+		8B3CC1B21C3E6D5C0071F6E5 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC1A91C3E6D5C0071F6E5 /* 8.jpg */; settings = {ASSET_TAGS = (); }; };
+		8B3CC1B31C3E6D5C0071F6E5 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC1AA1C3E6D5C0071F6E5 /* 9.jpg */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +115,46 @@
 		8B3A2C171C3D0832001F4E93 /* wuyanzu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wuyanzu.jpg; sourceTree = "<group>"; };
 		8B3A2C191C3D0CC9001F4E93 /* TBAnimationButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBAnimationButton.h; sourceTree = "<group>"; };
 		8B3A2C1A1C3D0CC9001F4E93 /* TBAnimationButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBAnimationButton.m; sourceTree = "<group>"; };
+		8B3CC15B1C3E34CA0071F6E5 /* UITableView+emptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+emptyView.h"; sourceTree = "<group>"; };
+		8B3CC15C1C3E34CA0071F6E5 /* UITableView+emptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+emptyView.m"; sourceTree = "<group>"; };
+		8B3CC15E1C3E38920071F6E5 /* UITableViewCell+hideSeparatorLeftInset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+hideSeparatorLeftInset.h"; sourceTree = "<group>"; };
+		8B3CC15F1C3E38920071F6E5 /* UITableViewCell+hideSeparatorLeftInset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+hideSeparatorLeftInset.m"; sourceTree = "<group>"; };
+		8B3CC1611C3E38B20071F6E5 /* UITableView+hideSeparatorLeftInset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+hideSeparatorLeftInset.h"; sourceTree = "<group>"; };
+		8B3CC1621C3E38B20071F6E5 /* UITableView+hideSeparatorLeftInset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+hideSeparatorLeftInset.m"; sourceTree = "<group>"; };
+		8B3CC1681C3E47480071F6E5 /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line.h; sourceTree = "<group>"; };
+		8B3CC1691C3E47480071F6E5 /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line.m; sourceTree = "<group>"; };
+		8B3CC16D1C3E4EBD0071F6E5 /* QQMusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQMusicViewController.h; sourceTree = "<group>"; };
+		8B3CC16E1C3E4EBD0071F6E5 /* QQMusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQMusicViewController.m; sourceTree = "<group>"; };
+		8B3CC16F1C3E4EBD0071F6E5 /* QQMusicViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QQMusicViewController.xib; sourceTree = "<group>"; };
+		8B3CC1721C3E4F1C0071F6E5 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		8B3CC1731C3E4F1C0071F6E5 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		8B3CC1771C3E508E0071F6E5 /* TransitionFromSecondToFirst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionFromSecondToFirst.h; sourceTree = "<group>"; };
+		8B3CC1781C3E508E0071F6E5 /* TransitionFromSecondToFirst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionFromSecondToFirst.m; sourceTree = "<group>"; };
+		8B3CC1791C3E508E0071F6E5 /* TransitionFromFirstToSecond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionFromFirstToSecond.h; sourceTree = "<group>"; };
+		8B3CC17A1C3E508E0071F6E5 /* TransitionFromFirstToSecond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionFromFirstToSecond.m; sourceTree = "<group>"; };
+		8B3CC17D1C3E53E20071F6E5 /* UIView+snapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+snapshot.h"; sourceTree = "<group>"; };
+		8B3CC17E1C3E53E20071F6E5 /* UIView+snapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+snapshot.m"; sourceTree = "<group>"; };
+		8B3CC1821C3E601B0071F6E5 /* File */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
+		8B3CC1841C3E60D80071F6E5 /* 动画思路.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "动画思路.rtf"; sourceTree = "<group>"; };
+		8B3CC1881C3E67A30071F6E5 /* 3d.rtfd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.rtfd; path = 3d.rtfd; sourceTree = "<group>"; };
+		8B3CC18A1C3E68FC0071F6E5 /* File.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = File.rtf; sourceTree = "<group>"; };
+		8B3CC18D1C3E69310071F6E5 /* 漂移.rtfd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.rtfd; path = "漂移.rtfd"; sourceTree = "<group>"; };
+		8B3CC1941C3E6A6D0071F6E5 /* Transition3DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transition3DViewController.h; sourceTree = "<group>"; };
+		8B3CC1951C3E6A6D0071F6E5 /* Transition3DViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transition3DViewController.m; sourceTree = "<group>"; };
+		8B3CC1961C3E6A6D0071F6E5 /* Transition3DViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Transition3DViewController.xib; sourceTree = "<group>"; };
+		8B3CC1991C3E6A9C0071F6E5 /* TwoTransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoTransitionViewController.h; sourceTree = "<group>"; };
+		8B3CC19A1C3E6A9C0071F6E5 /* TwoTransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoTransitionViewController.m; sourceTree = "<group>"; };
+		8B3CC19B1C3E6A9C0071F6E5 /* TwoTransitionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TwoTransitionViewController.xib; sourceTree = "<group>"; };
+		8B3CC19F1C3E6C080071F6E5 /* 点击圆形转场.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "点击圆形转场.rtf"; sourceTree = "<group>"; };
+		8B3CC1A21C3E6D5C0071F6E5 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		8B3CC1A31C3E6D5C0071F6E5 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		8B3CC1A41C3E6D5C0071F6E5 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		8B3CC1A51C3E6D5C0071F6E5 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		8B3CC1A61C3E6D5C0071F6E5 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		8B3CC1A71C3E6D5C0071F6E5 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		8B3CC1A81C3E6D5C0071F6E5 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		8B3CC1A91C3E6D5C0071F6E5 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		8B3CC1AA1C3E6D5C0071F6E5 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +168,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		78A520D51C3DA79000D8F8A5 /* 学习彦祖动画 */ = {
+		78A520D51C3DA79000D8F8A5 /* 学习彦祖类似购物车动画 */ = {
 			isa = PBXGroup;
 			children = (
 				8B3A2C121C3D0062001F4E93 /* FollowWuYanZhu.h */,
@@ -109,10 +178,10 @@
 				8B3A2C171C3D0832001F4E93 /* wuyanzu.jpg */,
 				8B3A2C141C3D0062001F4E93 /* FollowWuYanZhu.xib */,
 			);
-			name = "学习彦祖动画";
+			name = "学习彦祖类似购物车动画";
 			sourceTree = "<group>";
 		};
-		78A520D61C3DB09100D8F8A5 /* DrawLine */ = {
+		78A520D61C3DB09100D8F8A5 /* 路径动画 */ = {
 			isa = PBXGroup;
 			children = (
 				78A520D71C3DB12200D8F8A5 /* DrawLineViewController.h */,
@@ -122,8 +191,10 @@
 				78A520DD1C3DB4DE00D8F8A5 /* DramVIew.m */,
 				78A521011C3DB6F600D8F8A5 /* DrawSettingView.h */,
 				78A521021C3DB6F600D8F8A5 /* DrawSettingView.m */,
+				8B3CC1681C3E47480071F6E5 /* Line.h */,
+				8B3CC1691C3E47480071F6E5 /* Line.m */,
 			);
-			name = DrawLine;
+			name = "路径动画";
 			sourceTree = "<group>";
 		};
 		78A520DF1C3DB52600D8F8A5 /* Masonry */ = {
@@ -179,6 +250,7 @@
 				8B3A2BF71C3CE85E001F4E93 /* AppDelegate.m */,
 				8B3A2BF91C3CE85E001F4E93 /* ViewController.h */,
 				8B3A2BFA1C3CE85E001F4E93 /* ViewController.m */,
+				8B3CC1821C3E601B0071F6E5 /* File */,
 				8B3A2C0E1C3CF797001F4E93 /* Category */,
 				8B3A2C0A1C3CEAD7001F4E93 /* Animation */,
 				8B3A2BFC1C3CE85E001F4E93 /* Main.storyboard */,
@@ -193,6 +265,7 @@
 		8B3A2BF31C3CE85E001F4E93 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8B3CC1A11C3E6D5C0071F6E5 /* Source */,
 				78A520DF1C3DB52600D8F8A5 /* Masonry */,
 				8B3A2BF41C3CE85E001F4E93 /* main.m */,
 				78A521001C3DB53D00D8F8A5 /* YunisPch.pch */,
@@ -203,10 +276,14 @@
 		8B3A2C0A1C3CEAD7001F4E93 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
-				8B3A2C0B1C3CEB39001F4E93 /* CircleSpreadTransition.h */,
-				8B3A2C0C1C3CEB39001F4E93 /* CircleSpreadTransition.m */,
-				78A520D51C3DA79000D8F8A5 /* 学习彦祖动画 */,
-				78A520D61C3DB09100D8F8A5 /* DrawLine */,
+				8B3CC18C1C3E69200071F6E5 /* 点击漂移转场 */,
+				8B3CC16C1C3E4DE40071F6E5 /* 点击显示扩散动画 */,
+				78A520D51C3DA79000D8F8A5 /* 学习彦祖类似购物车动画 */,
+				78A520D61C3DB09100D8F8A5 /* 路径动画 */,
+				8B3CC16B1C3E4D990071F6E5 /* 学习彦祖转场动画截屏大法 */,
+				8B3CC1861C3E66B30071F6E5 /* 点击漂移转场 */,
+				8B3CC1871C3E678E0071F6E5 /* 3D转场 */,
+				8B3CC19E1C3E6BED0071F6E5 /* 点击圆形转场 */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -216,8 +293,98 @@
 			children = (
 				8B3A2C0F1C3CF7AC001F4E93 /* UIColor+randomColor.h */,
 				8B3A2C101C3CF7AC001F4E93 /* UIColor+randomColor.m */,
+				8B3CC15B1C3E34CA0071F6E5 /* UITableView+emptyView.h */,
+				8B3CC15C1C3E34CA0071F6E5 /* UITableView+emptyView.m */,
+				8B3CC15E1C3E38920071F6E5 /* UITableViewCell+hideSeparatorLeftInset.h */,
+				8B3CC15F1C3E38920071F6E5 /* UITableViewCell+hideSeparatorLeftInset.m */,
+				8B3CC1611C3E38B20071F6E5 /* UITableView+hideSeparatorLeftInset.h */,
+				8B3CC1621C3E38B20071F6E5 /* UITableView+hideSeparatorLeftInset.m */,
+				8B3CC17D1C3E53E20071F6E5 /* UIView+snapshot.h */,
+				8B3CC17E1C3E53E20071F6E5 /* UIView+snapshot.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		8B3CC16B1C3E4D990071F6E5 /* 学习彦祖转场动画截屏大法 */ = {
+			isa = PBXGroup;
+			children = (
+				8B3CC1841C3E60D80071F6E5 /* 动画思路.rtf */,
+				8B3CC1771C3E508E0071F6E5 /* TransitionFromSecondToFirst.h */,
+				8B3CC1781C3E508E0071F6E5 /* TransitionFromSecondToFirst.m */,
+				8B3CC1791C3E508E0071F6E5 /* TransitionFromFirstToSecond.h */,
+				8B3CC17A1C3E508E0071F6E5 /* TransitionFromFirstToSecond.m */,
+				8B3CC16D1C3E4EBD0071F6E5 /* QQMusicViewController.h */,
+				8B3CC16E1C3E4EBD0071F6E5 /* QQMusicViewController.m */,
+				8B3CC16F1C3E4EBD0071F6E5 /* QQMusicViewController.xib */,
+				8B3CC1721C3E4F1C0071F6E5 /* InfoViewController.h */,
+				8B3CC1731C3E4F1C0071F6E5 /* InfoViewController.m */,
+			);
+			name = "学习彦祖转场动画截屏大法";
+			sourceTree = "<group>";
+		};
+		8B3CC16C1C3E4DE40071F6E5 /* 点击显示扩散动画 */ = {
+			isa = PBXGroup;
+			children = (
+				8B3A2C0B1C3CEB39001F4E93 /* CircleSpreadTransition.h */,
+				8B3A2C0C1C3CEB39001F4E93 /* CircleSpreadTransition.m */,
+			);
+			name = "点击显示扩散动画";
+			sourceTree = "<group>";
+		};
+		8B3CC1861C3E66B30071F6E5 /* 点击漂移转场 */ = {
+			isa = PBXGroup;
+			children = (
+				8B3CC18A1C3E68FC0071F6E5 /* File.rtf */,
+			);
+			name = "点击漂移转场";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		8B3CC1871C3E678E0071F6E5 /* 3D转场 */ = {
+			isa = PBXGroup;
+			children = (
+				8B3CC1881C3E67A30071F6E5 /* 3d.rtfd */,
+				8B3CC1941C3E6A6D0071F6E5 /* Transition3DViewController.h */,
+				8B3CC1951C3E6A6D0071F6E5 /* Transition3DViewController.m */,
+				8B3CC1961C3E6A6D0071F6E5 /* Transition3DViewController.xib */,
+				8B3CC1991C3E6A9C0071F6E5 /* TwoTransitionViewController.h */,
+				8B3CC19A1C3E6A9C0071F6E5 /* TwoTransitionViewController.m */,
+				8B3CC19B1C3E6A9C0071F6E5 /* TwoTransitionViewController.xib */,
+			);
+			name = "3D转场";
+			sourceTree = "<group>";
+		};
+		8B3CC18C1C3E69200071F6E5 /* 点击漂移转场 */ = {
+			isa = PBXGroup;
+			children = (
+				8B3CC18D1C3E69310071F6E5 /* 漂移.rtfd */,
+			);
+			name = "点击漂移转场";
+			sourceTree = "<group>";
+		};
+		8B3CC19E1C3E6BED0071F6E5 /* 点击圆形转场 */ = {
+			isa = PBXGroup;
+			children = (
+				8B3CC19F1C3E6C080071F6E5 /* 点击圆形转场.rtf */,
+			);
+			name = "点击圆形转场";
+			sourceTree = "<group>";
+		};
+		8B3CC1A11C3E6D5C0071F6E5 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				8B3CC1A21C3E6D5C0071F6E5 /* 1.jpg */,
+				8B3CC1A31C3E6D5C0071F6E5 /* 2.jpg */,
+				8B3CC1A41C3E6D5C0071F6E5 /* 3.jpg */,
+				8B3CC1A51C3E6D5C0071F6E5 /* 4.jpg */,
+				8B3CC1A61C3E6D5C0071F6E5 /* 5.jpg */,
+				8B3CC1A71C3E6D5C0071F6E5 /* 6.jpg */,
+				8B3CC1A81C3E6D5C0071F6E5 /* 7.jpg */,
+				8B3CC1A91C3E6D5C0071F6E5 /* 8.jpg */,
+				8B3CC1AA1C3E6D5C0071F6E5 /* 9.jpg */,
+			);
+			name = Source;
+			path = source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,10 +444,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B3CC1B01C3E6D5C0071F6E5 /* 6.jpg in Resources */,
+				8B3CC19D1C3E6A9C0071F6E5 /* TwoTransitionViewController.xib in Resources */,
+				8B3CC1AF1C3E6D5C0071F6E5 /* 5.jpg in Resources */,
+				8B3CC1981C3E6A6D0071F6E5 /* Transition3DViewController.xib in Resources */,
+				8B3CC1891C3E67A30071F6E5 /* 3d.rtfd in Resources */,
 				8B3A2C031C3CE85E001F4E93 /* LaunchScreen.storyboard in Resources */,
+				8B3CC1711C3E4EBD0071F6E5 /* QQMusicViewController.xib in Resources */,
+				8B3CC1AC1C3E6D5C0071F6E5 /* 2.jpg in Resources */,
+				8B3CC1AE1C3E6D5C0071F6E5 /* 4.jpg in Resources */,
+				8B3CC1AB1C3E6D5C0071F6E5 /* 1.jpg in Resources */,
+				8B3CC18B1C3E68FC0071F6E5 /* File.rtf in Resources */,
+				8B3CC1B11C3E6D5C0071F6E5 /* 7.jpg in Resources */,
 				8B3A2C181C3D0832001F4E93 /* wuyanzu.jpg in Resources */,
+				8B3CC1AD1C3E6D5C0071F6E5 /* 3.jpg in Resources */,
 				8B3A2C161C3D0062001F4E93 /* FollowWuYanZhu.xib in Resources */,
+				8B3CC1831C3E601B0071F6E5 /* File in Resources */,
+				8B3CC1851C3E60D80071F6E5 /* 动画思路.rtf in Resources */,
+				8B3CC1B21C3E6D5C0071F6E5 /* 8.jpg in Resources */,
 				8B3A2C001C3CE85E001F4E93 /* Assets.xcassets in Resources */,
+				8B3CC1A01C3E6C080071F6E5 /* 点击圆形转场.rtf in Resources */,
+				8B3CC18E1C3E69310071F6E5 /* 漂移.rtfd in Resources */,
+				8B3CC1B31C3E6D5C0071F6E5 /* 9.jpg in Resources */,
 				78A520DB1C3DB12200D8F8A5 /* DrawLineViewController.xib in Resources */,
 				8B3A2BFE1C3CE85E001F4E93 /* Main.storyboard in Resources */,
 			);
@@ -293,24 +478,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B3CC19C1C3E6A9C0071F6E5 /* TwoTransitionViewController.m in Sources */,
 				78A520FC1C3DB52600D8F8A5 /* MASViewConstraint.m in Sources */,
 				78A520DA1C3DB12200D8F8A5 /* DrawLineViewController.m in Sources */,
 				78A520FB1C3DB52600D8F8A5 /* MASViewAttribute.m in Sources */,
+				8B3CC1971C3E6A6D0071F6E5 /* Transition3DViewController.m in Sources */,
 				78A520DE1C3DB4DE00D8F8A5 /* DramVIew.m in Sources */,
+				8B3CC15D1C3E34CA0071F6E5 /* UITableView+emptyView.m in Sources */,
+				8B3CC17C1C3E508E0071F6E5 /* TransitionFromFirstToSecond.m in Sources */,
 				8B3A2BFB1C3CE85E001F4E93 /* ViewController.m in Sources */,
 				8B3A2BF81C3CE85E001F4E93 /* AppDelegate.m in Sources */,
 				78A520F71C3DB52600D8F8A5 /* MASCompositeConstraint.m in Sources */,
 				78A520F91C3DB52600D8F8A5 /* MASConstraintMaker.m in Sources */,
+				8B3CC1601C3E38920071F6E5 /* UITableViewCell+hideSeparatorLeftInset.m in Sources */,
+				8B3CC17B1C3E508E0071F6E5 /* TransitionFromSecondToFirst.m in Sources */,
 				78A520FF1C3DB52600D8F8A5 /* View+MASAdditions.m in Sources */,
 				78A520FA1C3DB52600D8F8A5 /* MASLayoutConstraint.m in Sources */,
+				8B3CC1701C3E4EBD0071F6E5 /* QQMusicViewController.m in Sources */,
+				8B3CC16A1C3E47480071F6E5 /* Line.m in Sources */,
 				78A520F81C3DB52600D8F8A5 /* MASConstraint.m in Sources */,
 				8B3A2C1B1C3D0CC9001F4E93 /* TBAnimationButton.m in Sources */,
+				8B3CC1631C3E38B20071F6E5 /* UITableView+hideSeparatorLeftInset.m in Sources */,
 				8B3A2BF51C3CE85E001F4E93 /* main.m in Sources */,
+				8B3CC17F1C3E53E20071F6E5 /* UIView+snapshot.m in Sources */,
 				78A520FD1C3DB52600D8F8A5 /* NSArray+MASAdditions.m in Sources */,
 				78A520FE1C3DB52600D8F8A5 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				78A521031C3DB6F600D8F8A5 /* DrawSettingView.m in Sources */,
 				8B3A2C111C3CF7AC001F4E93 /* UIColor+randomColor.m in Sources */,
 				8B3A2C0D1C3CEB39001F4E93 /* CircleSpreadTransition.m in Sources */,
+				8B3CC1751C3E4F1C0071F6E5 /* InfoViewController.m in Sources */,
 				8B3A2C151C3D0062001F4E93 /* FollowWuYanZhu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -35,7 +35,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Tqw-uc-8MN">
-                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
@@ -50,7 +50,7 @@
                             <constraint firstItem="mKw-IY-B2f" firstAttribute="top" secondItem="Tqw-uc-8MN" secondAttribute="bottom" id="EcD-zL-ey2"/>
                             <constraint firstItem="Tqw-uc-8MN" firstAttribute="top" secondItem="1Gv-LC-CSY" secondAttribute="bottom" id="Vvb-ly-ncH"/>
                             <constraint firstAttribute="trailing" secondItem="Tqw-uc-8MN" secondAttribute="trailing" id="Z8p-xe-YBQ"/>
-                            <constraint firstItem="Tqw-uc-8MN" firstAttribute="top" secondItem="QxC-Wx-VZ4" secondAttribute="topMargin" constant="64" id="mnt-rX-G1N"/>
+                            <constraint firstItem="Tqw-uc-8MN" firstAttribute="top" secondItem="QxC-Wx-VZ4" secondAttribute="topMargin" id="mnt-rX-G1N"/>
                             <constraint firstItem="Tqw-uc-8MN" firstAttribute="leading" secondItem="QxC-Wx-VZ4" secondAttribute="leading" id="sgK-8I-29U"/>
                         </constraints>
                         <variation key="default">

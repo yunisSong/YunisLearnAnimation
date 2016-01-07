@@ -18,7 +18,7 @@ static const float KminViewtraillingWidth = 0.f;
 static const float KMaxedsgNum = 10.f;
 static const float KMinedsgNum = 0.f;
 static const float openDuration = .5f;
-static const float fillDuration = .5f;
+static const float fillDuration = .3f;
 #define defaultColore [UIColor colorWithRed:75.0/255 green:151/255.0 blue:96/255.0 alpha:1]
 @implementation FollowWuYanZhu
 

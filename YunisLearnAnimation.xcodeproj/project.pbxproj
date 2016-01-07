@@ -7,21 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78A520DA1C3DB12200D8F8A5 /* DrawLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A520D81C3DB12200D8F8A5 /* DrawLineViewController.m */; };
+		78A520DB1C3DB12200D8F8A5 /* DrawLineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78A520D91C3DB12200D8F8A5 /* DrawLineViewController.xib */; };
+		78A520DE1C3DB4DE00D8F8A5 /* DramVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A520DD1C3DB4DE00D8F8A5 /* DramVIew.m */; };
+		78A520F71C3DB52600D8F8A5 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A520E11C3DB52600D8F8A5 /* MASCompositeConstraint.m */; };
+		78A520F81C3DB52600D8F8A5 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A520E41C3DB52600D8F8A5 /* MASConstraint.m */; };
+		78A520F91C3DB52600D8F8A5 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A520E61C3DB52600D8F8A5 /* MASConstraintMaker.m */; };
+		78A520FA1C3DB52600D8F8A5 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A520E81C3DB52600D8F8A5 /* MASLayoutConstraint.m */; };
+		78A520FB1C3DB52600D8F8A5 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A520EC1C3DB52600D8F8A5 /* MASViewAttribute.m */; };
+		78A520FC1C3DB52600D8F8A5 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A520EE1C3DB52600D8F8A5 /* MASViewConstraint.m */; };
+		78A520FD1C3DB52600D8F8A5 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A520F01C3DB52600D8F8A5 /* NSArray+MASAdditions.m */; };
+		78A520FE1C3DB52600D8F8A5 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A520F31C3DB52600D8F8A5 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		78A520FF1C3DB52600D8F8A5 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A520F51C3DB52600D8F8A5 /* View+MASAdditions.m */; };
+		78A521031C3DB6F600D8F8A5 /* DrawSettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A521021C3DB6F600D8F8A5 /* DrawSettingView.m */; };
 		8B3A2BF51C3CE85E001F4E93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3A2BF41C3CE85E001F4E93 /* main.m */; };
 		8B3A2BF81C3CE85E001F4E93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3A2BF71C3CE85E001F4E93 /* AppDelegate.m */; };
 		8B3A2BFB1C3CE85E001F4E93 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3A2BFA1C3CE85E001F4E93 /* ViewController.m */; };
 		8B3A2BFE1C3CE85E001F4E93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B3A2BFC1C3CE85E001F4E93 /* Main.storyboard */; };
 		8B3A2C001C3CE85E001F4E93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B3A2BFF1C3CE85E001F4E93 /* Assets.xcassets */; };
 		8B3A2C031C3CE85E001F4E93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B3A2C011C3CE85E001F4E93 /* LaunchScreen.storyboard */; };
-		8B3A2C0D1C3CEB39001F4E93 /* CircleSpreadTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3A2C0C1C3CEB39001F4E93 /* CircleSpreadTransition.m */; settings = {ASSET_TAGS = (); }; };
-		8B3A2C111C3CF7AC001F4E93 /* UIColor+randomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3A2C101C3CF7AC001F4E93 /* UIColor+randomColor.m */; settings = {ASSET_TAGS = (); }; };
-		8B3A2C151C3D0062001F4E93 /* FollowWuYanZhu.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3A2C131C3D0062001F4E93 /* FollowWuYanZhu.m */; settings = {ASSET_TAGS = (); }; };
-		8B3A2C161C3D0062001F4E93 /* FollowWuYanZhu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B3A2C141C3D0062001F4E93 /* FollowWuYanZhu.xib */; settings = {ASSET_TAGS = (); }; };
-		8B3A2C181C3D0832001F4E93 /* wuyanzu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B3A2C171C3D0832001F4E93 /* wuyanzu.jpg */; settings = {ASSET_TAGS = (); }; };
-		8B3A2C1B1C3D0CC9001F4E93 /* TBAnimationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3A2C1A1C3D0CC9001F4E93 /* TBAnimationButton.m */; settings = {ASSET_TAGS = (); }; };
+		8B3A2C0D1C3CEB39001F4E93 /* CircleSpreadTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3A2C0C1C3CEB39001F4E93 /* CircleSpreadTransition.m */; };
+		8B3A2C111C3CF7AC001F4E93 /* UIColor+randomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3A2C101C3CF7AC001F4E93 /* UIColor+randomColor.m */; };
+		8B3A2C151C3D0062001F4E93 /* FollowWuYanZhu.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3A2C131C3D0062001F4E93 /* FollowWuYanZhu.m */; };
+		8B3A2C161C3D0062001F4E93 /* FollowWuYanZhu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B3A2C141C3D0062001F4E93 /* FollowWuYanZhu.xib */; };
+		8B3A2C181C3D0832001F4E93 /* wuyanzu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B3A2C171C3D0832001F4E93 /* wuyanzu.jpg */; };
+		8B3A2C1B1C3D0CC9001F4E93 /* TBAnimationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3A2C1A1C3D0CC9001F4E93 /* TBAnimationButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		78A520D71C3DB12200D8F8A5 /* DrawLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawLineViewController.h; sourceTree = "<group>"; };
+		78A520D81C3DB12200D8F8A5 /* DrawLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawLineViewController.m; sourceTree = "<group>"; };
+		78A520D91C3DB12200D8F8A5 /* DrawLineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DrawLineViewController.xib; sourceTree = "<group>"; };
+		78A520DC1C3DB4DD00D8F8A5 /* DramVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DramVIew.h; sourceTree = "<group>"; };
+		78A520DD1C3DB4DE00D8F8A5 /* DramVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DramVIew.m; sourceTree = "<group>"; };
+		78A520E01C3DB52600D8F8A5 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		78A520E11C3DB52600D8F8A5 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		78A520E21C3DB52600D8F8A5 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		78A520E31C3DB52600D8F8A5 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		78A520E41C3DB52600D8F8A5 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		78A520E51C3DB52600D8F8A5 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		78A520E61C3DB52600D8F8A5 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		78A520E71C3DB52600D8F8A5 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		78A520E81C3DB52600D8F8A5 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		78A520E91C3DB52600D8F8A5 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		78A520EA1C3DB52600D8F8A5 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		78A520EB1C3DB52600D8F8A5 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		78A520EC1C3DB52600D8F8A5 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		78A520ED1C3DB52600D8F8A5 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		78A520EE1C3DB52600D8F8A5 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		78A520EF1C3DB52600D8F8A5 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		78A520F01C3DB52600D8F8A5 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		78A520F11C3DB52600D8F8A5 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		78A520F21C3DB52600D8F8A5 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		78A520F31C3DB52600D8F8A5 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		78A520F41C3DB52600D8F8A5 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		78A520F51C3DB52600D8F8A5 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		78A520F61C3DB52600D8F8A5 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		78A521001C3DB53D00D8F8A5 /* YunisPch.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YunisPch.pch; sourceTree = "<group>"; };
+		78A521011C3DB6F600D8F8A5 /* DrawSettingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawSettingView.h; sourceTree = "<group>"; };
+		78A521021C3DB6F600D8F8A5 /* DrawSettingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawSettingView.m; sourceTree = "<group>"; };
 		8B3A2BF01C3CE85E001F4E93 /* YunisLearnAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YunisLearnAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B3A2BF41C3CE85E001F4E93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8B3A2BF61C3CE85E001F4E93 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -55,6 +99,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		78A520D51C3DA79000D8F8A5 /* 学习彦祖动画 */ = {
+			isa = PBXGroup;
+			children = (
+				8B3A2C121C3D0062001F4E93 /* FollowWuYanZhu.h */,
+				8B3A2C131C3D0062001F4E93 /* FollowWuYanZhu.m */,
+				8B3A2C191C3D0CC9001F4E93 /* TBAnimationButton.h */,
+				8B3A2C1A1C3D0CC9001F4E93 /* TBAnimationButton.m */,
+				8B3A2C171C3D0832001F4E93 /* wuyanzu.jpg */,
+				8B3A2C141C3D0062001F4E93 /* FollowWuYanZhu.xib */,
+			);
+			name = "学习彦祖动画";
+			sourceTree = "<group>";
+		};
+		78A520D61C3DB09100D8F8A5 /* DrawLine */ = {
+			isa = PBXGroup;
+			children = (
+				78A520D71C3DB12200D8F8A5 /* DrawLineViewController.h */,
+				78A520D81C3DB12200D8F8A5 /* DrawLineViewController.m */,
+				78A520D91C3DB12200D8F8A5 /* DrawLineViewController.xib */,
+				78A520DC1C3DB4DD00D8F8A5 /* DramVIew.h */,
+				78A520DD1C3DB4DE00D8F8A5 /* DramVIew.m */,
+				78A521011C3DB6F600D8F8A5 /* DrawSettingView.h */,
+				78A521021C3DB6F600D8F8A5 /* DrawSettingView.m */,
+			);
+			name = DrawLine;
+			sourceTree = "<group>";
+		};
+		78A520DF1C3DB52600D8F8A5 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				78A520E01C3DB52600D8F8A5 /* MASCompositeConstraint.h */,
+				78A520E11C3DB52600D8F8A5 /* MASCompositeConstraint.m */,
+				78A520E21C3DB52600D8F8A5 /* MASConstraint+Private.h */,
+				78A520E31C3DB52600D8F8A5 /* MASConstraint.h */,
+				78A520E41C3DB52600D8F8A5 /* MASConstraint.m */,
+				78A520E51C3DB52600D8F8A5 /* MASConstraintMaker.h */,
+				78A520E61C3DB52600D8F8A5 /* MASConstraintMaker.m */,
+				78A520E71C3DB52600D8F8A5 /* MASLayoutConstraint.h */,
+				78A520E81C3DB52600D8F8A5 /* MASLayoutConstraint.m */,
+				78A520E91C3DB52600D8F8A5 /* Masonry.h */,
+				78A520EA1C3DB52600D8F8A5 /* MASUtilities.h */,
+				78A520EB1C3DB52600D8F8A5 /* MASViewAttribute.h */,
+				78A520EC1C3DB52600D8F8A5 /* MASViewAttribute.m */,
+				78A520ED1C3DB52600D8F8A5 /* MASViewConstraint.h */,
+				78A520EE1C3DB52600D8F8A5 /* MASViewConstraint.m */,
+				78A520EF1C3DB52600D8F8A5 /* NSArray+MASAdditions.h */,
+				78A520F01C3DB52600D8F8A5 /* NSArray+MASAdditions.m */,
+				78A520F11C3DB52600D8F8A5 /* NSArray+MASShorthandAdditions.h */,
+				78A520F21C3DB52600D8F8A5 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				78A520F31C3DB52600D8F8A5 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				78A520F41C3DB52600D8F8A5 /* View+MASAdditions.h */,
+				78A520F51C3DB52600D8F8A5 /* View+MASAdditions.m */,
+				78A520F61C3DB52600D8F8A5 /* View+MASShorthandAdditions.h */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
 		8B3A2BE71C3CE85E001F4E93 = {
 			isa = PBXGroup;
 			children = (
@@ -92,7 +193,9 @@
 		8B3A2BF31C3CE85E001F4E93 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				78A520DF1C3DB52600D8F8A5 /* Masonry */,
 				8B3A2BF41C3CE85E001F4E93 /* main.m */,
+				78A521001C3DB53D00D8F8A5 /* YunisPch.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -102,12 +205,8 @@
 			children = (
 				8B3A2C0B1C3CEB39001F4E93 /* CircleSpreadTransition.h */,
 				8B3A2C0C1C3CEB39001F4E93 /* CircleSpreadTransition.m */,
-				8B3A2C121C3D0062001F4E93 /* FollowWuYanZhu.h */,
-				8B3A2C131C3D0062001F4E93 /* FollowWuYanZhu.m */,
-				8B3A2C191C3D0CC9001F4E93 /* TBAnimationButton.h */,
-				8B3A2C1A1C3D0CC9001F4E93 /* TBAnimationButton.m */,
-				8B3A2C171C3D0832001F4E93 /* wuyanzu.jpg */,
-				8B3A2C141C3D0062001F4E93 /* FollowWuYanZhu.xib */,
+				78A520D51C3DA79000D8F8A5 /* 学习彦祖动画 */,
+				78A520D61C3DB09100D8F8A5 /* DrawLine */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -182,6 +281,7 @@
 				8B3A2C181C3D0832001F4E93 /* wuyanzu.jpg in Resources */,
 				8B3A2C161C3D0062001F4E93 /* FollowWuYanZhu.xib in Resources */,
 				8B3A2C001C3CE85E001F4E93 /* Assets.xcassets in Resources */,
+				78A520DB1C3DB12200D8F8A5 /* DrawLineViewController.xib in Resources */,
 				8B3A2BFE1C3CE85E001F4E93 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,10 +293,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78A520FC1C3DB52600D8F8A5 /* MASViewConstraint.m in Sources */,
+				78A520DA1C3DB12200D8F8A5 /* DrawLineViewController.m in Sources */,
+				78A520FB1C3DB52600D8F8A5 /* MASViewAttribute.m in Sources */,
+				78A520DE1C3DB4DE00D8F8A5 /* DramVIew.m in Sources */,
 				8B3A2BFB1C3CE85E001F4E93 /* ViewController.m in Sources */,
 				8B3A2BF81C3CE85E001F4E93 /* AppDelegate.m in Sources */,
+				78A520F71C3DB52600D8F8A5 /* MASCompositeConstraint.m in Sources */,
+				78A520F91C3DB52600D8F8A5 /* MASConstraintMaker.m in Sources */,
+				78A520FF1C3DB52600D8F8A5 /* View+MASAdditions.m in Sources */,
+				78A520FA1C3DB52600D8F8A5 /* MASLayoutConstraint.m in Sources */,
+				78A520F81C3DB52600D8F8A5 /* MASConstraint.m in Sources */,
 				8B3A2C1B1C3D0CC9001F4E93 /* TBAnimationButton.m in Sources */,
 				8B3A2BF51C3CE85E001F4E93 /* main.m in Sources */,
+				78A520FD1C3DB52600D8F8A5 /* NSArray+MASAdditions.m in Sources */,
+				78A520FE1C3DB52600D8F8A5 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				78A521031C3DB6F600D8F8A5 /* DrawSettingView.m in Sources */,
 				8B3A2C111C3CF7AC001F4E93 /* UIColor+randomColor.m in Sources */,
 				8B3A2C0D1C3CEB39001F4E93 /* CircleSpreadTransition.m in Sources */,
 				8B3A2C151C3D0062001F4E93 /* FollowWuYanZhu.m in Sources */,
@@ -309,6 +421,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YunisLearnAnimation/YunisPch.pch";
 				INFOPLIST_FILE = YunisLearnAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yunis.YunisLearnAnimation;
@@ -320,6 +434,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YunisLearnAnimation/YunisPch.pch";
 				INFOPLIST_FILE = YunisLearnAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yunis.YunisLearnAnimation;
@@ -346,6 +462,7 @@
 				8B3A2C091C3CE85E001F4E93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

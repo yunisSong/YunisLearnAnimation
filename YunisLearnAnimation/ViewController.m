@@ -91,7 +91,9 @@
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 //    Class s = NSClassFromString(self.ctrSourceArray[indexPath.row]);
 //    [self.navigationController pushViewController:[[s alloc] init ] animated:YES];
-    
+    if (indexPath.row >= self.ctrSourceArray.count) {
+        return;
+    }
     Class cls = NSClassFromString(self.ctrSourceArray[indexPath.row]);
     
     if ( cls )
@@ -116,7 +118,7 @@
 - (NSArray *)sourceArray{
     if (_sourceArray == nil) {
         _sourceArray = ({
-            NSArray *arr = @[@"1",@"2"];
+            NSArray *arr = @[@"点击圆圈动画",@"模仿彦祖写的动画",@"简单的画线",@"转场动画合集"];
             arr;
         });
     }
@@ -127,7 +129,7 @@
 - (NSArray *)ctrSourceArray{
     if (_ctrSourceArray == nil) {
         _ctrSourceArray = ({
-            NSArray *arr = @[@"CircleSpreadTransition",@"FollowWuYanZhu"];
+            NSArray *arr = @[@"CircleSpreadTransition",@"FollowWuYanZhu",@"DrawLineViewController"];
             arr;
         });
     }

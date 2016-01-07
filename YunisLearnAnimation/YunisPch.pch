@@ -1,0 +1,89 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+
+
+//define this constant if you want to use Masonry without the 'mas_' prefix
+//    #define MAS_SHORTHAND
+
+//define this constant if you want to enable auto-boxing for default syntax
+#define MAS_SHORTHAND_GLOBALS
+
+#import "Masonry.h"
+
+#endif
+
+/***********************颜色*************************************/
+//颜色读取
+#define RGBA(r,g,b,a) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
+#define RGB(r,g,b) RGBA(r,g,b,1.0f)
+
+//页面背景色
+#define KViewBGColor [UIColor colorWithRed:242/255.0 green:242/255.0 blue:242/255.0 alpha:1]
+
+#define kTextRedColor [UIColor colorWithRed:220/255.0 green:83/255.0 blue:89/255.0 alpha:1]
+
+#define kTextGrayColor [UIColor colorWithRed:97/255.0 green:97/255.0 blue:97/255.0 alpha:1]
+
+//紫色
+#define KPurpleColor RGB(126,0,112)
+
+//灰色背景
+//#define KGrayColor RGB(220,220,220)
+#define KGrayColor [UIColor colorWithRed:242/255.0 green:242/255.0 blue:242/255.0 alpha:1]
+
+
+/******************字体******************************************/
+#define KSysFont25 [UIFont systemFontOfSize:25]
+#define KSysFont20 [UIFont systemFontOfSize:20]
+
+#define KSysFont18 [UIFont systemFontOfSize:18]
+
+#define KSysFont16 [UIFont systemFontOfSize:16]
+
+#define KSysFont15 [UIFont systemFontOfSize:15]
+
+#define KSysFont13 [UIFont systemFontOfSize:13]
+
+#define KSysFont12 [UIFont systemFontOfSize:12]
+
+#define KSysFont10 [UIFont systemFontOfSize:10]
+
+/**********************屏幕宽高**************************************/
+//屏幕宽高
+#define SCREEN_WIDTH ([[UIScreen mainScreen] bounds].size.width)
+#define SCREEN_HEIGHT ([[UIScreen mainScreen] bounds].size.height)
+/************************************************************/
+#define USER_DEFAULT [NSUserDefaults standardUserDefaults]
+/************************************************************/
+/************************************************************/
+/************************************************************/
+/************************************************************/
+/************************************************************/
+/************************************************************/
+/************************************************************/
+
+// 注释下行则不打印日志
+#define __SHOW__DEBUGLog__
+
+#ifdef __SHOW__DEBUGLog__
+#define DEBUGLog( s, ... ) NSLog( @"<%@:(%d)> %@", [[NSString stringWithUTF8String:__FILE__] lastPathComponent], __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__] )
+#else
+#define DEBUGLog( s, ... ) {}
+#endif
+
+
+

@@ -13,3 +13,6 @@
 
 // 将rect从view中转换到当前视图中，返回在当前视图中的rect
 - (CGRect)convertRect:(CGRect)rect fromView:(UIView *)view;
+
+https://github.com/caodaxun/TransitionLearn
+这哥们总结的很好啊

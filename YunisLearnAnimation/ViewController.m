@@ -103,7 +103,7 @@
 - (NSArray *)sourceArray{
     if (_sourceArray == nil) {
         _sourceArray = ({
-            NSArray *arr = @[@"点击圆圈动画",@"模仿彦祖写的动画",@"简单的画线",@"qq音乐转场动画",@"3d转场动画"];
+            NSArray *arr = @[@"点击显示扩散动画",@"学习彦祖类似购物车动画",@"简单的画线与路径动画",@"qq音乐转场动画",@"3d转场动画",@"另外一种画线方式"];
             arr;
         });
     }
@@ -114,7 +114,7 @@
 - (NSArray *)ctrSourceArray{
     if (_ctrSourceArray == nil) {
         _ctrSourceArray = ({
-            NSArray *arr = @[@"CircleSpreadTransition",@"FollowWuYanZhu",@"DrawLineViewController",@"QQMusicViewController",@"Transition3DViewController"];
+            NSArray *arr = @[@"CircleSpreadTransition",@"FollowWuYanZhu",@"DrawLineViewController",@"QQMusicViewController",@"Transition3DViewController",@"OtherDrawLineViewController"];
             arr;
         });
     }

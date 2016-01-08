@@ -8,6 +8,7 @@
 
 #import "CircleSpreadTransition.h"
 #import "UIColor+randomColor.h"
+#import "UIButton+block.h"
 @interface CircleSpreadTransition ()
 @property(nonatomic)BOOL isShow;
 @property(nonatomic,strong)UIButton *button;

@@ -61,6 +61,16 @@
 		8B3CC1B11C3E6D5C0071F6E5 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC1A81C3E6D5C0071F6E5 /* 7.jpg */; settings = {ASSET_TAGS = (); }; };
 		8B3CC1B21C3E6D5C0071F6E5 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC1A91C3E6D5C0071F6E5 /* 8.jpg */; settings = {ASSET_TAGS = (); }; };
 		8B3CC1B31C3E6D5C0071F6E5 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC1AA1C3E6D5C0071F6E5 /* 9.jpg */; settings = {ASSET_TAGS = (); }; };
+		8BF8F0B51C3F3B1A00C9B9FB /* BaseTransitionObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8F0B41C3F3B1A00C9B9FB /* BaseTransitionObject.m */; settings = {ASSET_TAGS = (); }; };
+		8BF8F0B81C3F545000C9B9FB /* 另一种画线方式.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8BF8F0B71C3F545000C9B9FB /* 另一种画线方式.rtf */; settings = {ASSET_TAGS = (); }; };
+		8BF8F0BC1C3F54E100C9B9FB /* OtherDrawLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8F0BA1C3F54E100C9B9FB /* OtherDrawLineViewController.m */; settings = {ASSET_TAGS = (); }; };
+		8BF8F0BD1C3F54E100C9B9FB /* OtherDrawLineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BF8F0BB1C3F54E100C9B9FB /* OtherDrawLineViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		8BF8F0BF1C3F564C00C9B9FB /* 学习彦祖类似购物车动画.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8BF8F0BE1C3F564C00C9B9FB /* 学习彦祖类似购物车动画.rtf */; settings = {ASSET_TAGS = (); }; };
+		8BF8F0C21C3F5BA500C9B9FB /* BaseEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8F0C11C3F5BA500C9B9FB /* BaseEditView.m */; settings = {ASSET_TAGS = (); }; };
+		8BF8F0C51C3F5F7300C9B9FB /* UIView+Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8F0C41C3F5F7300C9B9FB /* UIView+Controller.m */; settings = {ASSET_TAGS = (); }; };
+		8BF8F0C81C3F605800C9B9FB /* DrawLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8F0C71C3F605800C9B9FB /* DrawLineView.m */; settings = {ASSET_TAGS = (); }; };
+		8BF8F0CB1C3F636B00C9B9FB /* UIButton+block.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8F0CA1C3F636B00C9B9FB /* UIButton+block.m */; settings = {ASSET_TAGS = (); }; };
+		8BF8F0CE1C3F88C800C9B9FB /* DrawBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8F0CD1C3F88C800C9B9FB /* DrawBezierPath.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -155,6 +165,23 @@
 		8B3CC1A81C3E6D5C0071F6E5 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
 		8B3CC1A91C3E6D5C0071F6E5 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
 		8B3CC1AA1C3E6D5C0071F6E5 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		8BF8F0B31C3F3B1A00C9B9FB /* BaseTransitionObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTransitionObject.h; sourceTree = "<group>"; };
+		8BF8F0B41C3F3B1A00C9B9FB /* BaseTransitionObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTransitionObject.m; sourceTree = "<group>"; };
+		8BF8F0B71C3F545000C9B9FB /* 另一种画线方式.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "另一种画线方式.rtf"; sourceTree = "<group>"; };
+		8BF8F0B91C3F54E100C9B9FB /* OtherDrawLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherDrawLineViewController.h; sourceTree = "<group>"; };
+		8BF8F0BA1C3F54E100C9B9FB /* OtherDrawLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherDrawLineViewController.m; sourceTree = "<group>"; };
+		8BF8F0BB1C3F54E100C9B9FB /* OtherDrawLineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OtherDrawLineViewController.xib; sourceTree = "<group>"; };
+		8BF8F0BE1C3F564C00C9B9FB /* 学习彦祖类似购物车动画.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "学习彦祖类似购物车动画.rtf"; sourceTree = "<group>"; };
+		8BF8F0C01C3F5BA500C9B9FB /* BaseEditView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseEditView.h; sourceTree = "<group>"; };
+		8BF8F0C11C3F5BA500C9B9FB /* BaseEditView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseEditView.m; sourceTree = "<group>"; };
+		8BF8F0C31C3F5F7300C9B9FB /* UIView+Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Controller.h"; sourceTree = "<group>"; };
+		8BF8F0C41C3F5F7300C9B9FB /* UIView+Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Controller.m"; sourceTree = "<group>"; };
+		8BF8F0C61C3F605800C9B9FB /* DrawLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawLineView.h; sourceTree = "<group>"; };
+		8BF8F0C71C3F605800C9B9FB /* DrawLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawLineView.m; sourceTree = "<group>"; };
+		8BF8F0C91C3F636B00C9B9FB /* UIButton+block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+block.h"; sourceTree = "<group>"; };
+		8BF8F0CA1C3F636B00C9B9FB /* UIButton+block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+block.m"; sourceTree = "<group>"; };
+		8BF8F0CC1C3F88C800C9B9FB /* DrawBezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawBezierPath.h; sourceTree = "<group>"; };
+		8BF8F0CD1C3F88C800C9B9FB /* DrawBezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawBezierPath.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +198,7 @@
 		78A520D51C3DA79000D8F8A5 /* 学习彦祖类似购物车动画 */ = {
 			isa = PBXGroup;
 			children = (
+				8BF8F0BE1C3F564C00C9B9FB /* 学习彦祖类似购物车动画.rtf */,
 				8B3A2C121C3D0062001F4E93 /* FollowWuYanZhu.h */,
 				8B3A2C131C3D0062001F4E93 /* FollowWuYanZhu.m */,
 				8B3A2C191C3D0CC9001F4E93 /* TBAnimationButton.h */,
@@ -181,7 +209,7 @@
 			name = "学习彦祖类似购物车动画";
 			sourceTree = "<group>";
 		};
-		78A520D61C3DB09100D8F8A5 /* 路径动画 */ = {
+		78A520D61C3DB09100D8F8A5 /* 简单的画线与路径动画 */ = {
 			isa = PBXGroup;
 			children = (
 				78A520D71C3DB12200D8F8A5 /* DrawLineViewController.h */,
@@ -194,7 +222,7 @@
 				8B3CC1681C3E47480071F6E5 /* Line.h */,
 				8B3CC1691C3E47480071F6E5 /* Line.m */,
 			);
-			name = "路径动画";
+			name = "简单的画线与路径动画";
 			sourceTree = "<group>";
 		};
 		78A520DF1C3DB52600D8F8A5 /* Masonry */ = {
@@ -276,14 +304,17 @@
 		8B3A2C0A1C3CEAD7001F4E93 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
-				8B3CC18C1C3E69200071F6E5 /* 点击漂移转场 */,
 				8B3CC16C1C3E4DE40071F6E5 /* 点击显示扩散动画 */,
 				78A520D51C3DA79000D8F8A5 /* 学习彦祖类似购物车动画 */,
-				78A520D61C3DB09100D8F8A5 /* 路径动画 */,
-				8B3CC16B1C3E4D990071F6E5 /* 学习彦祖转场动画截屏大法 */,
-				8B3CC1861C3E66B30071F6E5 /* 点击漂移转场 */,
+				78A520D61C3DB09100D8F8A5 /* 简单的画线与路径动画 */,
+				8B3CC16B1C3E4D990071F6E5 /* 学习彦祖qq音乐转场动画 */,
 				8B3CC1871C3E678E0071F6E5 /* 3D转场 */,
+				8BF8F0B61C3F543300C9B9FB /* 另一种画线方式 */,
+				8B3CC1861C3E66B30071F6E5 /* 点击漂移转场 */,
 				8B3CC19E1C3E6BED0071F6E5 /* 点击圆形转场 */,
+				8B3CC18C1C3E69200071F6E5 /* 点击漂移转场 */,
+				8BF8F0B31C3F3B1A00C9B9FB /* BaseTransitionObject.h */,
+				8BF8F0B41C3F3B1A00C9B9FB /* BaseTransitionObject.m */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -301,11 +332,15 @@
 				8B3CC1621C3E38B20071F6E5 /* UITableView+hideSeparatorLeftInset.m */,
 				8B3CC17D1C3E53E20071F6E5 /* UIView+snapshot.h */,
 				8B3CC17E1C3E53E20071F6E5 /* UIView+snapshot.m */,
+				8BF8F0C31C3F5F7300C9B9FB /* UIView+Controller.h */,
+				8BF8F0C41C3F5F7300C9B9FB /* UIView+Controller.m */,
+				8BF8F0C91C3F636B00C9B9FB /* UIButton+block.h */,
+				8BF8F0CA1C3F636B00C9B9FB /* UIButton+block.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
 		};
-		8B3CC16B1C3E4D990071F6E5 /* 学习彦祖转场动画截屏大法 */ = {
+		8B3CC16B1C3E4D990071F6E5 /* 学习彦祖qq音乐转场动画 */ = {
 			isa = PBXGroup;
 			children = (
 				8B3CC1841C3E60D80071F6E5 /* 动画思路.rtf */,
@@ -319,7 +354,7 @@
 				8B3CC1721C3E4F1C0071F6E5 /* InfoViewController.h */,
 				8B3CC1731C3E4F1C0071F6E5 /* InfoViewController.m */,
 			);
-			name = "学习彦祖转场动画截屏大法";
+			name = "学习彦祖qq音乐转场动画";
 			sourceTree = "<group>";
 		};
 		8B3CC16C1C3E4DE40071F6E5 /* 点击显示扩散动画 */ = {
@@ -387,6 +422,23 @@
 			path = source;
 			sourceTree = "<group>";
 		};
+		8BF8F0B61C3F543300C9B9FB /* 另一种画线方式 */ = {
+			isa = PBXGroup;
+			children = (
+				8BF8F0B71C3F545000C9B9FB /* 另一种画线方式.rtf */,
+				8BF8F0B91C3F54E100C9B9FB /* OtherDrawLineViewController.h */,
+				8BF8F0BA1C3F54E100C9B9FB /* OtherDrawLineViewController.m */,
+				8BF8F0BB1C3F54E100C9B9FB /* OtherDrawLineViewController.xib */,
+				8BF8F0C01C3F5BA500C9B9FB /* BaseEditView.h */,
+				8BF8F0C11C3F5BA500C9B9FB /* BaseEditView.m */,
+				8BF8F0C61C3F605800C9B9FB /* DrawLineView.h */,
+				8BF8F0C71C3F605800C9B9FB /* DrawLineView.m */,
+				8BF8F0CC1C3F88C800C9B9FB /* DrawBezierPath.h */,
+				8BF8F0CD1C3F88C800C9B9FB /* DrawBezierPath.m */,
+			);
+			name = "另一种画线方式";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -445,6 +497,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B3CC1B01C3E6D5C0071F6E5 /* 6.jpg in Resources */,
+				8BF8F0BD1C3F54E100C9B9FB /* OtherDrawLineViewController.xib in Resources */,
 				8B3CC19D1C3E6A9C0071F6E5 /* TwoTransitionViewController.xib in Resources */,
 				8B3CC1AF1C3E6D5C0071F6E5 /* 5.jpg in Resources */,
 				8B3CC1981C3E6A6D0071F6E5 /* Transition3DViewController.xib in Resources */,
@@ -463,11 +516,13 @@
 				8B3CC1851C3E60D80071F6E5 /* 动画思路.rtf in Resources */,
 				8B3CC1B21C3E6D5C0071F6E5 /* 8.jpg in Resources */,
 				8B3A2C001C3CE85E001F4E93 /* Assets.xcassets in Resources */,
+				8BF8F0BF1C3F564C00C9B9FB /* 学习彦祖类似购物车动画.rtf in Resources */,
 				8B3CC1A01C3E6C080071F6E5 /* 点击圆形转场.rtf in Resources */,
 				8B3CC18E1C3E69310071F6E5 /* 漂移.rtfd in Resources */,
 				8B3CC1B31C3E6D5C0071F6E5 /* 9.jpg in Resources */,
 				78A520DB1C3DB12200D8F8A5 /* DrawLineViewController.xib in Resources */,
 				8B3A2BFE1C3CE85E001F4E93 /* Main.storyboard in Resources */,
+				8BF8F0B81C3F545000C9B9FB /* 另一种画线方式.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,9 +533,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BF8F0C21C3F5BA500C9B9FB /* BaseEditView.m in Sources */,
 				8B3CC19C1C3E6A9C0071F6E5 /* TwoTransitionViewController.m in Sources */,
 				78A520FC1C3DB52600D8F8A5 /* MASViewConstraint.m in Sources */,
 				78A520DA1C3DB12200D8F8A5 /* DrawLineViewController.m in Sources */,
+				8BF8F0C51C3F5F7300C9B9FB /* UIView+Controller.m in Sources */,
 				78A520FB1C3DB52600D8F8A5 /* MASViewAttribute.m in Sources */,
 				8B3CC1971C3E6A6D0071F6E5 /* Transition3DViewController.m in Sources */,
 				78A520DE1C3DB4DE00D8F8A5 /* DramVIew.m in Sources */,
@@ -490,14 +547,18 @@
 				8B3A2BF81C3CE85E001F4E93 /* AppDelegate.m in Sources */,
 				78A520F71C3DB52600D8F8A5 /* MASCompositeConstraint.m in Sources */,
 				78A520F91C3DB52600D8F8A5 /* MASConstraintMaker.m in Sources */,
+				8BF8F0B51C3F3B1A00C9B9FB /* BaseTransitionObject.m in Sources */,
 				8B3CC1601C3E38920071F6E5 /* UITableViewCell+hideSeparatorLeftInset.m in Sources */,
 				8B3CC17B1C3E508E0071F6E5 /* TransitionFromSecondToFirst.m in Sources */,
+				8BF8F0BC1C3F54E100C9B9FB /* OtherDrawLineViewController.m in Sources */,
 				78A520FF1C3DB52600D8F8A5 /* View+MASAdditions.m in Sources */,
+				8BF8F0CE1C3F88C800C9B9FB /* DrawBezierPath.m in Sources */,
 				78A520FA1C3DB52600D8F8A5 /* MASLayoutConstraint.m in Sources */,
 				8B3CC1701C3E4EBD0071F6E5 /* QQMusicViewController.m in Sources */,
 				8B3CC16A1C3E47480071F6E5 /* Line.m in Sources */,
 				78A520F81C3DB52600D8F8A5 /* MASConstraint.m in Sources */,
 				8B3A2C1B1C3D0CC9001F4E93 /* TBAnimationButton.m in Sources */,
+				8BF8F0C81C3F605800C9B9FB /* DrawLineView.m in Sources */,
 				8B3CC1631C3E38B20071F6E5 /* UITableView+hideSeparatorLeftInset.m in Sources */,
 				8B3A2BF51C3CE85E001F4E93 /* main.m in Sources */,
 				8B3CC17F1C3E53E20071F6E5 /* UIView+snapshot.m in Sources */,
@@ -508,6 +569,7 @@
 				8B3A2C0D1C3CEB39001F4E93 /* CircleSpreadTransition.m in Sources */,
 				8B3CC1751C3E4F1C0071F6E5 /* InfoViewController.m in Sources */,
 				8B3A2C151C3D0062001F4E93 /* FollowWuYanZhu.m in Sources */,
+				8BF8F0CB1C3F636B00C9B9FB /* UIButton+block.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

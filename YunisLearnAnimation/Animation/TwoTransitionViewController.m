@@ -19,6 +19,25 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     //加载页面
+    UIButton *pu = ({
+        UIButton *btr       = [UIButton buttonWithType:UIButtonTypeCustom];
+        [btr setTitle:@"Diss" forState:UIControlStateNormal];
+        btr.titleLabel.font = [UIFont systemFontOfSize:18];
+        [btr setBackgroundColor:[UIColor redColor]];
+        btr.titleLabel.adjustsFontSizeToFitWidth = YES;
+        [btr addTarget:self action:@selector(diss) forControlEvents:UIControlEventTouchUpInside];
+        
+        btr;
+    });
+    pu.frame = CGRectMake(0, 0, 100, 40);
+    pu.center = self.view.center;
+    
+    [self.view addSubview:pu];
+    
+    [pu mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.center.equalTo(self.view);
+        make.size.equalTo(CGSizeMake(100, 40));
+    }];
 }
 - (void)viewWillAppear:(BOOL)animated
 {
@@ -46,7 +65,12 @@
 #pragma mark - Event Response
 //点击响应事件
 
-
+- (void)diss
+{
+    [self dismissViewControllerAnimated:YES completion:^{
+        
+    }];
+}
 
 #pragma mark - getters and setters
 //初始化页面

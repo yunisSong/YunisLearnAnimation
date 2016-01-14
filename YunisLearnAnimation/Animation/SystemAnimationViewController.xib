@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SystemAnimationViewController">
+            <connections>
+                <outlet property="Y_centerX" destination="Rkc-YN-UG2" id="SD0-Q3-CRd"/>
+                <outlet property="Y_heigth" destination="1hd-Yp-RLh" id="pYa-Oy-6EZ"/>
+                <outlet property="Y_top" destination="Dir-WI-5Na" id="WTn-FH-RUf"/>
+                <outlet property="Y_width" destination="84h-ZP-XhH" id="Jgc-FK-Dxh"/>
+                <outlet property="demoImageView" destination="Ewl-p6-me1" id="Awj-LU-CbH"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wuyanzu.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Ewl-p6-me1">
+                    <rect key="frame" x="110" y="10" width="100" height="100"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="1hd-Yp-RLh"/>
+                        <constraint firstAttribute="width" constant="100" id="84h-ZP-XhH"/>
+                    </constraints>
+                    <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Gk-vD-VEu">
+                    <rect key="frame" x="10" y="150" width="57" height="30"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="57" id="00X-R4-omo"/>
+                        <constraint firstAttribute="height" constant="30" id="jcR-ax-DhA"/>
+                    </constraints>
+                    <state key="normal" title="点我"/>
+                    <connections>
+                        <action selector="changeTransform:" destination="-1" eventType="touchUpInside" id="ohf-fp-QdF"/>
+                    </connections>
+                </button>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="9Gk-vD-VEu" firstAttribute="top" secondItem="Ewl-p6-me1" secondAttribute="bottom" constant="40" id="3fd-HB-EbV"/>
+                <constraint firstItem="9Gk-vD-VEu" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="9IQ-33-OT7"/>
+                <constraint firstItem="Ewl-p6-me1" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="10" id="Dir-WI-5Na"/>
+                <constraint firstItem="Ewl-p6-me1" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Rkc-YN-UG2"/>
+            </constraints>
+            <point key="canvasLocation" x="178" y="352"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="wuyanzu.jpg" width="400" height="601"/>
+    </resources>
+</document>

@@ -20,6 +20,12 @@
 		78A520FE1C3DB52600D8F8A5 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A520F31C3DB52600D8F8A5 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		78A520FF1C3DB52600D8F8A5 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A520F51C3DB52600D8F8A5 /* View+MASAdditions.m */; };
 		78A521031C3DB6F600D8F8A5 /* DrawSettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A521021C3DB6F600D8F8A5 /* DrawSettingView.m */; };
+		8B00190F1C44CE7900805B5D /* Transion3DPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B00190E1C44CE7900805B5D /* Transion3DPush.m */; settings = {ASSET_TAGS = (); }; };
+		8B0019121C44CE8600805B5D /* Transion3DDiss.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0019111C44CE8600805B5D /* Transion3DDiss.m */; settings = {ASSET_TAGS = (); }; };
+		8B0019151C44D51800805B5D /* DissInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0019141C44D51800805B5D /* DissInteractiveTransition.m */; settings = {ASSET_TAGS = (); }; };
+		8B00195A1C4741F300805B5D /* ManageTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0019591C4741F300805B5D /* ManageTransitionAnimation.m */; settings = {ASSET_TAGS = (); }; };
+		8B00195F1C476D0700805B5D /* SystemAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B00195D1C476D0700805B5D /* SystemAnimationViewController.m */; settings = {ASSET_TAGS = (); }; };
+		8B0019601C476D0700805B5D /* SystemAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B00195E1C476D0700805B5D /* SystemAnimationViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		8B3A2BF51C3CE85E001F4E93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3A2BF41C3CE85E001F4E93 /* main.m */; };
 		8B3A2BF81C3CE85E001F4E93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3A2BF71C3CE85E001F4E93 /* AppDelegate.m */; };
 		8B3A2BFB1C3CE85E001F4E93 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3A2BFA1C3CE85E001F4E93 /* ViewController.m */; };
@@ -105,6 +111,17 @@
 		78A521001C3DB53D00D8F8A5 /* YunisPch.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YunisPch.pch; sourceTree = "<group>"; };
 		78A521011C3DB6F600D8F8A5 /* DrawSettingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawSettingView.h; sourceTree = "<group>"; };
 		78A521021C3DB6F600D8F8A5 /* DrawSettingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawSettingView.m; sourceTree = "<group>"; };
+		8B00190D1C44CE7900805B5D /* Transion3DPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transion3DPush.h; sourceTree = "<group>"; };
+		8B00190E1C44CE7900805B5D /* Transion3DPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transion3DPush.m; sourceTree = "<group>"; };
+		8B0019101C44CE8600805B5D /* Transion3DDiss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transion3DDiss.h; sourceTree = "<group>"; };
+		8B0019111C44CE8600805B5D /* Transion3DDiss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transion3DDiss.m; sourceTree = "<group>"; };
+		8B0019131C44D51800805B5D /* DissInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DissInteractiveTransition.h; sourceTree = "<group>"; };
+		8B0019141C44D51800805B5D /* DissInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DissInteractiveTransition.m; sourceTree = "<group>"; };
+		8B0019581C4741F300805B5D /* ManageTransitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManageTransitionAnimation.h; sourceTree = "<group>"; };
+		8B0019591C4741F300805B5D /* ManageTransitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManageTransitionAnimation.m; sourceTree = "<group>"; };
+		8B00195C1C476D0700805B5D /* SystemAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemAnimationViewController.h; sourceTree = "<group>"; };
+		8B00195D1C476D0700805B5D /* SystemAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemAnimationViewController.m; sourceTree = "<group>"; };
+		8B00195E1C476D0700805B5D /* SystemAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SystemAnimationViewController.xib; sourceTree = "<group>"; };
 		8B3A2BF01C3CE85E001F4E93 /* YunisLearnAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YunisLearnAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B3A2BF41C3CE85E001F4E93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8B3A2BF61C3CE85E001F4E93 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -255,6 +272,25 @@
 			path = Masonry;
 			sourceTree = "<group>";
 		};
+		8B0019571C47418300805B5D /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				8B0019581C4741F300805B5D /* ManageTransitionAnimation.h */,
+				8B0019591C4741F300805B5D /* ManageTransitionAnimation.m */,
+			);
+			name = Public;
+			sourceTree = "<group>";
+		};
+		8B00195B1C476CB900805B5D /* 系统动画旋转角度的思考 */ = {
+			isa = PBXGroup;
+			children = (
+				8B00195C1C476D0700805B5D /* SystemAnimationViewController.h */,
+				8B00195D1C476D0700805B5D /* SystemAnimationViewController.m */,
+				8B00195E1C476D0700805B5D /* SystemAnimationViewController.xib */,
+			);
+			name = "系统动画旋转角度的思考";
+			sourceTree = "<group>";
+		};
 		8B3A2BE71C3CE85E001F4E93 = {
 			isa = PBXGroup;
 			children = (
@@ -304,6 +340,7 @@
 		8B3A2C0A1C3CEAD7001F4E93 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
+				8B0019571C47418300805B5D /* Public */,
 				8B3CC16C1C3E4DE40071F6E5 /* 点击显示扩散动画 */,
 				78A520D51C3DA79000D8F8A5 /* 学习彦祖类似购物车动画 */,
 				78A520D61C3DB09100D8F8A5 /* 简单的画线与路径动画 */,
@@ -313,6 +350,7 @@
 				8B3CC1861C3E66B30071F6E5 /* 点击漂移转场 */,
 				8B3CC19E1C3E6BED0071F6E5 /* 点击圆形转场 */,
 				8B3CC18C1C3E69200071F6E5 /* 点击漂移转场 */,
+				8B00195B1C476CB900805B5D /* 系统动画旋转角度的思考 */,
 				8BF8F0B31C3F3B1A00C9B9FB /* BaseTransitionObject.h */,
 				8BF8F0B41C3F3B1A00C9B9FB /* BaseTransitionObject.m */,
 			);
@@ -385,6 +423,12 @@
 				8B3CC1991C3E6A9C0071F6E5 /* TwoTransitionViewController.h */,
 				8B3CC19A1C3E6A9C0071F6E5 /* TwoTransitionViewController.m */,
 				8B3CC19B1C3E6A9C0071F6E5 /* TwoTransitionViewController.xib */,
+				8B00190D1C44CE7900805B5D /* Transion3DPush.h */,
+				8B00190E1C44CE7900805B5D /* Transion3DPush.m */,
+				8B0019101C44CE8600805B5D /* Transion3DDiss.h */,
+				8B0019111C44CE8600805B5D /* Transion3DDiss.m */,
+				8B0019131C44D51800805B5D /* DissInteractiveTransition.h */,
+				8B0019141C44D51800805B5D /* DissInteractiveTransition.m */,
 			);
 			name = "3D转场";
 			sourceTree = "<group>";
@@ -522,6 +566,7 @@
 				8B3CC1B31C3E6D5C0071F6E5 /* 9.jpg in Resources */,
 				78A520DB1C3DB12200D8F8A5 /* DrawLineViewController.xib in Resources */,
 				8B3A2BFE1C3CE85E001F4E93 /* Main.storyboard in Resources */,
+				8B0019601C476D0700805B5D /* SystemAnimationViewController.xib in Resources */,
 				8BF8F0B81C3F545000C9B9FB /* 另一种画线方式.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -533,7 +578,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B00190F1C44CE7900805B5D /* Transion3DPush.m in Sources */,
 				8BF8F0C21C3F5BA500C9B9FB /* BaseEditView.m in Sources */,
+				8B0019121C44CE8600805B5D /* Transion3DDiss.m in Sources */,
 				8B3CC19C1C3E6A9C0071F6E5 /* TwoTransitionViewController.m in Sources */,
 				78A520FC1C3DB52600D8F8A5 /* MASViewConstraint.m in Sources */,
 				78A520DA1C3DB12200D8F8A5 /* DrawLineViewController.m in Sources */,
@@ -545,10 +592,13 @@
 				8B3CC17C1C3E508E0071F6E5 /* TransitionFromFirstToSecond.m in Sources */,
 				8B3A2BFB1C3CE85E001F4E93 /* ViewController.m in Sources */,
 				8B3A2BF81C3CE85E001F4E93 /* AppDelegate.m in Sources */,
+				8B00195F1C476D0700805B5D /* SystemAnimationViewController.m in Sources */,
 				78A520F71C3DB52600D8F8A5 /* MASCompositeConstraint.m in Sources */,
+				8B00195A1C4741F300805B5D /* ManageTransitionAnimation.m in Sources */,
 				78A520F91C3DB52600D8F8A5 /* MASConstraintMaker.m in Sources */,
 				8BF8F0B51C3F3B1A00C9B9FB /* BaseTransitionObject.m in Sources */,
 				8B3CC1601C3E38920071F6E5 /* UITableViewCell+hideSeparatorLeftInset.m in Sources */,
+				8B0019151C44D51800805B5D /* DissInteractiveTransition.m in Sources */,
 				8B3CC17B1C3E508E0071F6E5 /* TransitionFromSecondToFirst.m in Sources */,
 				8BF8F0BC1C3F54E100C9B9FB /* OtherDrawLineViewController.m in Sources */,
 				78A520FF1C3DB52600D8F8A5 /* View+MASAdditions.m in Sources */,

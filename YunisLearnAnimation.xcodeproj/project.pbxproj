@@ -26,6 +26,15 @@
 		8B00195A1C4741F300805B5D /* ManageTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0019591C4741F300805B5D /* ManageTransitionAnimation.m */; settings = {ASSET_TAGS = (); }; };
 		8B00195F1C476D0700805B5D /* SystemAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B00195D1C476D0700805B5D /* SystemAnimationViewController.m */; settings = {ASSET_TAGS = (); }; };
 		8B0019601C476D0700805B5D /* SystemAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B00195E1C476D0700805B5D /* SystemAnimationViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		8B3173B61C4CCB7000DC634B /* 印象笔记动画效果OC版本.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3173B51C4CCB7000DC634B /* 印象笔记动画效果OC版本.rtf */; settings = {ASSET_TAGS = (); }; };
+		8B3173B91C4CCBED00DC634B /* YinXiangBiJiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3173B81C4CCBED00DC634B /* YinXiangBiJiViewController.m */; settings = {ASSET_TAGS = (); }; };
+		8B3173BC1C4CCCA400DC634B /* YXBJCellLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3173BB1C4CCCA400DC634B /* YXBJCellLayout.m */; settings = {ASSET_TAGS = (); }; };
+		8B3173C01C4CD1F300DC634B /* YXBJCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3173BE1C4CD1F300DC634B /* YXBJCollectionViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		8B3173C11C4CD1F300DC634B /* YXBJCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B3173BF1C4CD1F300DC634B /* YXBJCollectionViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		8B3173C41C4CD22500DC634B /* YXBJTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3173C31C4CD22500DC634B /* YXBJTransition.m */; settings = {ASSET_TAGS = (); }; };
+		8B3173C81C4CD56500DC634B /* NewYXBJDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3173C61C4CD56500DC634B /* NewYXBJDetailViewController.m */; settings = {ASSET_TAGS = (); }; };
+		8B3173C91C4CD56500DC634B /* NewYXBJDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B3173C71C4CD56500DC634B /* NewYXBJDetailViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		8B3173CC1C4CE9F000DC634B /* YunisLearnDynamicFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3173CB1C4CE9F000DC634B /* YunisLearnDynamicFlowLayout.m */; settings = {ASSET_TAGS = (); }; };
 		8B3A2BF51C3CE85E001F4E93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3A2BF41C3CE85E001F4E93 /* main.m */; };
 		8B3A2BF81C3CE85E001F4E93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3A2BF71C3CE85E001F4E93 /* AppDelegate.m */; };
 		8B3A2BFB1C3CE85E001F4E93 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3A2BFA1C3CE85E001F4E93 /* ViewController.m */; };
@@ -122,6 +131,21 @@
 		8B00195C1C476D0700805B5D /* SystemAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemAnimationViewController.h; sourceTree = "<group>"; };
 		8B00195D1C476D0700805B5D /* SystemAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemAnimationViewController.m; sourceTree = "<group>"; };
 		8B00195E1C476D0700805B5D /* SystemAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SystemAnimationViewController.xib; sourceTree = "<group>"; };
+		8B3173B51C4CCB7000DC634B /* 印象笔记动画效果OC版本.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "印象笔记动画效果OC版本.rtf"; sourceTree = "<group>"; };
+		8B3173B71C4CCBED00DC634B /* YinXiangBiJiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YinXiangBiJiViewController.h; sourceTree = "<group>"; };
+		8B3173B81C4CCBED00DC634B /* YinXiangBiJiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YinXiangBiJiViewController.m; sourceTree = "<group>"; };
+		8B3173BA1C4CCCA400DC634B /* YXBJCellLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBJCellLayout.h; sourceTree = "<group>"; };
+		8B3173BB1C4CCCA400DC634B /* YXBJCellLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBJCellLayout.m; sourceTree = "<group>"; };
+		8B3173BD1C4CD1F300DC634B /* YXBJCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBJCollectionViewCell.h; sourceTree = "<group>"; };
+		8B3173BE1C4CD1F300DC634B /* YXBJCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBJCollectionViewCell.m; sourceTree = "<group>"; };
+		8B3173BF1C4CD1F300DC634B /* YXBJCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YXBJCollectionViewCell.xib; sourceTree = "<group>"; };
+		8B3173C21C4CD22500DC634B /* YXBJTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBJTransition.h; sourceTree = "<group>"; };
+		8B3173C31C4CD22500DC634B /* YXBJTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBJTransition.m; sourceTree = "<group>"; };
+		8B3173C51C4CD56500DC634B /* NewYXBJDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewYXBJDetailViewController.h; sourceTree = "<group>"; };
+		8B3173C61C4CD56500DC634B /* NewYXBJDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewYXBJDetailViewController.m; sourceTree = "<group>"; };
+		8B3173C71C4CD56500DC634B /* NewYXBJDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewYXBJDetailViewController.xib; sourceTree = "<group>"; };
+		8B3173CA1C4CE9F000DC634B /* YunisLearnDynamicFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YunisLearnDynamicFlowLayout.h; sourceTree = "<group>"; };
+		8B3173CB1C4CE9F000DC634B /* YunisLearnDynamicFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YunisLearnDynamicFlowLayout.m; sourceTree = "<group>"; };
 		8B3A2BF01C3CE85E001F4E93 /* YunisLearnAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YunisLearnAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B3A2BF41C3CE85E001F4E93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8B3A2BF61C3CE85E001F4E93 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -291,6 +315,28 @@
 			name = "系统动画旋转角度的思考";
 			sourceTree = "<group>";
 		};
+		8B3173B41C4CCB3D00DC634B /* 印象笔记动画效果OC版本 */ = {
+			isa = PBXGroup;
+			children = (
+				8B3173B51C4CCB7000DC634B /* 印象笔记动画效果OC版本.rtf */,
+				8B3173B71C4CCBED00DC634B /* YinXiangBiJiViewController.h */,
+				8B3173B81C4CCBED00DC634B /* YinXiangBiJiViewController.m */,
+				8B3173C51C4CD56500DC634B /* NewYXBJDetailViewController.h */,
+				8B3173C61C4CD56500DC634B /* NewYXBJDetailViewController.m */,
+				8B3173C71C4CD56500DC634B /* NewYXBJDetailViewController.xib */,
+				8B3173BA1C4CCCA400DC634B /* YXBJCellLayout.h */,
+				8B3173BB1C4CCCA400DC634B /* YXBJCellLayout.m */,
+				8B3173CA1C4CE9F000DC634B /* YunisLearnDynamicFlowLayout.h */,
+				8B3173CB1C4CE9F000DC634B /* YunisLearnDynamicFlowLayout.m */,
+				8B3173C21C4CD22500DC634B /* YXBJTransition.h */,
+				8B3173C31C4CD22500DC634B /* YXBJTransition.m */,
+				8B3173BD1C4CD1F300DC634B /* YXBJCollectionViewCell.h */,
+				8B3173BE1C4CD1F300DC634B /* YXBJCollectionViewCell.m */,
+				8B3173BF1C4CD1F300DC634B /* YXBJCollectionViewCell.xib */,
+			);
+			name = "印象笔记动画效果OC版本";
+			sourceTree = "<group>";
+		};
 		8B3A2BE71C3CE85E001F4E93 = {
 			isa = PBXGroup;
 			children = (
@@ -347,10 +393,11 @@
 				8B3CC16B1C3E4D990071F6E5 /* 学习彦祖qq音乐转场动画 */,
 				8B3CC1871C3E678E0071F6E5 /* 3D转场 */,
 				8BF8F0B61C3F543300C9B9FB /* 另一种画线方式 */,
+				8B00195B1C476CB900805B5D /* 系统动画旋转角度的思考 */,
+				8B3173B41C4CCB3D00DC634B /* 印象笔记动画效果OC版本 */,
 				8B3CC1861C3E66B30071F6E5 /* 点击漂移转场 */,
 				8B3CC19E1C3E6BED0071F6E5 /* 点击圆形转场 */,
 				8B3CC18C1C3E69200071F6E5 /* 点击漂移转场 */,
-				8B00195B1C476CB900805B5D /* 系统动画旋转角度的思考 */,
 				8BF8F0B31C3F3B1A00C9B9FB /* BaseTransitionObject.h */,
 				8BF8F0B41C3F3B1A00C9B9FB /* BaseTransitionObject.m */,
 			);
@@ -545,6 +592,7 @@
 				8B3CC19D1C3E6A9C0071F6E5 /* TwoTransitionViewController.xib in Resources */,
 				8B3CC1AF1C3E6D5C0071F6E5 /* 5.jpg in Resources */,
 				8B3CC1981C3E6A6D0071F6E5 /* Transition3DViewController.xib in Resources */,
+				8B3173C11C4CD1F300DC634B /* YXBJCollectionViewCell.xib in Resources */,
 				8B3CC1891C3E67A30071F6E5 /* 3d.rtfd in Resources */,
 				8B3A2C031C3CE85E001F4E93 /* LaunchScreen.storyboard in Resources */,
 				8B3CC1711C3E4EBD0071F6E5 /* QQMusicViewController.xib in Resources */,
@@ -560,6 +608,8 @@
 				8B3CC1851C3E60D80071F6E5 /* 动画思路.rtf in Resources */,
 				8B3CC1B21C3E6D5C0071F6E5 /* 8.jpg in Resources */,
 				8B3A2C001C3CE85E001F4E93 /* Assets.xcassets in Resources */,
+				8B3173B61C4CCB7000DC634B /* 印象笔记动画效果OC版本.rtf in Resources */,
+				8B3173C91C4CD56500DC634B /* NewYXBJDetailViewController.xib in Resources */,
 				8BF8F0BF1C3F564C00C9B9FB /* 学习彦祖类似购物车动画.rtf in Resources */,
 				8B3CC1A01C3E6C080071F6E5 /* 点击圆形转场.rtf in Resources */,
 				8B3CC18E1C3E69310071F6E5 /* 漂移.rtfd in Resources */,
@@ -579,7 +629,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B00190F1C44CE7900805B5D /* Transion3DPush.m in Sources */,
+				8B3173C41C4CD22500DC634B /* YXBJTransition.m in Sources */,
 				8BF8F0C21C3F5BA500C9B9FB /* BaseEditView.m in Sources */,
+				8B3173BC1C4CCCA400DC634B /* YXBJCellLayout.m in Sources */,
 				8B0019121C44CE8600805B5D /* Transion3DDiss.m in Sources */,
 				8B3CC19C1C3E6A9C0071F6E5 /* TwoTransitionViewController.m in Sources */,
 				78A520FC1C3DB52600D8F8A5 /* MASViewConstraint.m in Sources */,
@@ -594,6 +646,7 @@
 				8B3A2BF81C3CE85E001F4E93 /* AppDelegate.m in Sources */,
 				8B00195F1C476D0700805B5D /* SystemAnimationViewController.m in Sources */,
 				78A520F71C3DB52600D8F8A5 /* MASCompositeConstraint.m in Sources */,
+				8B3173C01C4CD1F300DC634B /* YXBJCollectionViewCell.m in Sources */,
 				8B00195A1C4741F300805B5D /* ManageTransitionAnimation.m in Sources */,
 				78A520F91C3DB52600D8F8A5 /* MASConstraintMaker.m in Sources */,
 				8BF8F0B51C3F3B1A00C9B9FB /* BaseTransitionObject.m in Sources */,
@@ -601,11 +654,13 @@
 				8B0019151C44D51800805B5D /* DissInteractiveTransition.m in Sources */,
 				8B3CC17B1C3E508E0071F6E5 /* TransitionFromSecondToFirst.m in Sources */,
 				8BF8F0BC1C3F54E100C9B9FB /* OtherDrawLineViewController.m in Sources */,
+				8B3173C81C4CD56500DC634B /* NewYXBJDetailViewController.m in Sources */,
 				78A520FF1C3DB52600D8F8A5 /* View+MASAdditions.m in Sources */,
 				8BF8F0CE1C3F88C800C9B9FB /* DrawBezierPath.m in Sources */,
 				78A520FA1C3DB52600D8F8A5 /* MASLayoutConstraint.m in Sources */,
 				8B3CC1701C3E4EBD0071F6E5 /* QQMusicViewController.m in Sources */,
 				8B3CC16A1C3E47480071F6E5 /* Line.m in Sources */,
+				8B3173B91C4CCBED00DC634B /* YinXiangBiJiViewController.m in Sources */,
 				78A520F81C3DB52600D8F8A5 /* MASConstraint.m in Sources */,
 				8B3A2C1B1C3D0CC9001F4E93 /* TBAnimationButton.m in Sources */,
 				8BF8F0C81C3F605800C9B9FB /* DrawLineView.m in Sources */,
@@ -618,6 +673,7 @@
 				8B3A2C111C3CF7AC001F4E93 /* UIColor+randomColor.m in Sources */,
 				8B3A2C0D1C3CEB39001F4E93 /* CircleSpreadTransition.m in Sources */,
 				8B3CC1751C3E4F1C0071F6E5 /* InfoViewController.m in Sources */,
+				8B3173CC1C4CE9F000DC634B /* YunisLearnDynamicFlowLayout.m in Sources */,
 				8B3A2C151C3D0062001F4E93 /* FollowWuYanZhu.m in Sources */,
 				8BF8F0CB1C3F636B00C9B9FB /* UIButton+block.m in Sources */,
 			);

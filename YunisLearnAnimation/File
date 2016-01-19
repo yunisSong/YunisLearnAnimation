@@ -14,8 +14,12 @@
 // 将rect从view中转换到当前视图中，返回在当前视图中的rect
 - (CGRect)convertRect:(CGRect)rect fromView:(UIView *)view;
 
-https://github.com/caodaxun/TransitionLearn
+
+动画总结
+http://www.imooc.com/article/3978
+
 这哥们总结的很好啊
+https://github.com/caodaxun/TransitionLearn
 
 https://github.com/MartinRGB/LearnCube-iOS
 看起来刁刁的
@@ -25,3 +29,68 @@ https://github.com/gsdios/SDCycleScrollView
 
 动画blog
 http://kittenyang.com/#blog
+
+
+拼接图片
+https://github.com/xiangwangfeng/M80ImageMerger
+
+
+设置lable文字行间隔
+http://stackoverflow.com/questions/5494498/how-to-control-the-line-spacing-in-uilabel/16057159#16057159
+
+
+UINavigationBar的继承与定制
+http://segmentfault.com/a/1190000004305459
+
+
+解耦viewCtr 和tableview
+https://github.com/nonstriater/Olla4iOS
+http://code4app.com/ios/%E5%88%86%E7%A6%BB%E7%AE%80%E5%8C%96tableView%E5%92%8CcollectionView%E4%BB%A3%E7%A0%81%E7%9A%84MVVM%E6%A1%86%E6%9E%B6/567e0c15594b90157a8b460d
+
+
+iOS崩溃调试
+http://www.cocoachina.com/ios/20160115/15009.html
+
+gcd 英文版
+https://www.objc.io/issues/2-concurrency/low-level-concurrency-apis/
+
+细说GCD（Grand Central Dispatch）如何用
+http://www.jianshu.com/p/fbe6a654604c
+
+
+多线程：NSThread
+http://www.jianshu.com/p/8ed06312d8bd
+https://github.com/ming1016/GCDDemo
+
+OS开发网络篇之文件、大文件及断点下载怎么搞定
+http://finalshares.com/read-5520
+https://github.com/DeveloperLx/Troubles-of-realizing-download-module
+https://github.com/DeveloperLx/Dreamy_download_manage_solution
+
+
+iOS实时卡顿监控
+http://ios.jobbole.com/83742/
+
+
+Interface Builder一些使用技巧
+http://ios.jobbole.com/83754/
+
+通过代码使用nib文件中的View
+http://stackoverflow.com/questions/3089113/how-to-create-view-from-a-nib-file-in-xcode
+
+
+
+状态栏
+http://www.jianshu.com/p/5aa05983b445
+
+使用CAShapeLayer实现复杂的View的遮罩效果
+http://blog.csdn.net/yixiangboy/article/details/50485250
+
+
+
+
+
+
+
+
+

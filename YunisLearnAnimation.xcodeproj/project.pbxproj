@@ -35,6 +35,15 @@
 		8B3173C81C4CD56500DC634B /* NewYXBJDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3173C61C4CD56500DC634B /* NewYXBJDetailViewController.m */; settings = {ASSET_TAGS = (); }; };
 		8B3173C91C4CD56500DC634B /* NewYXBJDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B3173C71C4CD56500DC634B /* NewYXBJDetailViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		8B3173CC1C4CE9F000DC634B /* YunisLearnDynamicFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3173CB1C4CE9F000DC634B /* YunisLearnDynamicFlowLayout.m */; settings = {ASSET_TAGS = (); }; };
+		8B3173D01C4DC0B500DC634B /* YunisTopShowHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3173CF1C4DC0B500DC634B /* YunisTopShowHUD.m */; settings = {ASSET_TAGS = (); }; };
+		8B3173D31C4DC51800DC634B /* YunisAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3173D21C4DC51800DC634B /* YunisAlertViewController.m */; settings = {ASSET_TAGS = (); }; };
+		8B3173D61C4DC7D200DC634B /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3173D51C4DC7D200DC634B /* UIImage+ImageEffects.m */; settings = {ASSET_TAGS = (); }; };
+		8B3173D91C4E032400DC634B /* YunisAlertTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3173D81C4E032400DC634B /* YunisAlertTitleView.m */; settings = {ASSET_TAGS = (); }; };
+		8B3173DC1C4E0D5600DC634B /* UIImageView+Reflect.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3173DB1C4E0D5600DC634B /* UIImageView+Reflect.m */; settings = {ASSET_TAGS = (); }; };
+		8B3173DF1C4E17F700DC634B /* 半糖动画效果.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3173DE1C4E17F700DC634B /* 半糖动画效果.rtf */; settings = {ASSET_TAGS = (); }; };
+		8B3173E31C4E184A00DC634B /* BanTangViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3173E11C4E184A00DC634B /* BanTangViewController.m */; settings = {ASSET_TAGS = (); }; };
+		8B3173E41C4E184A00DC634B /* BanTangViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B3173E21C4E184A00DC634B /* BanTangViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		8B3173E61C4E3B8300DC634B /* 断断续续需要看的东西.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = 8B3173E51C4E3B8300DC634B /* 断断续续需要看的东西.rtfd */; settings = {ASSET_TAGS = (); }; };
 		8B3A2BF51C3CE85E001F4E93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3A2BF41C3CE85E001F4E93 /* main.m */; };
 		8B3A2BF81C3CE85E001F4E93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3A2BF71C3CE85E001F4E93 /* AppDelegate.m */; };
 		8B3A2BFB1C3CE85E001F4E93 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3A2BFA1C3CE85E001F4E93 /* ViewController.m */; };
@@ -146,6 +155,21 @@
 		8B3173C71C4CD56500DC634B /* NewYXBJDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewYXBJDetailViewController.xib; sourceTree = "<group>"; };
 		8B3173CA1C4CE9F000DC634B /* YunisLearnDynamicFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YunisLearnDynamicFlowLayout.h; sourceTree = "<group>"; };
 		8B3173CB1C4CE9F000DC634B /* YunisLearnDynamicFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YunisLearnDynamicFlowLayout.m; sourceTree = "<group>"; };
+		8B3173CE1C4DC0B500DC634B /* YunisTopShowHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YunisTopShowHUD.h; sourceTree = "<group>"; };
+		8B3173CF1C4DC0B500DC634B /* YunisTopShowHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YunisTopShowHUD.m; sourceTree = "<group>"; };
+		8B3173D11C4DC51800DC634B /* YunisAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YunisAlertViewController.h; sourceTree = "<group>"; };
+		8B3173D21C4DC51800DC634B /* YunisAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YunisAlertViewController.m; sourceTree = "<group>"; };
+		8B3173D41C4DC7D200DC634B /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		8B3173D51C4DC7D200DC634B /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		8B3173D71C4E032400DC634B /* YunisAlertTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YunisAlertTitleView.h; sourceTree = "<group>"; };
+		8B3173D81C4E032400DC634B /* YunisAlertTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YunisAlertTitleView.m; sourceTree = "<group>"; };
+		8B3173DA1C4E0D5600DC634B /* UIImageView+Reflect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Reflect.h"; sourceTree = "<group>"; };
+		8B3173DB1C4E0D5600DC634B /* UIImageView+Reflect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Reflect.m"; sourceTree = "<group>"; };
+		8B3173DE1C4E17F700DC634B /* 半糖动画效果.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "半糖动画效果.rtf"; sourceTree = "<group>"; };
+		8B3173E01C4E184A00DC634B /* BanTangViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BanTangViewController.h; sourceTree = "<group>"; };
+		8B3173E11C4E184A00DC634B /* BanTangViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BanTangViewController.m; sourceTree = "<group>"; };
+		8B3173E21C4E184A00DC634B /* BanTangViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BanTangViewController.xib; sourceTree = "<group>"; };
+		8B3173E51C4E3B8300DC634B /* 断断续续需要看的东西.rtfd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.rtfd; path = "断断续续需要看的东西.rtfd"; sourceTree = "<group>"; };
 		8B3A2BF01C3CE85E001F4E93 /* YunisLearnAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YunisLearnAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B3A2BF41C3CE85E001F4E93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8B3A2BF61C3CE85E001F4E93 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -337,6 +361,30 @@
 			name = "印象笔记动画效果OC版本";
 			sourceTree = "<group>";
 		};
+		8B3173CD1C4DC05C00DC634B /* 仿light弹出提示框 */ = {
+			isa = PBXGroup;
+			children = (
+				8B3173D11C4DC51800DC634B /* YunisAlertViewController.h */,
+				8B3173D21C4DC51800DC634B /* YunisAlertViewController.m */,
+				8B3173CE1C4DC0B500DC634B /* YunisTopShowHUD.h */,
+				8B3173CF1C4DC0B500DC634B /* YunisTopShowHUD.m */,
+				8B3173D71C4E032400DC634B /* YunisAlertTitleView.h */,
+				8B3173D81C4E032400DC634B /* YunisAlertTitleView.m */,
+			);
+			name = "仿light弹出提示框";
+			sourceTree = "<group>";
+		};
+		8B3173DD1C4E17B500DC634B /* 半糖动画效果 */ = {
+			isa = PBXGroup;
+			children = (
+				8B3173DE1C4E17F700DC634B /* 半糖动画效果.rtf */,
+				8B3173E01C4E184A00DC634B /* BanTangViewController.h */,
+				8B3173E11C4E184A00DC634B /* BanTangViewController.m */,
+				8B3173E21C4E184A00DC634B /* BanTangViewController.xib */,
+			);
+			name = "半糖动画效果";
+			sourceTree = "<group>";
+		};
 		8B3A2BE71C3CE85E001F4E93 = {
 			isa = PBXGroup;
 			children = (
@@ -361,6 +409,7 @@
 				8B3A2BF91C3CE85E001F4E93 /* ViewController.h */,
 				8B3A2BFA1C3CE85E001F4E93 /* ViewController.m */,
 				8B3CC1821C3E601B0071F6E5 /* File */,
+				8B3173E51C4E3B8300DC634B /* 断断续续需要看的东西.rtfd */,
 				8B3A2C0E1C3CF797001F4E93 /* Category */,
 				8B3A2C0A1C3CEAD7001F4E93 /* Animation */,
 				8B3A2BFC1C3CE85E001F4E93 /* Main.storyboard */,
@@ -395,6 +444,8 @@
 				8BF8F0B61C3F543300C9B9FB /* 另一种画线方式 */,
 				8B00195B1C476CB900805B5D /* 系统动画旋转角度的思考 */,
 				8B3173B41C4CCB3D00DC634B /* 印象笔记动画效果OC版本 */,
+				8B3173CD1C4DC05C00DC634B /* 仿light弹出提示框 */,
+				8B3173DD1C4E17B500DC634B /* 半糖动画效果 */,
 				8B3CC1861C3E66B30071F6E5 /* 点击漂移转场 */,
 				8B3CC19E1C3E6BED0071F6E5 /* 点击圆形转场 */,
 				8B3CC18C1C3E69200071F6E5 /* 点击漂移转场 */,
@@ -407,6 +458,10 @@
 		8B3A2C0E1C3CF797001F4E93 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				8B3173DA1C4E0D5600DC634B /* UIImageView+Reflect.h */,
+				8B3173DB1C4E0D5600DC634B /* UIImageView+Reflect.m */,
+				8B3173D41C4DC7D200DC634B /* UIImage+ImageEffects.h */,
+				8B3173D51C4DC7D200DC634B /* UIImage+ImageEffects.m */,
 				8B3A2C0F1C3CF7AC001F4E93 /* UIColor+randomColor.h */,
 				8B3A2C101C3CF7AC001F4E93 /* UIColor+randomColor.m */,
 				8B3CC15B1C3E34CA0071F6E5 /* UITableView+emptyView.h */,
@@ -594,10 +649,12 @@
 				8B3CC1981C3E6A6D0071F6E5 /* Transition3DViewController.xib in Resources */,
 				8B3173C11C4CD1F300DC634B /* YXBJCollectionViewCell.xib in Resources */,
 				8B3CC1891C3E67A30071F6E5 /* 3d.rtfd in Resources */,
+				8B3173E41C4E184A00DC634B /* BanTangViewController.xib in Resources */,
 				8B3A2C031C3CE85E001F4E93 /* LaunchScreen.storyboard in Resources */,
 				8B3CC1711C3E4EBD0071F6E5 /* QQMusicViewController.xib in Resources */,
 				8B3CC1AC1C3E6D5C0071F6E5 /* 2.jpg in Resources */,
 				8B3CC1AE1C3E6D5C0071F6E5 /* 4.jpg in Resources */,
+				8B3173DF1C4E17F700DC634B /* 半糖动画效果.rtf in Resources */,
 				8B3CC1AB1C3E6D5C0071F6E5 /* 1.jpg in Resources */,
 				8B3CC18B1C3E68FC0071F6E5 /* File.rtf in Resources */,
 				8B3CC1B11C3E6D5C0071F6E5 /* 7.jpg in Resources */,
@@ -614,6 +671,7 @@
 				8B3CC1A01C3E6C080071F6E5 /* 点击圆形转场.rtf in Resources */,
 				8B3CC18E1C3E69310071F6E5 /* 漂移.rtfd in Resources */,
 				8B3CC1B31C3E6D5C0071F6E5 /* 9.jpg in Resources */,
+				8B3173E61C4E3B8300DC634B /* 断断续续需要看的东西.rtfd in Resources */,
 				78A520DB1C3DB12200D8F8A5 /* DrawLineViewController.xib in Resources */,
 				8B3A2BFE1C3CE85E001F4E93 /* Main.storyboard in Resources */,
 				8B0019601C476D0700805B5D /* SystemAnimationViewController.xib in Resources */,
@@ -632,6 +690,7 @@
 				8B3173C41C4CD22500DC634B /* YXBJTransition.m in Sources */,
 				8BF8F0C21C3F5BA500C9B9FB /* BaseEditView.m in Sources */,
 				8B3173BC1C4CCCA400DC634B /* YXBJCellLayout.m in Sources */,
+				8B3173D31C4DC51800DC634B /* YunisAlertViewController.m in Sources */,
 				8B0019121C44CE8600805B5D /* Transion3DDiss.m in Sources */,
 				8B3CC19C1C3E6A9C0071F6E5 /* TwoTransitionViewController.m in Sources */,
 				78A520FC1C3DB52600D8F8A5 /* MASViewConstraint.m in Sources */,
@@ -641,6 +700,7 @@
 				8B3CC1971C3E6A6D0071F6E5 /* Transition3DViewController.m in Sources */,
 				78A520DE1C3DB4DE00D8F8A5 /* DramVIew.m in Sources */,
 				8B3CC15D1C3E34CA0071F6E5 /* UITableView+emptyView.m in Sources */,
+				8B3173E31C4E184A00DC634B /* BanTangViewController.m in Sources */,
 				8B3CC17C1C3E508E0071F6E5 /* TransitionFromFirstToSecond.m in Sources */,
 				8B3A2BFB1C3CE85E001F4E93 /* ViewController.m in Sources */,
 				8B3A2BF81C3CE85E001F4E93 /* AppDelegate.m in Sources */,
@@ -648,6 +708,8 @@
 				78A520F71C3DB52600D8F8A5 /* MASCompositeConstraint.m in Sources */,
 				8B3173C01C4CD1F300DC634B /* YXBJCollectionViewCell.m in Sources */,
 				8B00195A1C4741F300805B5D /* ManageTransitionAnimation.m in Sources */,
+				8B3173D01C4DC0B500DC634B /* YunisTopShowHUD.m in Sources */,
+				8B3173DC1C4E0D5600DC634B /* UIImageView+Reflect.m in Sources */,
 				78A520F91C3DB52600D8F8A5 /* MASConstraintMaker.m in Sources */,
 				8BF8F0B51C3F3B1A00C9B9FB /* BaseTransitionObject.m in Sources */,
 				8B3CC1601C3E38920071F6E5 /* UITableViewCell+hideSeparatorLeftInset.m in Sources */,
@@ -663,6 +725,7 @@
 				8B3173B91C4CCBED00DC634B /* YinXiangBiJiViewController.m in Sources */,
 				78A520F81C3DB52600D8F8A5 /* MASConstraint.m in Sources */,
 				8B3A2C1B1C3D0CC9001F4E93 /* TBAnimationButton.m in Sources */,
+				8B3173D91C4E032400DC634B /* YunisAlertTitleView.m in Sources */,
 				8BF8F0C81C3F605800C9B9FB /* DrawLineView.m in Sources */,
 				8B3CC1631C3E38B20071F6E5 /* UITableView+hideSeparatorLeftInset.m in Sources */,
 				8B3A2BF51C3CE85E001F4E93 /* main.m in Sources */,
@@ -676,6 +739,7 @@
 				8B3173CC1C4CE9F000DC634B /* YunisLearnDynamicFlowLayout.m in Sources */,
 				8B3A2C151C3D0062001F4E93 /* FollowWuYanZhu.m in Sources */,
 				8BF8F0CB1C3F636B00C9B9FB /* UIButton+block.m in Sources */,
+				8B3173D61C4DC7D200DC634B /* UIImage+ImageEffects.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

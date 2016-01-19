@@ -47,7 +47,7 @@ static const float SpringFactor = 10;
 - (nullable NSArray<__kindof UICollectionViewLayoutAttributes *> *)layoutAttributesForElementsInRect:(CGRect)rect
 {
     float offsetY = self.collectionView.contentOffset.y;
-    NSMutableArray *attrsArray = [NSMutableArray arrayWithArray:[super layoutAttributesForElementsInRect:rect]];
+    NSMutableArray *attrsArray = [NSMutableArray arrayWithArray:[super layoutAttributesForElementsInRect:rect] ] ;
     
     float collectionViewFrameHeight = self.collectionView.frame.size.height;
     float collectionViewContentHeight = self.collectionView.contentSize.height;
@@ -69,23 +69,23 @@ static const float SpringFactor = 10;
 //            attr.frame = cellRect;
 //        }
 //    }
-//    [attrsArray enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-//        UICollectionViewLayoutAttributes * t = obj;
-//        if (t.representedElementCategory == UICollectionElementCategoryCell) {
-//            CGRect cellRect = t.frame;
-//            if (offsetY <= 0) {
-//                float distance = fabs(offsetY) / SpringFactor;
-//                cellRect.origin.y += offsetY + distance * (t.indexPath.section + 1);
-//            }else if (bottomOffset > 0)
-//            {
-//                float distance =    bottomOffset / SpringFactor;
-//                cellRect.origin.y += bottomOffset - distance *(numOfItems - t.indexPath.section);
-//            }
-//            
-//            t.frame = cellRect;
-//            
-//        }
-//    }];
+    [attrsArray enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        UICollectionViewLayoutAttributes * t = obj;
+        if (t.representedElementCategory == UICollectionElementCategoryCell) {
+            CGRect cellRect = t.frame;
+            if (offsetY <= 0) {
+                float distance = fabs(offsetY) / SpringFactor;
+                cellRect.origin.y += offsetY + distance * (t.indexPath.section + 1);
+            }else if (bottomOffset > 0)
+            {
+                float distance =    bottomOffset / SpringFactor;
+                cellRect.origin.y += bottomOffset - distance *(numOfItems - t.indexPath.section);
+            }
+            
+            t.frame = cellRect;
+            
+        }
+    }];
     
     return attrsArray;
 }

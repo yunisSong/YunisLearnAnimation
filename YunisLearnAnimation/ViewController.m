@@ -73,7 +73,16 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:identifier];
         
     }
-    cell.textLabel.text = self.sourceArray[indexPath.row];
+    NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:self.sourceArray[indexPath.row]];
+    NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle alloc] init];
+    paragraphStyle.lineSpacing = 5;
+ 
+//    cell.textLabel.text = self.sourceArray[indexPath.row];
+    
+    
+    [attributedString addAttribute:NSParagraphStyleAttributeName value:paragraphStyle range:NSMakeRange(0, cell.textLabel.text.length)];
+    
+    cell.textLabel.attributedText = attributedString;
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     cell.backgroundColor = [UIColor clearColor];
     [cell hideSeparatorLeftInset];
@@ -103,7 +112,7 @@
 - (NSArray *)sourceArray{
     if (_sourceArray == nil) {
         _sourceArray = ({
-            NSArray *arr = @[@"点击显示扩散动画",@"学习彦祖类似购物车动画",@"简单的画线与路径动画",@"qq音乐转场动画",@"3d转场动画",@"另外一种画线方式",@"系统动画旋转角度的思考",@"印象笔记动画效果OC版本"];
+            NSArray *arr = @[@"点击显示扩散动画",@"学习彦祖类似购物车动画",@"简单的画线与路径动画",@"qq音乐转场动画",@"3d转场动画",@"另外一种画线方式",@"系统动画旋转角度的思考",@"印象笔记动画效果OC版本",@"仿light弹出提示框",@"半糖动画效果"];
             arr;
         });
     }
@@ -114,7 +123,7 @@
 - (NSArray *)ctrSourceArray{
     if (_ctrSourceArray == nil) {
         _ctrSourceArray = ({
-            NSArray *arr = @[@"CircleSpreadTransition",@"FollowWuYanZhu",@"DrawLineViewController",@"QQMusicViewController",@"Transition3DViewController",@"OtherDrawLineViewController",@"SystemAnimationViewController",@"YinXiangBiJiViewController"];
+            NSArray *arr = @[@"CircleSpreadTransition",@"FollowWuYanZhu",@"DrawLineViewController",@"QQMusicViewController",@"Transition3DViewController",@"OtherDrawLineViewController",@"SystemAnimationViewController",@"YinXiangBiJiViewController",@"YunisAlertViewController",@"BanTangViewController"];
             arr;
         });
     }

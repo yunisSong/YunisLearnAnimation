@@ -85,6 +85,12 @@
 		8B3CC1B11C3E6D5C0071F6E5 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC1A81C3E6D5C0071F6E5 /* 7.jpg */; settings = {ASSET_TAGS = (); }; };
 		8B3CC1B21C3E6D5C0071F6E5 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC1A91C3E6D5C0071F6E5 /* 8.jpg */; settings = {ASSET_TAGS = (); }; };
 		8B3CC1B31C3E6D5C0071F6E5 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC1AA1C3E6D5C0071F6E5 /* 9.jpg */; settings = {ASSET_TAGS = (); }; };
+		8B89BF1F1C51BAB600E66F0D /* Light下拉首页图片变形.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8B89BF1E1C51BAB600E66F0D /* Light下拉首页图片变形.rtf */; settings = {ASSET_TAGS = (); }; };
+		8B89BF271C51BB5800E66F0D /* PullTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B89BF261C51BB5800E66F0D /* PullTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		8B89BF2E1C51C0D700E66F0D /* MBTwitterScroll.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B89BF2A1C51C0D700E66F0D /* MBTwitterScroll.m */; settings = {ASSET_TAGS = (); }; };
+		8B89BF2F1C51C0D700E66F0D /* UIScrollView+TwitterCover.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B89BF2D1C51C0D700E66F0D /* UIScrollView+TwitterCover.m */; settings = {ASSET_TAGS = (); }; };
+		8B89BF321C51D7C600E66F0D /* UIView+layer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B89BF311C51D7C600E66F0D /* UIView+layer.m */; settings = {ASSET_TAGS = (); }; };
+		8B89BF371C5217BA00E66F0D /* CircleInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B89BF361C5217BA00E66F0D /* CircleInfo.m */; settings = {ASSET_TAGS = (); }; };
 		8BF8F0B51C3F3B1A00C9B9FB /* BaseTransitionObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8F0B41C3F3B1A00C9B9FB /* BaseTransitionObject.m */; settings = {ASSET_TAGS = (); }; };
 		8BF8F0B81C3F545000C9B9FB /* 另一种画线方式.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8BF8F0B71C3F545000C9B9FB /* 另一种画线方式.rtf */; settings = {ASSET_TAGS = (); }; };
 		8BF8F0BC1C3F54E100C9B9FB /* OtherDrawLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8F0BA1C3F54E100C9B9FB /* OtherDrawLineViewController.m */; settings = {ASSET_TAGS = (); }; };
@@ -230,6 +236,17 @@
 		8B3CC1A81C3E6D5C0071F6E5 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
 		8B3CC1A91C3E6D5C0071F6E5 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
 		8B3CC1AA1C3E6D5C0071F6E5 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		8B89BF1E1C51BAB600E66F0D /* Light下拉首页图片变形.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "Light下拉首页图片变形.rtf"; sourceTree = "<group>"; };
+		8B89BF251C51BB5800E66F0D /* PullTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullTableViewController.h; sourceTree = "<group>"; };
+		8B89BF261C51BB5800E66F0D /* PullTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullTableViewController.m; sourceTree = "<group>"; };
+		8B89BF291C51C0D700E66F0D /* MBTwitterScroll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTwitterScroll.h; sourceTree = "<group>"; };
+		8B89BF2A1C51C0D700E66F0D /* MBTwitterScroll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTwitterScroll.m; sourceTree = "<group>"; };
+		8B89BF2C1C51C0D700E66F0D /* UIScrollView+TwitterCover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TwitterCover.h"; sourceTree = "<group>"; };
+		8B89BF2D1C51C0D700E66F0D /* UIScrollView+TwitterCover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TwitterCover.m"; sourceTree = "<group>"; };
+		8B89BF301C51D7C600E66F0D /* UIView+layer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+layer.h"; sourceTree = "<group>"; };
+		8B89BF311C51D7C600E66F0D /* UIView+layer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+layer.m"; sourceTree = "<group>"; };
+		8B89BF351C5217BA00E66F0D /* CircleInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleInfo.h; sourceTree = "<group>"; };
+		8B89BF361C5217BA00E66F0D /* CircleInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleInfo.m; sourceTree = "<group>"; };
 		8BF8F0B31C3F3B1A00C9B9FB /* BaseTransitionObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTransitionObject.h; sourceTree = "<group>"; };
 		8BF8F0B41C3F3B1A00C9B9FB /* BaseTransitionObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTransitionObject.m; sourceTree = "<group>"; };
 		8BF8F0B71C3F545000C9B9FB /* 另一种画线方式.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "另一种画线方式.rtf"; sourceTree = "<group>"; };
@@ -325,6 +342,8 @@
 			children = (
 				8B0019581C4741F300805B5D /* ManageTransitionAnimation.h */,
 				8B0019591C4741F300805B5D /* ManageTransitionAnimation.m */,
+				8B89BF351C5217BA00E66F0D /* CircleInfo.h */,
+				8B89BF361C5217BA00E66F0D /* CircleInfo.m */,
 			);
 			name = Public;
 			sourceTree = "<group>";
@@ -446,6 +465,7 @@
 				8B3173B41C4CCB3D00DC634B /* 印象笔记动画效果OC版本 */,
 				8B3173CD1C4DC05C00DC634B /* 仿light弹出提示框 */,
 				8B3173DD1C4E17B500DC634B /* 半糖动画效果 */,
+				8B89BF1D1C51BA8D00E66F0D /* Light下拉首页图片变形 */,
 				8B3CC1861C3E66B30071F6E5 /* 点击漂移转场 */,
 				8B3CC19E1C3E6BED0071F6E5 /* 点击圆形转场 */,
 				8B3CC18C1C3E69200071F6E5 /* 点击漂移转场 */,
@@ -476,6 +496,8 @@
 				8BF8F0C41C3F5F7300C9B9FB /* UIView+Controller.m */,
 				8BF8F0C91C3F636B00C9B9FB /* UIButton+block.h */,
 				8BF8F0CA1C3F636B00C9B9FB /* UIButton+block.m */,
+				8B89BF301C51D7C600E66F0D /* UIView+layer.h */,
+				8B89BF311C51D7C600E66F0D /* UIView+layer.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -568,6 +590,36 @@
 			path = source;
 			sourceTree = "<group>";
 		};
+		8B89BF1D1C51BA8D00E66F0D /* Light下拉首页图片变形 */ = {
+			isa = PBXGroup;
+			children = (
+				8B89BF281C51C0D700E66F0D /* MBTwitterScroll */,
+				8B89BF1E1C51BAB600E66F0D /* Light下拉首页图片变形.rtf */,
+				8B89BF251C51BB5800E66F0D /* PullTableViewController.h */,
+				8B89BF261C51BB5800E66F0D /* PullTableViewController.m */,
+			);
+			name = "Light下拉首页图片变形";
+			sourceTree = "<group>";
+		};
+		8B89BF281C51C0D700E66F0D /* MBTwitterScroll */ = {
+			isa = PBXGroup;
+			children = (
+				8B89BF291C51C0D700E66F0D /* MBTwitterScroll.h */,
+				8B89BF2A1C51C0D700E66F0D /* MBTwitterScroll.m */,
+				8B89BF2B1C51C0D700E66F0D /* TwitterCover */,
+			);
+			path = MBTwitterScroll;
+			sourceTree = "<group>";
+		};
+		8B89BF2B1C51C0D700E66F0D /* TwitterCover */ = {
+			isa = PBXGroup;
+			children = (
+				8B89BF2C1C51C0D700E66F0D /* UIScrollView+TwitterCover.h */,
+				8B89BF2D1C51C0D700E66F0D /* UIScrollView+TwitterCover.m */,
+			);
+			path = TwitterCover;
+			sourceTree = "<group>";
+		};
 		8BF8F0B61C3F543300C9B9FB /* 另一种画线方式 */ = {
 			isa = PBXGroup;
 			children = (
@@ -651,6 +703,7 @@
 				8B3CC1891C3E67A30071F6E5 /* 3d.rtfd in Resources */,
 				8B3173E41C4E184A00DC634B /* BanTangViewController.xib in Resources */,
 				8B3A2C031C3CE85E001F4E93 /* LaunchScreen.storyboard in Resources */,
+				8B89BF1F1C51BAB600E66F0D /* Light下拉首页图片变形.rtf in Resources */,
 				8B3CC1711C3E4EBD0071F6E5 /* QQMusicViewController.xib in Resources */,
 				8B3CC1AC1C3E6D5C0071F6E5 /* 2.jpg in Resources */,
 				8B3CC1AE1C3E6D5C0071F6E5 /* 4.jpg in Resources */,
@@ -691,6 +744,7 @@
 				8BF8F0C21C3F5BA500C9B9FB /* BaseEditView.m in Sources */,
 				8B3173BC1C4CCCA400DC634B /* YXBJCellLayout.m in Sources */,
 				8B3173D31C4DC51800DC634B /* YunisAlertViewController.m in Sources */,
+				8B89BF2E1C51C0D700E66F0D /* MBTwitterScroll.m in Sources */,
 				8B0019121C44CE8600805B5D /* Transion3DDiss.m in Sources */,
 				8B3CC19C1C3E6A9C0071F6E5 /* TwoTransitionViewController.m in Sources */,
 				78A520FC1C3DB52600D8F8A5 /* MASViewConstraint.m in Sources */,
@@ -709,12 +763,14 @@
 				8B3173C01C4CD1F300DC634B /* YXBJCollectionViewCell.m in Sources */,
 				8B00195A1C4741F300805B5D /* ManageTransitionAnimation.m in Sources */,
 				8B3173D01C4DC0B500DC634B /* YunisTopShowHUD.m in Sources */,
+				8B89BF321C51D7C600E66F0D /* UIView+layer.m in Sources */,
 				8B3173DC1C4E0D5600DC634B /* UIImageView+Reflect.m in Sources */,
 				78A520F91C3DB52600D8F8A5 /* MASConstraintMaker.m in Sources */,
 				8BF8F0B51C3F3B1A00C9B9FB /* BaseTransitionObject.m in Sources */,
 				8B3CC1601C3E38920071F6E5 /* UITableViewCell+hideSeparatorLeftInset.m in Sources */,
 				8B0019151C44D51800805B5D /* DissInteractiveTransition.m in Sources */,
 				8B3CC17B1C3E508E0071F6E5 /* TransitionFromSecondToFirst.m in Sources */,
+				8B89BF371C5217BA00E66F0D /* CircleInfo.m in Sources */,
 				8BF8F0BC1C3F54E100C9B9FB /* OtherDrawLineViewController.m in Sources */,
 				8B3173C81C4CD56500DC634B /* NewYXBJDetailViewController.m in Sources */,
 				78A520FF1C3DB52600D8F8A5 /* View+MASAdditions.m in Sources */,
@@ -724,11 +780,13 @@
 				8B3CC16A1C3E47480071F6E5 /* Line.m in Sources */,
 				8B3173B91C4CCBED00DC634B /* YinXiangBiJiViewController.m in Sources */,
 				78A520F81C3DB52600D8F8A5 /* MASConstraint.m in Sources */,
+				8B89BF271C51BB5800E66F0D /* PullTableViewController.m in Sources */,
 				8B3A2C1B1C3D0CC9001F4E93 /* TBAnimationButton.m in Sources */,
 				8B3173D91C4E032400DC634B /* YunisAlertTitleView.m in Sources */,
 				8BF8F0C81C3F605800C9B9FB /* DrawLineView.m in Sources */,
 				8B3CC1631C3E38B20071F6E5 /* UITableView+hideSeparatorLeftInset.m in Sources */,
 				8B3A2BF51C3CE85E001F4E93 /* main.m in Sources */,
+				8B89BF2F1C51C0D700E66F0D /* UIScrollView+TwitterCover.m in Sources */,
 				8B3CC17F1C3E53E20071F6E5 /* UIView+snapshot.m in Sources */,
 				78A520FD1C3DB52600D8F8A5 /* NSArray+MASAdditions.m in Sources */,
 				78A520FE1C3DB52600D8F8A5 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,

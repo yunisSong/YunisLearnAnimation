@@ -88,7 +88,7 @@ static const float topViewHeigth = 188;
 }
 - (void)show{
     [[UIApplication sharedApplication].keyWindow addSubview:self];
-    topContranst = 0;
+    topContranst = (self.frame.size.height - topViewHeigth)/2.f;
     [self setNeedsUpdateConstraints];
     [self updateConstraintsIfNeeded];
    [UIView animateWithDuration:.3 animations:^{

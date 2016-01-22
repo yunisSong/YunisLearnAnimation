@@ -112,7 +112,7 @@
 - (NSArray *)sourceArray{
     if (_sourceArray == nil) {
         _sourceArray = ({
-            NSArray *arr = @[@"点击显示扩散动画",@"学习彦祖类似购物车动画",@"简单的画线与路径动画",@"qq音乐转场动画",@"3d转场动画",@"另外一种画线方式",@"系统动画旋转角度的思考",@"印象笔记动画效果OC版本",@"仿light弹出提示框",@"半糖动画效果"];
+            NSArray *arr = @[@"点击显示扩散动画",@"学习彦祖类似购物车动画",@"简单的画线与路径动画",@"qq音乐转场动画",@"3d转场动画",@"另外一种画线方式",@"系统动画旋转角度的思考",@"印象笔记动画效果OC版本",@"仿light弹出提示框",@"半糖动画效果",@"Light下拉首页图片变形"];
             arr;
         });
     }
@@ -123,7 +123,7 @@
 - (NSArray *)ctrSourceArray{
     if (_ctrSourceArray == nil) {
         _ctrSourceArray = ({
-            NSArray *arr = @[@"CircleSpreadTransition",@"FollowWuYanZhu",@"DrawLineViewController",@"QQMusicViewController",@"Transition3DViewController",@"OtherDrawLineViewController",@"SystemAnimationViewController",@"YinXiangBiJiViewController",@"YunisAlertViewController",@"BanTangViewController"];
+            NSArray *arr = @[@"CircleSpreadTransition",@"FollowWuYanZhu",@"DrawLineViewController",@"QQMusicViewController",@"Transition3DViewController",@"OtherDrawLineViewController",@"SystemAnimationViewController",@"YinXiangBiJiViewController",@"YunisAlertViewController",@"BanTangViewController",@"PullTableViewController"];
             arr;
         });
     }

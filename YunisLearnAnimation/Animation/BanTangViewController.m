@@ -108,7 +108,27 @@
     //self.penLayer = penLayer;
 }
 
-
+- (void)testMask
+{
+    
+    CGRect pathRect = CGRectInset(self.animationLayer.bounds, 100.0f, 100.0f);
+    CGPoint bottomLeft 	= CGPointMake(CGRectGetMinX(pathRect), CGRectGetMinY(pathRect));
+    CGPoint topLeft		= CGPointMake(CGRectGetMinX(pathRect), CGRectGetMinY(pathRect) + CGRectGetHeight(pathRect) * 2.0f/3.0f);
+    CGPoint bottomRight = CGPointMake(CGRectGetMaxX(pathRect), CGRectGetMinY(pathRect));
+    CGPoint topRight	= CGPointMake(CGRectGetMaxX(pathRect), CGRectGetMinY(pathRect) + CGRectGetHeight(pathRect) * 2.0f/3.0f);
+    CGPoint roofTip		= CGPointMake(CGRectGetMidX(pathRect), CGRectGetMaxY(pathRect));
+    
+    UIBezierPath *path = [UIBezierPath bezierPath];
+    [path moveToPoint:bottomLeft];
+    [path addLineToPoint:topLeft];
+    [path addLineToPoint:roofTip];
+    [path addLineToPoint:topRight];
+    [path addLineToPoint:topLeft];
+    [path addLineToPoint:bottomRight];
+    [path addLineToPoint:topRight];
+    [path addLineToPoint:bottomLeft];
+    [path addLineToPoint:bottomRight];
+}
 
 - (void) setupTextLayer
 {

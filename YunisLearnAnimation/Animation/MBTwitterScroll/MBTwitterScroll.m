@@ -172,11 +172,8 @@ CGFloat const distance_W_LabelHeader = 35.0;
         if (offset < -self.frame.size.height/3.5) {
             [self recievedMBTwitterScrollEvent];
         }
-        
     }
-    
     // SCROLL UP/DOWN ------------
-    
     else {
         
         // Header -----------

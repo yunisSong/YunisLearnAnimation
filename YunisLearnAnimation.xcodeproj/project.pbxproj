@@ -85,6 +85,16 @@
 		8B3CC1B11C3E6D5C0071F6E5 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC1A81C3E6D5C0071F6E5 /* 7.jpg */; settings = {ASSET_TAGS = (); }; };
 		8B3CC1B21C3E6D5C0071F6E5 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC1A91C3E6D5C0071F6E5 /* 8.jpg */; settings = {ASSET_TAGS = (); }; };
 		8B3CC1B31C3E6D5C0071F6E5 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC1AA1C3E6D5C0071F6E5 /* 9.jpg */; settings = {ASSET_TAGS = (); }; };
+		8B4F9D661C55C63A00F552D7 /* BannnerMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4F9D651C55C63A00F552D7 /* BannnerMaskView.m */; settings = {ASSET_TAGS = (); }; };
+		8B4F9D681C561BF300F552D7 /* snow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B4F9D671C561BF300F552D7 /* snow.jpg */; settings = {ASSET_TAGS = (); }; };
+		8B4F9D6E1C57407E00F552D7 /* LightHomeBasePage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4F9D6D1C57407E00F552D7 /* LightHomeBasePage.m */; settings = {ASSET_TAGS = (); }; };
+		8B4F9D711C5746BC00F552D7 /* BannerImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4F9D701C5746BC00F552D7 /* BannerImageView.m */; settings = {ASSET_TAGS = (); }; };
+		8B4F9DA21C58548800F552D7 /* LightSunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4F9DA01C58548800F552D7 /* LightSunViewController.m */; settings = {ASSET_TAGS = (); }; };
+		8B4F9DA31C58548800F552D7 /* LightSunViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B4F9DA11C58548800F552D7 /* LightSunViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		8B4F9DA61C58552100F552D7 /* RoundAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4F9DA51C58552100F552D7 /* RoundAnimationView.m */; settings = {ASSET_TAGS = (); }; };
+		8B4F9DA91C58556C00F552D7 /* SunMoonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4F9DA81C58556C00F552D7 /* SunMoonView.m */; settings = {ASSET_TAGS = (); }; };
+		8B4F9DAC1C58564700F552D7 /* RoundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4F9DAB1C58564700F552D7 /* RoundView.m */; settings = {ASSET_TAGS = (); }; };
+		8B4F9DAE1C58A68E00F552D7 /* Sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B4F9DAD1C58A68E00F552D7 /* Sun.png */; settings = {ASSET_TAGS = (); }; };
 		8B89BF1F1C51BAB600E66F0D /* Light下拉首页图片变形.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8B89BF1E1C51BAB600E66F0D /* Light下拉首页图片变形.rtf */; settings = {ASSET_TAGS = (); }; };
 		8B89BF271C51BB5800E66F0D /* PullTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B89BF261C51BB5800E66F0D /* PullTableViewController.m */; settings = {ASSET_TAGS = (); }; };
 		8B89BF2E1C51C0D700E66F0D /* MBTwitterScroll.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B89BF2A1C51C0D700E66F0D /* MBTwitterScroll.m */; settings = {ASSET_TAGS = (); }; };
@@ -236,6 +246,23 @@
 		8B3CC1A81C3E6D5C0071F6E5 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
 		8B3CC1A91C3E6D5C0071F6E5 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
 		8B3CC1AA1C3E6D5C0071F6E5 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		8B4F9D641C55C63A00F552D7 /* BannnerMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannnerMaskView.h; sourceTree = "<group>"; };
+		8B4F9D651C55C63A00F552D7 /* BannnerMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannnerMaskView.m; sourceTree = "<group>"; };
+		8B4F9D671C561BF300F552D7 /* snow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = snow.jpg; sourceTree = "<group>"; };
+		8B4F9D6C1C57407E00F552D7 /* LightHomeBasePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightHomeBasePage.h; sourceTree = "<group>"; };
+		8B4F9D6D1C57407E00F552D7 /* LightHomeBasePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightHomeBasePage.m; sourceTree = "<group>"; };
+		8B4F9D6F1C5746BC00F552D7 /* BannerImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerImageView.h; sourceTree = "<group>"; };
+		8B4F9D701C5746BC00F552D7 /* BannerImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerImageView.m; sourceTree = "<group>"; };
+		8B4F9D9F1C58548800F552D7 /* LightSunViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightSunViewController.h; sourceTree = "<group>"; };
+		8B4F9DA01C58548800F552D7 /* LightSunViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightSunViewController.m; sourceTree = "<group>"; };
+		8B4F9DA11C58548800F552D7 /* LightSunViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LightSunViewController.xib; sourceTree = "<group>"; };
+		8B4F9DA41C58552100F552D7 /* RoundAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundAnimationView.h; sourceTree = "<group>"; };
+		8B4F9DA51C58552100F552D7 /* RoundAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundAnimationView.m; sourceTree = "<group>"; };
+		8B4F9DA71C58556C00F552D7 /* SunMoonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SunMoonView.h; sourceTree = "<group>"; };
+		8B4F9DA81C58556C00F552D7 /* SunMoonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SunMoonView.m; sourceTree = "<group>"; };
+		8B4F9DAA1C58564700F552D7 /* RoundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundView.h; sourceTree = "<group>"; };
+		8B4F9DAB1C58564700F552D7 /* RoundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundView.m; sourceTree = "<group>"; };
+		8B4F9DAD1C58A68E00F552D7 /* Sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Sun.png; path = YunisLearnAnimation/Source/Sun.png; sourceTree = SOURCE_ROOT; };
 		8B89BF1E1C51BAB600E66F0D /* Light下拉首页图片变形.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "Light下拉首页图片变形.rtf"; sourceTree = "<group>"; };
 		8B89BF251C51BB5800E66F0D /* PullTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullTableViewController.h; sourceTree = "<group>"; };
 		8B89BF261C51BB5800E66F0D /* PullTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullTableViewController.m; sourceTree = "<group>"; };
@@ -466,6 +493,7 @@
 				8B3173CD1C4DC05C00DC634B /* 仿light弹出提示框 */,
 				8B3173DD1C4E17B500DC634B /* 半糖动画效果 */,
 				8B89BF1D1C51BA8D00E66F0D /* Light下拉首页图片变形 */,
+				8B4F9D9E1C58544400F552D7 /* light太阳运行动画 */,
 				8B3CC1861C3E66B30071F6E5 /* 点击漂移转场 */,
 				8B3CC19E1C3E6BED0071F6E5 /* 点击圆形转场 */,
 				8B3CC18C1C3E69200071F6E5 /* 点击漂移转场 */,
@@ -576,6 +604,8 @@
 		8B3CC1A11C3E6D5C0071F6E5 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				8B4F9DAD1C58A68E00F552D7 /* Sun.png */,
+				8B4F9D671C561BF300F552D7 /* snow.jpg */,
 				8B3CC1A21C3E6D5C0071F6E5 /* 1.jpg */,
 				8B3CC1A31C3E6D5C0071F6E5 /* 2.jpg */,
 				8B3CC1A41C3E6D5C0071F6E5 /* 3.jpg */,
@@ -590,6 +620,22 @@
 			path = source;
 			sourceTree = "<group>";
 		};
+		8B4F9D9E1C58544400F552D7 /* light太阳运行动画 */ = {
+			isa = PBXGroup;
+			children = (
+				8B4F9D9F1C58548800F552D7 /* LightSunViewController.h */,
+				8B4F9DA01C58548800F552D7 /* LightSunViewController.m */,
+				8B4F9DA11C58548800F552D7 /* LightSunViewController.xib */,
+				8B4F9DA41C58552100F552D7 /* RoundAnimationView.h */,
+				8B4F9DA51C58552100F552D7 /* RoundAnimationView.m */,
+				8B4F9DAA1C58564700F552D7 /* RoundView.h */,
+				8B4F9DAB1C58564700F552D7 /* RoundView.m */,
+				8B4F9DA71C58556C00F552D7 /* SunMoonView.h */,
+				8B4F9DA81C58556C00F552D7 /* SunMoonView.m */,
+			);
+			name = "light太阳运行动画";
+			sourceTree = "<group>";
+		};
 		8B89BF1D1C51BA8D00E66F0D /* Light下拉首页图片变形 */ = {
 			isa = PBXGroup;
 			children = (
@@ -597,6 +643,12 @@
 				8B89BF1E1C51BAB600E66F0D /* Light下拉首页图片变形.rtf */,
 				8B89BF251C51BB5800E66F0D /* PullTableViewController.h */,
 				8B89BF261C51BB5800E66F0D /* PullTableViewController.m */,
+				8B4F9D641C55C63A00F552D7 /* BannnerMaskView.h */,
+				8B4F9D651C55C63A00F552D7 /* BannnerMaskView.m */,
+				8B4F9D6C1C57407E00F552D7 /* LightHomeBasePage.h */,
+				8B4F9D6D1C57407E00F552D7 /* LightHomeBasePage.m */,
+				8B4F9D6F1C5746BC00F552D7 /* BannerImageView.h */,
+				8B4F9D701C5746BC00F552D7 /* BannerImageView.m */,
 			);
 			name = "Light下拉首页图片变形";
 			sourceTree = "<group>";
@@ -668,6 +720,7 @@
 				TargetAttributes = {
 					8B3A2BEF1C3CE85E001F4E93 = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = ZVKH8758TK;
 					};
 				};
 			};
@@ -716,6 +769,7 @@
 				8B3A2C161C3D0062001F4E93 /* FollowWuYanZhu.xib in Resources */,
 				8B3CC1831C3E601B0071F6E5 /* File in Resources */,
 				8B3CC1851C3E60D80071F6E5 /* 动画思路.rtf in Resources */,
+				8B4F9D681C561BF300F552D7 /* snow.jpg in Resources */,
 				8B3CC1B21C3E6D5C0071F6E5 /* 8.jpg in Resources */,
 				8B3A2C001C3CE85E001F4E93 /* Assets.xcassets in Resources */,
 				8B3173B61C4CCB7000DC634B /* 印象笔记动画效果OC版本.rtf in Resources */,
@@ -723,6 +777,8 @@
 				8BF8F0BF1C3F564C00C9B9FB /* 学习彦祖类似购物车动画.rtf in Resources */,
 				8B3CC1A01C3E6C080071F6E5 /* 点击圆形转场.rtf in Resources */,
 				8B3CC18E1C3E69310071F6E5 /* 漂移.rtfd in Resources */,
+				8B4F9DAE1C58A68E00F552D7 /* Sun.png in Resources */,
+				8B4F9DA31C58548800F552D7 /* LightSunViewController.xib in Resources */,
 				8B3CC1B31C3E6D5C0071F6E5 /* 9.jpg in Resources */,
 				8B3173E61C4E3B8300DC634B /* 断断续续需要看的东西.rtfd in Resources */,
 				78A520DB1C3DB12200D8F8A5 /* DrawLineViewController.xib in Resources */,
@@ -752,12 +808,15 @@
 				8BF8F0C51C3F5F7300C9B9FB /* UIView+Controller.m in Sources */,
 				78A520FB1C3DB52600D8F8A5 /* MASViewAttribute.m in Sources */,
 				8B3CC1971C3E6A6D0071F6E5 /* Transition3DViewController.m in Sources */,
+				8B4F9D6E1C57407E00F552D7 /* LightHomeBasePage.m in Sources */,
 				78A520DE1C3DB4DE00D8F8A5 /* DramVIew.m in Sources */,
 				8B3CC15D1C3E34CA0071F6E5 /* UITableView+emptyView.m in Sources */,
 				8B3173E31C4E184A00DC634B /* BanTangViewController.m in Sources */,
 				8B3CC17C1C3E508E0071F6E5 /* TransitionFromFirstToSecond.m in Sources */,
+				8B4F9DA91C58556C00F552D7 /* SunMoonView.m in Sources */,
 				8B3A2BFB1C3CE85E001F4E93 /* ViewController.m in Sources */,
 				8B3A2BF81C3CE85E001F4E93 /* AppDelegate.m in Sources */,
+				8B4F9D661C55C63A00F552D7 /* BannnerMaskView.m in Sources */,
 				8B00195F1C476D0700805B5D /* SystemAnimationViewController.m in Sources */,
 				78A520F71C3DB52600D8F8A5 /* MASCompositeConstraint.m in Sources */,
 				8B3173C01C4CD1F300DC634B /* YXBJCollectionViewCell.m in Sources */,
@@ -771,6 +830,7 @@
 				8B0019151C44D51800805B5D /* DissInteractiveTransition.m in Sources */,
 				8B3CC17B1C3E508E0071F6E5 /* TransitionFromSecondToFirst.m in Sources */,
 				8B89BF371C5217BA00E66F0D /* CircleInfo.m in Sources */,
+				8B4F9DA21C58548800F552D7 /* LightSunViewController.m in Sources */,
 				8BF8F0BC1C3F54E100C9B9FB /* OtherDrawLineViewController.m in Sources */,
 				8B3173C81C4CD56500DC634B /* NewYXBJDetailViewController.m in Sources */,
 				78A520FF1C3DB52600D8F8A5 /* View+MASAdditions.m in Sources */,
@@ -778,6 +838,7 @@
 				78A520FA1C3DB52600D8F8A5 /* MASLayoutConstraint.m in Sources */,
 				8B3CC1701C3E4EBD0071F6E5 /* QQMusicViewController.m in Sources */,
 				8B3CC16A1C3E47480071F6E5 /* Line.m in Sources */,
+				8B4F9DAC1C58564700F552D7 /* RoundView.m in Sources */,
 				8B3173B91C4CCBED00DC634B /* YinXiangBiJiViewController.m in Sources */,
 				78A520F81C3DB52600D8F8A5 /* MASConstraint.m in Sources */,
 				8B89BF271C51BB5800E66F0D /* PullTableViewController.m in Sources */,
@@ -786,6 +847,7 @@
 				8BF8F0C81C3F605800C9B9FB /* DrawLineView.m in Sources */,
 				8B3CC1631C3E38B20071F6E5 /* UITableView+hideSeparatorLeftInset.m in Sources */,
 				8B3A2BF51C3CE85E001F4E93 /* main.m in Sources */,
+				8B4F9DA61C58552100F552D7 /* RoundAnimationView.m in Sources */,
 				8B89BF2F1C51C0D700E66F0D /* UIScrollView+TwitterCover.m in Sources */,
 				8B3CC17F1C3E53E20071F6E5 /* UIView+snapshot.m in Sources */,
 				78A520FD1C3DB52600D8F8A5 /* NSArray+MASAdditions.m in Sources */,
@@ -798,6 +860,7 @@
 				8B3A2C151C3D0062001F4E93 /* FollowWuYanZhu.m in Sources */,
 				8BF8F0CB1C3F636B00C9B9FB /* UIButton+block.m in Sources */,
 				8B3173D61C4DC7D200DC634B /* UIImage+ImageEffects.m in Sources */,
+				8B4F9D711C5746BC00F552D7 /* BannerImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -907,6 +970,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YunisLearnAnimation/YunisPch.pch";
 				INFOPLIST_FILE = YunisLearnAnimation/Info.plist;
@@ -920,6 +984,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YunisLearnAnimation/YunisPch.pch";
 				INFOPLIST_FILE = YunisLearnAnimation/Info.plist;

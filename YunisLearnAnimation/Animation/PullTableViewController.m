@@ -11,8 +11,16 @@
 #import "MBTwitterScroll.h"
 
 #import "CircleInfo.h"
+#import "BannnerMaskView.h"
+#import "LightHomeBasePage.h"
+
+
 
 @interface PullTableViewController ()<UITableViewDataSource,UITableViewDelegate>
+{
+    float B_boottom;
+    float h_heigth;
+}
 @property(nonatomic,strong)UITableView *baseTable;
 @property (strong, nonatomic)  MBTwitterScroll *myTableView;
 @property(nonatomic,strong)UIImageView *bannerView;
@@ -22,6 +30,8 @@
 @property (nonatomic, retain) CALayer *animationLayer;
 @property (nonatomic, retain) CAShapeLayer *pathLayer;
 
+@property(nonatomic,strong)BannnerMaskView *maskTestView;
+
 
 @end
 CGFloat const offset_HeaderStop1 = 40.0;
@@ -29,6 +39,8 @@ CGFloat const offset_B_LabelHeader1 = 95.0;
 CGFloat const distance_W_LabelHeader1 = 35.0;
 
 CGFloat const maxScale = 1.3;
+
+CGFloat const Ttt = 400;
 @implementation PullTableViewController
 
 #pragma mark - Life Cycle
@@ -38,40 +50,56 @@ CGFloat const maxScale = 1.3;
     //加载页面
   
 
-    self.view.backgroundColor = [UIColor whiteColor];
-    [self.view addSubview:self.bannerView];
+    
+    
+    
+//    self.view.backgroundColor = [UIColor purpleColor];
+//    [self.view addSubview:self.bannerView];
+//
+//    [self.view addSubview:self.baseTable];
+//
+//    self.bannerView.image = [UIImage imageNamed:@"snow.jpg"];
+//    [self.baseTable mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.top.bottom.left.right.equalTo(self.view);
+//    }];
+//    
+//    [self.baseTable addObserver:self forKeyPath:@"contentOffset" options:NSKeyValueObservingOptionNew context:nil];
+//    
+//    
+//    self.baseTable.tableHeaderView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, Ttt )];
+//    
+////    self.bannerView.transform = CGAffineTransformMakeScale(2, 2);
+//    B_boottom = Ttt;
+//    
+//    self.maskTestView = ({
+//        BannnerMaskView *te =[BannnerMaskView new];
+//        te.backgroundColor = [UIColor clearColor];
+//        te;
+//    });
+//    [self.view addSubview:self.maskTestView];
+    
+    LightHomeBasePage *base = [LightHomeBasePage showMaskHeardViewWithImage:[UIImage imageNamed:@"snow.jpg"] maskType:sliderAnimationType_UpTonArrow tableView:self.baseTable];
+    [self.view addSubview:base];
+    
 
-    [self.view addSubview:self.baseTable];
-    [self.bannerView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.right.equalTo(self.view);
-        make.top.equalTo(64);
-        make.height.equalTo(400);
-    }];
-    self.bannerView.image = [UIImage imageNamed:@"3.jpg"];
-    [self.baseTable mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.bottom.left.right.equalTo(self.view);
-        make.top.equalTo(64);
-    }];
     
-    [self.baseTable addObserver:self forKeyPath:@"contentOffset" options:NSKeyValueObservingOptionNew context:nil];
-    
-    
-    self.baseTable.tableHeaderView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 400 )];
-    
-    self.bannerView.transform = CGAffineTransformMakeScale(2, 2);
+}
+- (void)updateViewConstraints
+{
+    [super updateViewConstraints];
 
-    
-    self.masklayer = ({
-        CALayer *view = [CALayer new];
-        view.backgroundColor = [UIColor purpleColor].CGColor;
-        view;
-    });
-    
-    self.masklayer.frame = CGRectMake(110, 110, 300, 100);
-    
-    [self.bannerView.layer addSublayer:self.masklayer];
 
-    
+//    [self.maskTestView mas_updateConstraints:^(MASConstraintMaker *make) {
+//        make.left.right.equalTo(self.bannerView);
+//        make.height.equalTo(40);
+//        make.top.equalTo(self.view).offset(Ttt - 40 -  B_boottom);
+//    }];
+//    
+//    [self.bannerView mas_updateConstraints:^(MASConstraintMaker *make) {
+//        make.left.right.equalTo(self.view);
+//        make.top.equalTo(0);
+//        make.height.equalTo(h_heigth);
+//    }];
     
 }
 - (void)viewWillAppear:(BOOL)animated
@@ -91,13 +119,14 @@ CGFloat const maxScale = 1.3;
 {
     [super viewDidAppear:animated];
     //监听事件
-    [self maskLayertest];
+//    [self maskLayertest];
+//    [self startAnimation];
 
 
 }
 - (void)dealloc
 {
-    [self.baseTable removeObserver:self forKeyPath:@"contentOffset"];
+//    [self.baseTable removeObserver:self forKeyPath:@"contentOffset"];
 }
 #pragma mark - Public Method
 //外部方法
@@ -149,7 +178,7 @@ CGFloat const maxScale = 1.3;
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
     CGFloat offset = scrollView.contentOffset.y;
-    [self animationForScroll:offset];
+//    [self animationForScroll:offset];
 }
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context {
     CGFloat offset = self.baseTable.contentOffset.y;
@@ -160,74 +189,35 @@ CGFloat const maxScale = 1.3;
 
 
 - (void) animationForScroll:(CGFloat) offset {
-    
     CATransform3D headerTransform = CATransform3DIdentity;
-//    if (offset < 0) {
-//        CGFloat headerScaleFactor = -(offset) / self.bannerView.bounds.size.height;
-//        CGFloat headerSizevariation = ((self.bannerView.bounds.size.height * (1.0 + headerScaleFactor)) - self.bannerView.bounds.size.height)/2.0;
-//        headerTransform = CATransform3DTranslate(headerTransform, 0, headerSizevariation, 0);
-//        headerTransform = CATransform3DScale(headerTransform, 1.0 + headerScaleFactor, 1.0 + headerScaleFactor, 0);
-//        
-//        self.bannerView.layer.transform = headerTransform;
-//    }
-//    else {
-//        headerTransform = CATransform3DTranslate(headerTransform, 0,MAX(-offset_HeaderStop1, -offset), 0);
-//
-////        if (offset < 40) {
-////            headerTransform = CATransform3DTranslate(headerTransform, 0,0, 0);
-////
-////        }else
-////        {
-////            headerTransform = CATransform3DTranslate(headerTransform, 0,-offset, 0);
-////
-////        }
-//        //        CATransform3D labelTransform = CATransform3DMakeTranslation(0, MAX(-distance_W_LabelHeader1, offset_B_LabelHeader1 - offset), 0);
-//        //        self.bannerView.layer.transform = labelTransform;
-//        //        self.bannerView.layer.zPosition = 2;
-//    }
-//    
     
+    float Kkk = 100;
     if (offset <= 0) {
         NSLog(@"小于0  %f",offset);
-//        CGAffineTransform t = CGAffineTransformMakeTranslation(0, -offset);
-//        t = CGAffineTransformMakeScale(2, 2);
-//        self.bannerView.transform = t;
-//        self.bannerView.transform = CGAffineTransformMakeTranslation(0, -offset);
-        
-        
-
         headerTransform = CATransform3DTranslate(headerTransform, 0, -offset, 0);
-        headerTransform = CATransform3DScale(headerTransform, maxScale, maxScale, 0);
-        //        headerTransform = CATransform3DMakeScale( headerScaleFactor, headerScaleFactor, 0);
-        
+        headerTransform = CATransform3DScale(headerTransform, 1, 1, 0);
         self.bannerView.layer.transform = headerTransform;
-
-        
-    }else if(offset > 0 && offset <= 240)
+        self.maskTestView.drawRectValue = 1;
+        h_heigth = Ttt;
+    }else if(offset > 0 && offset <= Kkk)
     {
         NSLog(@"大于0小于240   %f",offset);
-        
-        CGFloat headerScaleFactor = maxScale - (( offset *(maxScale - 1)) /240);
+        h_heigth = Ttt - offset;
+        CGFloat headerScaleFactor = maxScale - (( offset *(maxScale - 1)) /Kkk);
         headerTransform = CATransform3DTranslate(headerTransform, 0, 0, 0);
-        headerTransform = CATransform3DScale(headerTransform, headerScaleFactor, headerScaleFactor, 0);
-//        headerTransform = CATransform3DMakeScale( headerScaleFactor, headerScaleFactor, 0);
-        
+        headerTransform = CATransform3DScale(headerTransform, 1, 1, 0);
         self.bannerView.layer.transform = headerTransform;
-//        CGAffineTransform t = CGAffineTransformMakeTranslation(0, 0);
-//        t = CGAffineTransformMakeScale(headerScaleFactor, headerScaleFactor);
-//        self.bannerView.transform = t;
+        self.maskTestView.drawRectValue =1- offset/Kkk;
 
-    }else if (offset > 240)
+    }else if (offset > Kkk)
     {
-        NSLog(@"大于20  %f",offset);
-//        headerTransform = CATransform3DTranslate(headerTransform, 0,-offset, 0);
-//        self.bannerView.layer.transform = headerTransform;
-        
-        self.bannerView.transform = CGAffineTransformMakeTranslation(0, -(offset - 240));
-
-
+        h_heigth = Ttt - Kkk;
+        self.bannerView.transform = CGAffineTransformMakeTranslation(0, -(offset - Kkk));
     }
-    
+    B_boottom =   offset  ;
+    [self.view setNeedsUpdateConstraints];
+    [self.view updateConstraintsIfNeeded];
+    [self.view layoutIfNeeded];
     /*
      原始高度400 400的时间  比例最大 再下拉触发下拉刷新方法 下移
      
@@ -247,103 +237,193 @@ CGFloat const maxScale = 1.3;
 //点击响应事件
 
 - (void)maskLayertest{
+//    CGFloat round = 40;
+//    self.bannerView.backgroundColor =[UIColor redColor];
+//    
+//    UIBezierPath *aPath = [UIBezierPath bezierPath];
+//    
+//    CGSize viewSize = CGSizeMake(self.bannerView.frame.size.width, self.bannerView.frame.size.height); //(210,80)
+////    CGPoint startPoint = CGPointMake(self.bannerView.frame.origin.x,self.bannerView.frame.origin.y); //(279,0)
+//    CGPoint startPoint = CGPointMake(0,viewSize.height - round);
+//    [aPath moveToPoint:startPoint]; //(279,0)
+//    
+//    [aPath addLineToPoint:CGPointMake(startPoint.x+viewSize.width,startPoint.y)]; //(489,0)
+//    [aPath addLineToPoint:CGPointMake(startPoint.x+viewSize.width,startPoint.y+viewSize.height-round)]; //(489,60)
+//    [aPath addQuadCurveToPoint:CGPointMake(startPoint.x,startPoint.y+viewSize.height-round) controlPoint:CGPointMake(startPoint.x+(viewSize.width/2),viewSize.height+ round)]; //(279,60) : (384,80)
+//    
+//    [aPath closePath];
+//    CAShapeLayer *layer = [CAShapeLayer layer];
+//    layer.frame = self.bannerView.bounds;
+//    layer.path = aPath.CGPath;
+//    layer.backgroundColor = [UIColor whiteColor].CGColor;
+//    layer.fillColor = [UIColor yellowColor].CGColor;
+////    layer.contents = (__bridge id _Nullable)((self.bannerView.image).CGImage);
+//    layer.strokeColor = [UIColor blueColor].CGColor;
+//    
+////    self.bannerView.layer.mask = layer;
+//    
+//    [self.bannerView.layer addSublayer:layer];
     
-    CGFloat b = CGRectGetWidth(self.masklayer.frame)/2.f;
-    CGFloat a = CGRectGetHeight(self.masklayer.frame);
     
-    float startAngle = - (M_PI - atan(a/b));
     
-    float endAngle = M_PI - startAngle;
+//    CGFloat round = 40;
+//    self.bannerView.backgroundColor =[UIColor redColor];
+//    
+//    UIBezierPath *aPath = [UIBezierPath bezierPath];
+//    
+//    CGSize viewSize = CGSizeMake(self.masklayer.frame.size.width, self.masklayer.frame.size.height); //(210,80)
+//    //    CGPoint startPoint = CGPointMake(self.bannerView.frame.origin.x,self.bannerView.frame.origin.y); //(279,0)
+//    CGPoint startPoint = CGPointZero;
+//    [aPath moveToPoint:startPoint]; //(279,0)
+//    
+//    [aPath addLineToPoint:CGPointMake(startPoint.x+viewSize.width,startPoint.y)]; //(489,0)
+//    [aPath addLineToPoint:CGPointMake(startPoint.x+viewSize.width,startPoint.y+viewSize.height-round)]; //(489,60)
+//    [aPath addQuadCurveToPoint:CGPointMake(startPoint.x,startPoint.y+viewSize.height-round) controlPoint:CGPointMake(startPoint.x+(viewSize.width/2),viewSize.height+ round)]; //(279,60) : (384,80)
+//    
+//    [aPath closePath];
+//    CAShapeLayer *layer = [CAShapeLayer layer];
+//    layer.frame = self.masklayer.bounds;
+//    layer.path = aPath.CGPath;
+//    layer.backgroundColor = [UIColor clearColor].CGColor;
+//    layer.fillColor = [UIColor clearColor].CGColor;
+//    
+//    layer.strokeColor = [UIColor blueColor].CGColor;
+//    layer.shadowColor = [UIColor greenColor].CGColor;
+//    
+//    //    self.bannerView.layer.mask = layer;
+//    
+//    [self.masklayer addSublayer:layer];
     
-    float alpha = M_PI / 2 - (atan(a / b));
     
-    float halfC = sqrt(a * a + b * b) / 2;
-    
-    float result = halfC / (cos(alpha));
-    
-    //圆心
-    CGPoint center = CGPointMake(b, a - result);
-    //半径
-    float radius = result;
-    
-//    UIColor.redColor().set()
-//    let path = UIBezierPath()
-//    path.lineWidth = 0.5;
-//    path.addArcWithCenter(self.centerPoint!, radius: self.radius!, startAngle: startAngle!, endAngle: endAngle!, clockwise: false)
-//    path.moveToPoint(CGPointMake(0, 0))
-//    path.addLineToPoint(CGPointMake(self.es_width, 0))
-//    path.fill()
     
 //    
-//    CircleInfo *t = [CircleInfo GetCircle:@[[NSValue valueWithCGPoint:CGPointMake(0, 0)],
-//                                            [NSValue valueWithCGPoint:CGPointMake(b, a)],
-//                                            [NSValue valueWithCGPoint:CGPointMake(2*b, a)]]];
-//
+//    CGFloat round = 80;
+//    self.bannerView.backgroundColor =[UIColor redColor];
 //    
+//    UIBezierPath *aPath = [UIBezierPath bezierPath];
 //    
-//    [[UIColor redColor] set];
-//    UIBezierPath *path = [UIBezierPath bezierPath];
-//    path.lineWidth = 2;
-////    [path addArcWithCenter:t.centerPoint radius:t.raduis startAngle:startAngle endAngle:endAngle clockwise:NO];
-//    [path moveToPoint:CGPointMake(0, 0)];
-//
-//    [path addCurveToPoint:CGPointMake(self.animationLayer.frame.size.width/2.f, self.animationLayer.frame.size.height) controlPoint1:CGPointMake(0, 0) controlPoint2:CGPointMake(self.animationLayer.frame.size.width, 0)];
+//    CGSize viewSize = CGSizeMake(self.bannerView.frame.size.width, 80); //(210,80)
+//    //    CGPoint startPoint = CGPointMake(self.bannerView.frame.origin.x,self.bannerView.frame.origin.y); //(279,0)
+//    CGPoint startPoint = CGPointMake(0,self.bannerView.frame.size.height - round);
+//    [aPath moveToPoint:startPoint]; //(279,0)
 //    
-//    [path addLineToPoint:CGPointMake(self.animationLayer.frame.size.width, 0)];
-//    [path fill];
+//    [aPath addLineToPoint:CGPointMake(startPoint.x+viewSize.width,startPoint.y)]; //(489,0)
+//    [aPath addLineToPoint:CGPointMake(startPoint.x+viewSize.width,startPoint.y+viewSize.height-round)]; //(489,60)
+//    [aPath addQuadCurveToPoint:CGPointMake(startPoint.x,startPoint.y+viewSize.height-round) controlPoint:CGPointMake(startPoint.x+(viewSize.width/2),self.bannerView.frame.size.height+ round)]; //(279,60) : (384,80)
+//    
+//    [aPath closePath];
+//    CAShapeLayer *layer = [CAShapeLayer layer];
+//    layer.frame = self.bannerView.bounds;
+//    layer.path = aPath.CGPath;
+//    layer.backgroundColor = [UIColor clearColor].CGColor;
+//    layer.fillColor = [UIColor yellowColor].CGColor;
+////    layer.contents = (__bridge id _Nullable)((self.bannerView.image).CGImage);
+//    layer.strokeColor = [UIColor blueColor].CGColor;
+//    
+////       self.bannerView.layer.mask = layer;
+//    
+//    [self.bannerView.layer addSublayer:layer];
     
     
-//    CAShapeLayer *pathLayer = [CAShapeLayer layer];
-//    pathLayer.frame = self.animationLayer.bounds;
-//    pathLayer.bounds = CGPathGetBoundingBox(path.CGPath);
-//    pathLayer.backgroundColor = [[UIColor yellowColor] CGColor];
-//    pathLayer.geometryFlipped = YES;
-//    pathLayer.path = path.CGPath;
-//    pathLayer.strokeColor = [UIColor colorWithRed:234.0/255 green:84.0/255 blue:87.0/255 alpha:1].CGColor;
-//    // pathLayer.strokeColor = [[UIColor blackColor] CGColor];
-//    pathLayer.fillColor = nil;
-//    pathLayer.lineWidth = 1.0f;
-//    pathLayer.lineJoin = kCALineJoinBevel;
-//    
-//    [self.masklayer.layer addSublayer:pathLayer];
-//    
     
+//    self.bannerView.layer.cornerRadius = 200;
+//    self.bannerView.clipsToBounds = YES;
+    
+    
+//    CGFloat radius = 200.0;
+//    // set the mask frame, and increase the height by the
+//    // corner radius to hide bottom corners
+//    CGRect maskFrame = self.view.bounds;
+//    maskFrame.size.height += radius;
+//    // create the mask layer
+//    CALayer *maskLayer = [CALayer layer];
+//    maskLayer.cornerRadius = radius;
+//    maskLayer.backgroundColor = [UIColor blackColor].CGColor;
+//    maskLayer.frame = maskFrame;
+//    
+//    // set the mask
+//    self.bannerView.layer.mask = maskLayer;
+    
+//    CGRect rect = self.bannerView.bounds;
+//    CGSize radii = CGSizeMake(100, 100);
+//    UIRectCorner corners = UIRectCornerTopRight;
+//    //create path
+////    UIBezierPath *path = [UIBezierPath bezierPathWithRoundedRect:rect byRoundingcorners:corners cornerRadii:radii];
+//    
+//    UIBezierPath *path;
+//    path = [UIBezierPath bezierPathWithRoundedRect:rect byRoundingCorners:UIRectCornerBottomLeft cornerRadii:radii];
+//    
+//    CAShapeLayer *shapeLayer = [CAShapeLayer layer];
+//    shapeLayer.strokeColor = [[UIColor redColor] CGColor];
+//    shapeLayer.fillColor = [UIColor clearColor].CGColor;
+//    shapeLayer.lineWidth = 0.5;
+//    shapeLayer.lineCap = kCALineCapRound;
+//    shapeLayer.path = path.CGPath;
+//    [self.bannerView.layer addSublayer:shapeLayer];
+    
+    
+    
+    
+    CGFloat round = 40;
+    self.bannerView.backgroundColor =[UIColor redColor];
+    
+    UIBezierPath *aPath = [UIBezierPath bezierPath];
+    
+    CGSize viewSize = CGSizeMake(self.bannerView.frame.size.width, 80); //(210,80)
+    //    CGPoint startPoint = CGPointMake(self.bannerView.frame.origin.x,self.bannerView.frame.origin.y); //(279,0)
+    CGPoint startPoint = CGPointMake(0,self.bannerView.frame.size.height );
+    [aPath moveToPoint:startPoint]; //(279,0)
+    
+//    [aPath addLineToPoint:CGPointMake(startPoint.x+viewSize.width,startPoint.y)]; //(489,0)
+//    [aPath addLineToPoint:CGPointMake(startPoint.x+viewSize.width,startPoint.y+viewSize.height-round)]; //(489,60)
+    
+    [aPath addLineToPoint:CGPointMake(viewSize.width,startPoint.y)]; //(489,0)
+    [aPath addLineToPoint:CGPointMake(startPoint.x+viewSize.width,startPoint.y - round)]; //(489,60)
+    [aPath addQuadCurveToPoint:CGPointMake(0,startPoint.y - round) controlPoint:CGPointMake(startPoint.x+(viewSize.width/2),self.bannerView.frame.size.height + 40)]; //(279,60) : (384,80)
+    
+    [aPath closePath];
+    CAShapeLayer *layer = [CAShapeLayer layer];
+    layer.frame = self.bannerView.bounds;
+    layer.path = aPath.CGPath;
+    layer.backgroundColor = [UIColor clearColor].CGColor;
+    layer.fillColor = [UIColor yellowColor].CGColor;
+    //    layer.contents = (__bridge id _Nullable)((self.bannerView.image).CGImage);
+    layer.strokeColor = [UIColor blueColor].CGColor;
+    
+    CABasicAnimation *pathAnimation = [CABasicAnimation animationWithKeyPath:@"strokeEnd"];
+    pathAnimation.duration = 1.0;
+    pathAnimation.fromValue = [NSNumber numberWithFloat:0.0f];
+    pathAnimation.toValue = [NSNumber numberWithFloat:1.0f];
+    [layer addAnimation:pathAnimation forKey:@"strokeEnd"];
+    
+    //       self.bannerView.layer.mask = layer;
+    
+    [self.bannerView.layer addSublayer:layer];
+    
+    
+    
+//    [self.animationLayer addSublayer:layer];
+//    self.animationLayer.speed = 0;
+//    self.animationLayer.timeOffset = 0.5;
+//    self.pathLayer = layer;
+}
+- (void) startAnimation
+{
+    [self.pathLayer removeAllAnimations];
 
-//    NSLog(@"22222 == %@  %f",NSStringFromCGPoint(center),radius);
-//
-//    NSLog(@"yyy == %@  %f",NSStringFromCGPoint(t.centerPoint),t.raduis);
     
+    CABasicAnimation *pathAnimation = [CABasicAnimation animationWithKeyPath:@"strokeEnd"];
+    pathAnimation.duration = 1.0;
+    pathAnimation.fromValue = [NSNumber numberWithFloat:0.0f];
+    pathAnimation.toValue = [NSNumber numberWithFloat:1.0f];
+    [self.pathLayer addAnimation:pathAnimation forKey:@"strokeEnd"];
     
-    
-//    let path = UIBezierPath(rect:self.view.bounds)
-//    
-//    path.appendPath(UIBezierPath(rect: CGRect(x: 100, y: 100, width: 200, height: 300)).bezierPathByReversingPath())
-//    let shape = CAShapeLayer()
-//    
-//    shape.path = path.CGPath
-//    
-//    blurView.layer.mask = shape
-    
-    
-//    UIBezierPath *yun = [UIBezierPath bezierPathWithRect:self.masklayer.bounds];
-//    [path appendPath:[[UIBezierPath bezierPathWithArcCenter:t.centerPoint radius:t.raduis startAngle:M_PI *.5 endAngle:M_PI*1.5 clockwise:NO] bezierPathByReversingPath]];
-//    
-//    
-//    CAShapeLayer *test = [CAShapeLayer new];
-//    test.path = yun.CGPath;
-//    
-//    self.masklayer.layer.mask = test;
-    
-    
-    
-    
-    
-    CAShapeLayer *waveLayer = [CAShapeLayer layer];
-    waveLayer.fillColor = [UIColor clearColor].CGColor;
-    waveLayer.path = [self getgetCurrentWavePath];
-    [self.masklayer addSublayer:waveLayer];
-    
-    
+    CAKeyframeAnimation *penAnimation = [CAKeyframeAnimation animationWithKeyPath:@"position"];
+    penAnimation.duration = 1.0;
+    penAnimation.path = self.pathLayer.path;
+    penAnimation.calculationMode = kCAAnimationPaced;
+    penAnimation.delegate = self;
+    //[self.penLayer addAnimation:penAnimation forKey:@"position"];
 }
 -(CGPathRef)getgetCurrentWavePath{
     
@@ -445,7 +525,7 @@ CGFloat const maxScale = 1.3;
 - (UIImageView *)bannerView{
     if (_bannerView == nil) {
         _bannerView = [UIImageView new];
-        _bannerView.frame = CGRectMake(0, 64, SCREEN_WIDTH, SCREEN_WIDTH*165/480);
+        _bannerView.frame = CGRectMake(0, 0, SCREEN_WIDTH,400);
         _bannerView.contentMode = UIViewContentModeScaleAspectFill;
         _bannerView.backgroundColor = [UIColor redColor];
     }

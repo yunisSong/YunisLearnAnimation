@@ -51,38 +51,6 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "YunisLearnAnimation/Animation/DrawLineView.m"
-            timestampString = "473926246.148042"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "65"
-            endingLineNumber = "65"
-            landmarkName = "-touchesBegan:withEvent:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "YunisLearnAnimation/Animation/DissInteractiveTransition.m"
-            timestampString = "474273216.629588"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "-edgeGesPan:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "YunisLearnAnimation/Animation/SystemAnimationViewController.m"
             timestampString = "474450643.206697"
             startingColumnNumber = "9223372036854775807"
@@ -141,13 +109,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "YunisLearnAnimation/Animation/PullTableViewController.m"
-            timestampString = "475148640.23137"
+            filePath = "YunisLearnAnimation/Animation/LightSunViewController.m"
+            timestampString = "475552807.008038"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "344"
-            endingLineNumber = "344"
-            landmarkName = "-maskLayertest"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "-sliderValueChange:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

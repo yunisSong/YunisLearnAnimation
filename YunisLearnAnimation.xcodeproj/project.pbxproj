@@ -101,6 +101,10 @@
 		8B89BF2F1C51C0D700E66F0D /* UIScrollView+TwitterCover.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B89BF2D1C51C0D700E66F0D /* UIScrollView+TwitterCover.m */; settings = {ASSET_TAGS = (); }; };
 		8B89BF321C51D7C600E66F0D /* UIView+layer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B89BF311C51D7C600E66F0D /* UIView+layer.m */; settings = {ASSET_TAGS = (); }; };
 		8B89BF371C5217BA00E66F0D /* CircleInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B89BF361C5217BA00E66F0D /* CircleInfo.m */; settings = {ASSET_TAGS = (); }; };
+		8BA0F6F01C9001A100F735F3 /* 仪表盘.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8BA0F6EF1C9001A100F735F3 /* 仪表盘.rtf */; settings = {ASSET_TAGS = (); }; };
+		8BA0F6F41C90022F00F735F3 /* DashBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA0F6F21C90022F00F735F3 /* DashBoardViewController.m */; settings = {ASSET_TAGS = (); }; };
+		8BA0F6F51C90022F00F735F3 /* DashBoardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BA0F6F31C90022F00F735F3 /* DashBoardViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		8BA0F6F81C900FAA00F735F3 /* PanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA0F6F71C900FAA00F735F3 /* PanelView.m */; settings = {ASSET_TAGS = (); }; };
 		8BF8F0B51C3F3B1A00C9B9FB /* BaseTransitionObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8F0B41C3F3B1A00C9B9FB /* BaseTransitionObject.m */; settings = {ASSET_TAGS = (); }; };
 		8BF8F0B81C3F545000C9B9FB /* 另一种画线方式.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8BF8F0B71C3F545000C9B9FB /* 另一种画线方式.rtf */; settings = {ASSET_TAGS = (); }; };
 		8BF8F0BC1C3F54E100C9B9FB /* OtherDrawLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8F0BA1C3F54E100C9B9FB /* OtherDrawLineViewController.m */; settings = {ASSET_TAGS = (); }; };
@@ -111,6 +115,12 @@
 		8BF8F0C81C3F605800C9B9FB /* DrawLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8F0C71C3F605800C9B9FB /* DrawLineView.m */; settings = {ASSET_TAGS = (); }; };
 		8BF8F0CB1C3F636B00C9B9FB /* UIButton+block.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8F0CA1C3F636B00C9B9FB /* UIButton+block.m */; settings = {ASSET_TAGS = (); }; };
 		8BF8F0CE1C3F88C800C9B9FB /* DrawBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8F0CD1C3F88C800C9B9FB /* DrawBezierPath.m */; settings = {ASSET_TAGS = (); }; };
+		8BF97B561CA4DF19004C76A6 /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF97B4E1CA4DF19004C76A6 /* MenuTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		8BF97B571CA4DF19004C76A6 /* YunisCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF97B501CA4DF19004C76A6 /* YunisCollectionViewController.m */; settings = {ASSET_TAGS = (); }; };
+		8BF97B581CA4DF19004C76A6 /* YunisLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF97B521CA4DF19004C76A6 /* YunisLayout.m */; settings = {ASSET_TAGS = (); }; };
+		8BF97B591CA4DF19004C76A6 /* YunisCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF97B541CA4DF19004C76A6 /* YunisCollectionViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		8BF97B5A1CA4DF19004C76A6 /* YunisCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BF97B551CA4DF19004C76A6 /* YunisCollectionViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		8BF97B5C1CA53433004C76A6 /* WillWork.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8BF97B5B1CA53433004C76A6 /* WillWork.rtf */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -274,6 +284,12 @@
 		8B89BF311C51D7C600E66F0D /* UIView+layer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+layer.m"; sourceTree = "<group>"; };
 		8B89BF351C5217BA00E66F0D /* CircleInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleInfo.h; sourceTree = "<group>"; };
 		8B89BF361C5217BA00E66F0D /* CircleInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleInfo.m; sourceTree = "<group>"; };
+		8BA0F6EF1C9001A100F735F3 /* 仪表盘.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "仪表盘.rtf"; sourceTree = "<group>"; };
+		8BA0F6F11C90022F00F735F3 /* DashBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashBoardViewController.h; sourceTree = "<group>"; };
+		8BA0F6F21C90022F00F735F3 /* DashBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashBoardViewController.m; sourceTree = "<group>"; };
+		8BA0F6F31C90022F00F735F3 /* DashBoardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DashBoardViewController.xib; sourceTree = "<group>"; };
+		8BA0F6F61C900FAA00F735F3 /* PanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanelView.h; sourceTree = "<group>"; };
+		8BA0F6F71C900FAA00F735F3 /* PanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanelView.m; sourceTree = "<group>"; };
 		8BF8F0B31C3F3B1A00C9B9FB /* BaseTransitionObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTransitionObject.h; sourceTree = "<group>"; };
 		8BF8F0B41C3F3B1A00C9B9FB /* BaseTransitionObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTransitionObject.m; sourceTree = "<group>"; };
 		8BF8F0B71C3F545000C9B9FB /* 另一种画线方式.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "另一种画线方式.rtf"; sourceTree = "<group>"; };
@@ -291,6 +307,16 @@
 		8BF8F0CA1C3F636B00C9B9FB /* UIButton+block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+block.m"; sourceTree = "<group>"; };
 		8BF8F0CC1C3F88C800C9B9FB /* DrawBezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawBezierPath.h; sourceTree = "<group>"; };
 		8BF8F0CD1C3F88C800C9B9FB /* DrawBezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawBezierPath.m; sourceTree = "<group>"; };
+		8BF97B4D1CA4DF19004C76A6 /* MenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableViewController.h; sourceTree = "<group>"; };
+		8BF97B4E1CA4DF19004C76A6 /* MenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewController.m; sourceTree = "<group>"; };
+		8BF97B4F1CA4DF19004C76A6 /* YunisCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YunisCollectionViewController.h; sourceTree = "<group>"; };
+		8BF97B501CA4DF19004C76A6 /* YunisCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YunisCollectionViewController.m; sourceTree = "<group>"; };
+		8BF97B511CA4DF19004C76A6 /* YunisLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YunisLayout.h; sourceTree = "<group>"; };
+		8BF97B521CA4DF19004C76A6 /* YunisLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YunisLayout.m; sourceTree = "<group>"; };
+		8BF97B531CA4DF19004C76A6 /* YunisCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YunisCollectionViewCell.h; sourceTree = "<group>"; };
+		8BF97B541CA4DF19004C76A6 /* YunisCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YunisCollectionViewCell.m; sourceTree = "<group>"; };
+		8BF97B551CA4DF19004C76A6 /* YunisCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YunisCollectionViewCell.xib; sourceTree = "<group>"; };
+		8BF97B5B1CA53433004C76A6 /* WillWork.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = WillWork.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -455,6 +481,7 @@
 				8B3A2BF91C3CE85E001F4E93 /* ViewController.h */,
 				8B3A2BFA1C3CE85E001F4E93 /* ViewController.m */,
 				8B3CC1821C3E601B0071F6E5 /* File */,
+				8BF97B5B1CA53433004C76A6 /* WillWork.rtf */,
 				8B3173E51C4E3B8300DC634B /* 断断续续需要看的东西.rtfd */,
 				8B3A2C0E1C3CF797001F4E93 /* Category */,
 				8B3A2C0A1C3CEAD7001F4E93 /* Animation */,
@@ -494,9 +521,11 @@
 				8B3173DD1C4E17B500DC634B /* 半糖动画效果 */,
 				8B89BF1D1C51BA8D00E66F0D /* Light下拉首页图片变形 */,
 				8B4F9D9E1C58544400F552D7 /* light太阳运行动画 */,
+				8BA0F6EE1C90018500F735F3 /* 仪表盘 */,
 				8B3CC1861C3E66B30071F6E5 /* 点击漂移转场 */,
 				8B3CC19E1C3E6BED0071F6E5 /* 点击圆形转场 */,
 				8B3CC18C1C3E69200071F6E5 /* 点击漂移转场 */,
+				8BF97B4C1CA4DEDA004C76A6 /* UICollectionView */,
 				8BF8F0B31C3F3B1A00C9B9FB /* BaseTransitionObject.h */,
 				8BF8F0B41C3F3B1A00C9B9FB /* BaseTransitionObject.m */,
 			);
@@ -672,6 +701,19 @@
 			path = TwitterCover;
 			sourceTree = "<group>";
 		};
+		8BA0F6EE1C90018500F735F3 /* 仪表盘 */ = {
+			isa = PBXGroup;
+			children = (
+				8BA0F6EF1C9001A100F735F3 /* 仪表盘.rtf */,
+				8BA0F6F11C90022F00F735F3 /* DashBoardViewController.h */,
+				8BA0F6F21C90022F00F735F3 /* DashBoardViewController.m */,
+				8BA0F6F31C90022F00F735F3 /* DashBoardViewController.xib */,
+				8BA0F6F61C900FAA00F735F3 /* PanelView.h */,
+				8BA0F6F71C900FAA00F735F3 /* PanelView.m */,
+			);
+			name = "仪表盘";
+			sourceTree = "<group>";
+		};
 		8BF8F0B61C3F543300C9B9FB /* 另一种画线方式 */ = {
 			isa = PBXGroup;
 			children = (
@@ -687,6 +729,22 @@
 				8BF8F0CD1C3F88C800C9B9FB /* DrawBezierPath.m */,
 			);
 			name = "另一种画线方式";
+			sourceTree = "<group>";
+		};
+		8BF97B4C1CA4DEDA004C76A6 /* UICollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				8BF97B4D1CA4DF19004C76A6 /* MenuTableViewController.h */,
+				8BF97B4E1CA4DF19004C76A6 /* MenuTableViewController.m */,
+				8BF97B4F1CA4DF19004C76A6 /* YunisCollectionViewController.h */,
+				8BF97B501CA4DF19004C76A6 /* YunisCollectionViewController.m */,
+				8BF97B511CA4DF19004C76A6 /* YunisLayout.h */,
+				8BF97B521CA4DF19004C76A6 /* YunisLayout.m */,
+				8BF97B531CA4DF19004C76A6 /* YunisCollectionViewCell.h */,
+				8BF97B541CA4DF19004C76A6 /* YunisCollectionViewCell.m */,
+				8BF97B551CA4DF19004C76A6 /* YunisCollectionViewCell.xib */,
+			);
+			name = UICollectionView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -752,6 +810,7 @@
 				8B3CC19D1C3E6A9C0071F6E5 /* TwoTransitionViewController.xib in Resources */,
 				8B3CC1AF1C3E6D5C0071F6E5 /* 5.jpg in Resources */,
 				8B3CC1981C3E6A6D0071F6E5 /* Transition3DViewController.xib in Resources */,
+				8BF97B5A1CA4DF19004C76A6 /* YunisCollectionViewCell.xib in Resources */,
 				8B3173C11C4CD1F300DC634B /* YXBJCollectionViewCell.xib in Resources */,
 				8B3CC1891C3E67A30071F6E5 /* 3d.rtfd in Resources */,
 				8B3173E41C4E184A00DC634B /* BanTangViewController.xib in Resources */,
@@ -766,14 +825,17 @@
 				8B3CC1B11C3E6D5C0071F6E5 /* 7.jpg in Resources */,
 				8B3A2C181C3D0832001F4E93 /* wuyanzu.jpg in Resources */,
 				8B3CC1AD1C3E6D5C0071F6E5 /* 3.jpg in Resources */,
+				8BA0F6F51C90022F00F735F3 /* DashBoardViewController.xib in Resources */,
 				8B3A2C161C3D0062001F4E93 /* FollowWuYanZhu.xib in Resources */,
 				8B3CC1831C3E601B0071F6E5 /* File in Resources */,
+				8BF97B5C1CA53433004C76A6 /* WillWork.rtf in Resources */,
 				8B3CC1851C3E60D80071F6E5 /* 动画思路.rtf in Resources */,
 				8B4F9D681C561BF300F552D7 /* snow.jpg in Resources */,
 				8B3CC1B21C3E6D5C0071F6E5 /* 8.jpg in Resources */,
 				8B3A2C001C3CE85E001F4E93 /* Assets.xcassets in Resources */,
 				8B3173B61C4CCB7000DC634B /* 印象笔记动画效果OC版本.rtf in Resources */,
 				8B3173C91C4CD56500DC634B /* NewYXBJDetailViewController.xib in Resources */,
+				8BA0F6F01C9001A100F735F3 /* 仪表盘.rtf in Resources */,
 				8BF8F0BF1C3F564C00C9B9FB /* 学习彦祖类似购物车动画.rtf in Resources */,
 				8B3CC1A01C3E6C080071F6E5 /* 点击圆形转场.rtf in Resources */,
 				8B3CC18E1C3E69310071F6E5 /* 漂移.rtfd in Resources */,
@@ -812,10 +874,13 @@
 				78A520DE1C3DB4DE00D8F8A5 /* DramVIew.m in Sources */,
 				8B3CC15D1C3E34CA0071F6E5 /* UITableView+emptyView.m in Sources */,
 				8B3173E31C4E184A00DC634B /* BanTangViewController.m in Sources */,
+				8BA0F6F81C900FAA00F735F3 /* PanelView.m in Sources */,
 				8B3CC17C1C3E508E0071F6E5 /* TransitionFromFirstToSecond.m in Sources */,
+				8BF97B591CA4DF19004C76A6 /* YunisCollectionViewCell.m in Sources */,
 				8B4F9DA91C58556C00F552D7 /* SunMoonView.m in Sources */,
 				8B3A2BFB1C3CE85E001F4E93 /* ViewController.m in Sources */,
 				8B3A2BF81C3CE85E001F4E93 /* AppDelegate.m in Sources */,
+				8BF97B561CA4DF19004C76A6 /* MenuTableViewController.m in Sources */,
 				8B4F9D661C55C63A00F552D7 /* BannnerMaskView.m in Sources */,
 				8B00195F1C476D0700805B5D /* SystemAnimationViewController.m in Sources */,
 				78A520F71C3DB52600D8F8A5 /* MASCompositeConstraint.m in Sources */,
@@ -825,8 +890,10 @@
 				8B89BF321C51D7C600E66F0D /* UIView+layer.m in Sources */,
 				8B3173DC1C4E0D5600DC634B /* UIImageView+Reflect.m in Sources */,
 				78A520F91C3DB52600D8F8A5 /* MASConstraintMaker.m in Sources */,
+				8BA0F6F41C90022F00F735F3 /* DashBoardViewController.m in Sources */,
 				8BF8F0B51C3F3B1A00C9B9FB /* BaseTransitionObject.m in Sources */,
 				8B3CC1601C3E38920071F6E5 /* UITableViewCell+hideSeparatorLeftInset.m in Sources */,
+				8BF97B581CA4DF19004C76A6 /* YunisLayout.m in Sources */,
 				8B0019151C44D51800805B5D /* DissInteractiveTransition.m in Sources */,
 				8B3CC17B1C3E508E0071F6E5 /* TransitionFromSecondToFirst.m in Sources */,
 				8B89BF371C5217BA00E66F0D /* CircleInfo.m in Sources */,
@@ -857,6 +924,7 @@
 				8B3A2C0D1C3CEB39001F4E93 /* CircleSpreadTransition.m in Sources */,
 				8B3CC1751C3E4F1C0071F6E5 /* InfoViewController.m in Sources */,
 				8B3173CC1C4CE9F000DC634B /* YunisLearnDynamicFlowLayout.m in Sources */,
+				8BF97B571CA4DF19004C76A6 /* YunisCollectionViewController.m in Sources */,
 				8B3A2C151C3D0062001F4E93 /* FollowWuYanZhu.m in Sources */,
 				8BF8F0CB1C3F636B00C9B9FB /* UIButton+block.m in Sources */,
 				8B3173D61C4DC7D200DC634B /* UIImage+ImageEffects.m in Sources */,

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="TestCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="147" height="139"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="147" height="139"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CeO-66-uJn">
+                        <rect key="frame" x="51" y="10" width="45" height="45"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="45" id="bUb-f6-UgF"/>
+                            <constraint firstAttribute="height" constant="45" id="fxI-Cn-hgT"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="bUb-f6-UgF"/>
+                                <exclude reference="fxI-Cn-hgT"/>
+                            </mask>
+                        </variation>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s34-hq-ckY">
+                        <rect key="frame" x="0.0" y="118" width="147" height="21"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <animations/>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <animations/>
+            <constraints>
+                <constraint firstItem="s34-hq-ckY" firstAttribute="top" secondItem="CeO-66-uJn" secondAttribute="bottom" id="3bq-aP-dc1"/>
+                <constraint firstItem="CeO-66-uJn" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="8vT-cq-BVT"/>
+                <constraint firstAttribute="trailing" secondItem="s34-hq-ckY" secondAttribute="trailing" id="9kV-XD-sWX"/>
+                <constraint firstAttribute="trailing" secondItem="CeO-66-uJn" secondAttribute="trailing" id="HeQ-YE-f1A"/>
+                <constraint firstItem="CeO-66-uJn" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="IVt-T8-QBW"/>
+                <constraint firstAttribute="trailing" secondItem="CeO-66-uJn" secondAttribute="trailing" id="fAP-jc-fp7"/>
+                <constraint firstItem="s34-hq-ckY" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ftm-xk-ova"/>
+                <constraint firstItem="CeO-66-uJn" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="iVl-3U-Tyo"/>
+                <constraint firstItem="CeO-66-uJn" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="jCp-vH-u03"/>
+                <constraint firstAttribute="bottom" secondItem="CeO-66-uJn" secondAttribute="bottom" id="p0Y-77-vXt"/>
+                <constraint firstItem="CeO-66-uJn" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="tbe-yY-MzP"/>
+                <constraint firstAttribute="bottom" secondItem="s34-hq-ckY" secondAttribute="bottom" id="vUN-4L-qAz"/>
+                <constraint firstItem="CeO-66-uJn" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="y45-7O-YFj"/>
+            </constraints>
+            <size key="customSize" width="147" height="139"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="IVt-T8-QBW"/>
+                    <exclude reference="fAP-jc-fp7"/>
+                    <exclude reference="iVl-3U-Tyo"/>
+                    <exclude reference="jCp-vH-u03"/>
+                    <exclude reference="p0Y-77-vXt"/>
+                    <exclude reference="y45-7O-YFj"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="image" destination="CeO-66-uJn" id="NAu-PG-kSE"/>
+            </connections>
+            <point key="canvasLocation" x="269.5" y="283.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

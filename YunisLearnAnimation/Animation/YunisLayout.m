@@ -2,7 +2,7 @@
 //  YunisLayout.m
 //  YunIsCollectionView
 //
-//  Created by 宋尚永 on 15/11/9.
+//  Created by Yunis on 15/11/9.
 //  Copyright © 2015年 yunis. All rights reserved.
 //
 
@@ -25,6 +25,18 @@
     return self;
 }
 
+/*
+ 调用步骤 
+ 1，-(void)prepareLayout
+ 
+ 2，-(CGSize) collectionViewContentSize
+ 
+ 3，-(NSArray *)layoutAttributesForElementsInRect:(CGRect)rect
+ 
+ 
+ 
+ */
+
 - (void)prepareLayout {
     [super prepareLayout];
     if (self.visibleCount < 1) {
@@ -41,6 +53,8 @@
     }
 }
 
+
+//ppppp 返回item尺寸
 - (CGSize)collectionViewContentSize {
     NSInteger cellCount = [self.collectionView numberOfItemsInSection:0];
     if (self.scrollDirection == UICollectionViewScrollDirectionVertical) {
@@ -48,6 +62,14 @@
     }
     return CGSizeMake(cellCount * _itemHeight, CGRectGetHeight(self.collectionView.frame));
 }
+
+//ppppp 返回rect中的所有的元素的布局属性  返回的是包含UICollectionViewLayoutAttributes的NSArray
+/*
+ UICollectionViewLayoutAttributes可以是cell，追加视图或装饰视图的信息，通过不同的UICollectionViewLayoutAttributes初始化方法可以得到不同类型的UICollectionViewLayoutAttributes：
+ layoutAttributesForCellWithIndexPath:
+ layoutAttributesForSupplementaryViewOfKind:withIndexPath: 返回对应于indexPath的位置的追加视图的布局属性，如果没有追加视图可不重载
+ layoutAttributesForDecorationViewOfKind:withIndexPath: 返回对应于indexPath的位置的装饰视图的布局属性，如果没有装饰视图可不重载
+ */
 
 - (NSArray *)layoutAttributesForElementsInRect:(CGRect)rect {
     NSInteger cellCount = [self.collectionView numberOfItemsInSection:0];
@@ -65,6 +87,8 @@
     return array;
 }
 
+
+//ppppp 返回对应于indexPath的位置的cell的布局属性
 - (UICollectionViewLayoutAttributes *)layoutAttributesForItemAtIndexPath:(NSIndexPath *)indexPath {
     UICollectionViewLayoutAttributes *attributes = [UICollectionViewLayoutAttributes layoutAttributesForCellWithIndexPath:indexPath];
     attributes.size = self.itemSize;
@@ -139,6 +163,8 @@
     return proposedContentOffset;
 }
 
+
+//ppppp 当边界发生改变时，是否应该刷新布局。如果YES则在边界变化（一般是scroll到其他地方）时，将重新计算需要的布局信息。
 - (BOOL)shouldInvalidateLayoutForBoundsChange:(CGRect)newBounds {
     return !CGRectEqualToRect(newBounds, self.collectionView.bounds);
 }

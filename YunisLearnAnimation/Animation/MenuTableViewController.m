@@ -9,7 +9,7 @@
 #import "MenuTableViewController.h"
 #import "YunisCollectionViewController.h"
 #import "YunisLayout.h"
-
+#import "YunisLearnViewController.h"
 @interface MenuTableViewController ()
 
 @end
@@ -24,6 +24,12 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    if (indexPath.row == 6) {
+        YunisLearnViewController *l = [[YunisLearnViewController alloc] init];
+        [self.navigationController pushViewController:l animated:YES];
+        return;
+    }
     
     YunisLayout *layout = nil;
     switch (indexPath.row) {

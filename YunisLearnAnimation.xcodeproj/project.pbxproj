@@ -26,6 +26,16 @@
 		8B00195A1C4741F300805B5D /* ManageTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0019591C4741F300805B5D /* ManageTransitionAnimation.m */; settings = {ASSET_TAGS = (); }; };
 		8B00195F1C476D0700805B5D /* SystemAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B00195D1C476D0700805B5D /* SystemAnimationViewController.m */; settings = {ASSET_TAGS = (); }; };
 		8B0019601C476D0700805B5D /* SystemAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B00195E1C476D0700805B5D /* SystemAnimationViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		8B1601D41CAA6488009A13CF /* YunisLearnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1601D21CAA6488009A13CF /* YunisLearnViewController.m */; settings = {ASSET_TAGS = (); }; };
+		8B1601D51CAA6488009A13CF /* YunisLearnViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B1601D31CAA6488009A13CF /* YunisLearnViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		8B1601D81CAA64CC009A13CF /* YunisCollectionLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1601D71CAA64CC009A13CF /* YunisCollectionLayout.m */; settings = {ASSET_TAGS = (); }; };
+		8B1601DC1CAA6524009A13CF /* TestCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1601DA1CAA6524009A13CF /* TestCollectionViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		8B1601DD1CAA6524009A13CF /* TestCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B1601DB1CAA6524009A13CF /* TestCollectionViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		8B1601E01CAA6E21009A13CF /* TestFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1601DF1CAA6E21009A13CF /* TestFlowLayout.m */; settings = {ASSET_TAGS = (); }; };
+		8B1601E61CAA780B009A13CF /* RACollectionViewReorderableTripletLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1601E31CAA780B009A13CF /* RACollectionViewReorderableTripletLayout.m */; settings = {ASSET_TAGS = (); }; };
+		8B1601E71CAA780B009A13CF /* RACollectionViewTripletLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1601E51CAA780B009A13CF /* RACollectionViewTripletLayout.m */; settings = {ASSET_TAGS = (); }; };
+		8B1601EA1CAB6584009A13CF /* Testname.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1601E91CAB6583009A13CF /* Testname.m */; settings = {ASSET_TAGS = (); }; };
+		8B1601ED1CAB6B9C009A13CF /* ModuleLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1601EC1CAB6B9C009A13CF /* ModuleLayoutAttributes.m */; settings = {ASSET_TAGS = (); }; };
 		8B3173B61C4CCB7000DC634B /* 印象笔记动画效果OC版本.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3173B51C4CCB7000DC634B /* 印象笔记动画效果OC版本.rtf */; settings = {ASSET_TAGS = (); }; };
 		8B3173B91C4CCBED00DC634B /* YinXiangBiJiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3173B81C4CCBED00DC634B /* YinXiangBiJiViewController.m */; settings = {ASSET_TAGS = (); }; };
 		8B3173BC1C4CCCA400DC634B /* YXBJCellLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3173BB1C4CCCA400DC634B /* YXBJCellLayout.m */; settings = {ASSET_TAGS = (); }; };
@@ -166,6 +176,24 @@
 		8B00195C1C476D0700805B5D /* SystemAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemAnimationViewController.h; sourceTree = "<group>"; };
 		8B00195D1C476D0700805B5D /* SystemAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemAnimationViewController.m; sourceTree = "<group>"; };
 		8B00195E1C476D0700805B5D /* SystemAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SystemAnimationViewController.xib; sourceTree = "<group>"; };
+		8B1601D11CAA6488009A13CF /* YunisLearnViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YunisLearnViewController.h; sourceTree = "<group>"; };
+		8B1601D21CAA6488009A13CF /* YunisLearnViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YunisLearnViewController.m; sourceTree = "<group>"; };
+		8B1601D31CAA6488009A13CF /* YunisLearnViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YunisLearnViewController.xib; sourceTree = "<group>"; };
+		8B1601D61CAA64CC009A13CF /* YunisCollectionLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YunisCollectionLayout.h; sourceTree = "<group>"; };
+		8B1601D71CAA64CC009A13CF /* YunisCollectionLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YunisCollectionLayout.m; sourceTree = "<group>"; };
+		8B1601D91CAA6524009A13CF /* TestCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCollectionViewCell.h; sourceTree = "<group>"; };
+		8B1601DA1CAA6524009A13CF /* TestCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCollectionViewCell.m; sourceTree = "<group>"; };
+		8B1601DB1CAA6524009A13CF /* TestCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestCollectionViewCell.xib; sourceTree = "<group>"; };
+		8B1601DE1CAA6E21009A13CF /* TestFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlowLayout.h; sourceTree = "<group>"; };
+		8B1601DF1CAA6E21009A13CF /* TestFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestFlowLayout.m; sourceTree = "<group>"; };
+		8B1601E21CAA780B009A13CF /* RACollectionViewReorderableTripletLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACollectionViewReorderableTripletLayout.h; sourceTree = "<group>"; };
+		8B1601E31CAA780B009A13CF /* RACollectionViewReorderableTripletLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACollectionViewReorderableTripletLayout.m; sourceTree = "<group>"; };
+		8B1601E41CAA780B009A13CF /* RACollectionViewTripletLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACollectionViewTripletLayout.h; sourceTree = "<group>"; };
+		8B1601E51CAA780B009A13CF /* RACollectionViewTripletLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACollectionViewTripletLayout.m; sourceTree = "<group>"; };
+		8B1601E81CAB6583009A13CF /* Testname.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Testname.h; sourceTree = "<group>"; };
+		8B1601E91CAB6583009A13CF /* Testname.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Testname.m; sourceTree = "<group>"; };
+		8B1601EB1CAB6B9C009A13CF /* ModuleLayoutAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleLayoutAttributes.h; sourceTree = "<group>"; };
+		8B1601EC1CAB6B9C009A13CF /* ModuleLayoutAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleLayoutAttributes.m; sourceTree = "<group>"; };
 		8B3173B51C4CCB7000DC634B /* 印象笔记动画效果OC版本.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "印象笔记动画效果OC版本.rtf"; sourceTree = "<group>"; };
 		8B3173B71C4CCBED00DC634B /* YinXiangBiJiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YinXiangBiJiViewController.h; sourceTree = "<group>"; };
 		8B3173B81C4CCBED00DC634B /* YinXiangBiJiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YinXiangBiJiViewController.m; sourceTree = "<group>"; };
@@ -409,6 +437,17 @@
 				8B00195E1C476D0700805B5D /* SystemAnimationViewController.xib */,
 			);
 			name = "系统动画旋转角度的思考";
+			sourceTree = "<group>";
+		};
+		8B1601E11CAA780B009A13CF /* RACollectionViewReorderableTripletLayout */ = {
+			isa = PBXGroup;
+			children = (
+				8B1601E21CAA780B009A13CF /* RACollectionViewReorderableTripletLayout.h */,
+				8B1601E31CAA780B009A13CF /* RACollectionViewReorderableTripletLayout.m */,
+				8B1601E41CAA780B009A13CF /* RACollectionViewTripletLayout.h */,
+				8B1601E51CAA780B009A13CF /* RACollectionViewTripletLayout.m */,
+			);
+			path = RACollectionViewReorderableTripletLayout;
 			sourceTree = "<group>";
 		};
 		8B3173B41C4CCB3D00DC634B /* 印象笔记动画效果OC版本 */ = {
@@ -734,15 +773,30 @@
 		8BF97B4C1CA4DEDA004C76A6 /* UICollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				8B1601E11CAA780B009A13CF /* RACollectionViewReorderableTripletLayout */,
 				8BF97B4D1CA4DF19004C76A6 /* MenuTableViewController.h */,
 				8BF97B4E1CA4DF19004C76A6 /* MenuTableViewController.m */,
 				8BF97B4F1CA4DF19004C76A6 /* YunisCollectionViewController.h */,
 				8BF97B501CA4DF19004C76A6 /* YunisCollectionViewController.m */,
+				8B1601E81CAB6583009A13CF /* Testname.h */,
+				8B1601E91CAB6583009A13CF /* Testname.m */,
 				8BF97B511CA4DF19004C76A6 /* YunisLayout.h */,
 				8BF97B521CA4DF19004C76A6 /* YunisLayout.m */,
 				8BF97B531CA4DF19004C76A6 /* YunisCollectionViewCell.h */,
 				8BF97B541CA4DF19004C76A6 /* YunisCollectionViewCell.m */,
 				8BF97B551CA4DF19004C76A6 /* YunisCollectionViewCell.xib */,
+				8B1601D11CAA6488009A13CF /* YunisLearnViewController.h */,
+				8B1601D21CAA6488009A13CF /* YunisLearnViewController.m */,
+				8B1601D31CAA6488009A13CF /* YunisLearnViewController.xib */,
+				8B1601D61CAA64CC009A13CF /* YunisCollectionLayout.h */,
+				8B1601D71CAA64CC009A13CF /* YunisCollectionLayout.m */,
+				8B1601EB1CAB6B9C009A13CF /* ModuleLayoutAttributes.h */,
+				8B1601EC1CAB6B9C009A13CF /* ModuleLayoutAttributes.m */,
+				8B1601DE1CAA6E21009A13CF /* TestFlowLayout.h */,
+				8B1601DF1CAA6E21009A13CF /* TestFlowLayout.m */,
+				8B1601D91CAA6524009A13CF /* TestCollectionViewCell.h */,
+				8B1601DA1CAA6524009A13CF /* TestCollectionViewCell.m */,
+				8B1601DB1CAA6524009A13CF /* TestCollectionViewCell.xib */,
 			);
 			name = UICollectionView;
 			sourceTree = "<group>";
@@ -806,6 +860,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B3CC1B01C3E6D5C0071F6E5 /* 6.jpg in Resources */,
+				8B1601D51CAA6488009A13CF /* YunisLearnViewController.xib in Resources */,
 				8BF8F0BD1C3F54E100C9B9FB /* OtherDrawLineViewController.xib in Resources */,
 				8B3CC19D1C3E6A9C0071F6E5 /* TwoTransitionViewController.xib in Resources */,
 				8B3CC1AF1C3E6D5C0071F6E5 /* 5.jpg in Resources */,
@@ -814,6 +869,7 @@
 				8B3173C11C4CD1F300DC634B /* YXBJCollectionViewCell.xib in Resources */,
 				8B3CC1891C3E67A30071F6E5 /* 3d.rtfd in Resources */,
 				8B3173E41C4E184A00DC634B /* BanTangViewController.xib in Resources */,
+				8B1601DD1CAA6524009A13CF /* TestCollectionViewCell.xib in Resources */,
 				8B3A2C031C3CE85E001F4E93 /* LaunchScreen.storyboard in Resources */,
 				8B89BF1F1C51BAB600E66F0D /* Light下拉首页图片变形.rtf in Resources */,
 				8B3CC1711C3E4EBD0071F6E5 /* QQMusicViewController.xib in Resources */,
@@ -859,15 +915,19 @@
 			files = (
 				8B00190F1C44CE7900805B5D /* Transion3DPush.m in Sources */,
 				8B3173C41C4CD22500DC634B /* YXBJTransition.m in Sources */,
+				8B1601EA1CAB6584009A13CF /* Testname.m in Sources */,
 				8BF8F0C21C3F5BA500C9B9FB /* BaseEditView.m in Sources */,
 				8B3173BC1C4CCCA400DC634B /* YXBJCellLayout.m in Sources */,
+				8B1601DC1CAA6524009A13CF /* TestCollectionViewCell.m in Sources */,
 				8B3173D31C4DC51800DC634B /* YunisAlertViewController.m in Sources */,
 				8B89BF2E1C51C0D700E66F0D /* MBTwitterScroll.m in Sources */,
 				8B0019121C44CE8600805B5D /* Transion3DDiss.m in Sources */,
+				8B1601E71CAA780B009A13CF /* RACollectionViewTripletLayout.m in Sources */,
 				8B3CC19C1C3E6A9C0071F6E5 /* TwoTransitionViewController.m in Sources */,
 				78A520FC1C3DB52600D8F8A5 /* MASViewConstraint.m in Sources */,
 				78A520DA1C3DB12200D8F8A5 /* DrawLineViewController.m in Sources */,
 				8BF8F0C51C3F5F7300C9B9FB /* UIView+Controller.m in Sources */,
+				8B1601ED1CAB6B9C009A13CF /* ModuleLayoutAttributes.m in Sources */,
 				78A520FB1C3DB52600D8F8A5 /* MASViewAttribute.m in Sources */,
 				8B3CC1971C3E6A6D0071F6E5 /* Transition3DViewController.m in Sources */,
 				8B4F9D6E1C57407E00F552D7 /* LightHomeBasePage.m in Sources */,
@@ -883,8 +943,11 @@
 				8BF97B561CA4DF19004C76A6 /* MenuTableViewController.m in Sources */,
 				8B4F9D661C55C63A00F552D7 /* BannnerMaskView.m in Sources */,
 				8B00195F1C476D0700805B5D /* SystemAnimationViewController.m in Sources */,
+				8B1601E61CAA780B009A13CF /* RACollectionViewReorderableTripletLayout.m in Sources */,
 				78A520F71C3DB52600D8F8A5 /* MASCompositeConstraint.m in Sources */,
 				8B3173C01C4CD1F300DC634B /* YXBJCollectionViewCell.m in Sources */,
+				8B1601E01CAA6E21009A13CF /* TestFlowLayout.m in Sources */,
+				8B1601D81CAA64CC009A13CF /* YunisCollectionLayout.m in Sources */,
 				8B00195A1C4741F300805B5D /* ManageTransitionAnimation.m in Sources */,
 				8B3173D01C4DC0B500DC634B /* YunisTopShowHUD.m in Sources */,
 				8B89BF321C51D7C600E66F0D /* UIView+layer.m in Sources */,
@@ -919,6 +982,7 @@
 				8B3CC17F1C3E53E20071F6E5 /* UIView+snapshot.m in Sources */,
 				78A520FD1C3DB52600D8F8A5 /* NSArray+MASAdditions.m in Sources */,
 				78A520FE1C3DB52600D8F8A5 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				8B1601D41CAA6488009A13CF /* YunisLearnViewController.m in Sources */,
 				78A521031C3DB6F600D8F8A5 /* DrawSettingView.m in Sources */,
 				8B3A2C111C3CF7AC001F4E93 /* UIColor+randomColor.m in Sources */,
 				8B3A2C0D1C3CEB39001F4E93 /* CircleSpreadTransition.m in Sources */,

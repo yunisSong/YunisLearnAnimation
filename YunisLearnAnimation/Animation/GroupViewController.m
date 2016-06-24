@@ -72,7 +72,6 @@
     scaleAnimation.toValue = @(3);
     scaleAnimation.duration = timeDuration;
     scaleAnimation.autoreverses = YES;
-    
     //透明度
     CABasicAnimation *alphaAnimation = [CABasicAnimation animationWithKeyPath:@"opacity"];
     alphaAnimation.fromValue = @(1);

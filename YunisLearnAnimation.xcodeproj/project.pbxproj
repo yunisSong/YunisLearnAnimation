@@ -96,6 +96,12 @@
 		8B3CC1B11C3E6D5C0071F6E5 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC1A81C3E6D5C0071F6E5 /* 7.jpg */; };
 		8B3CC1B21C3E6D5C0071F6E5 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC1A91C3E6D5C0071F6E5 /* 8.jpg */; };
 		8B3CC1B31C3E6D5C0071F6E5 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC1AA1C3E6D5C0071F6E5 /* 9.jpg */; };
+		8B44D3E11D1CD62D00413F2F /* RoundPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B44D3E01D1CD62D00413F2F /* RoundPushViewController.m */; };
+		8B44D3E41D1CD64300413F2F /* RoundPushNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B44D3E31D1CD64300413F2F /* RoundPushNextViewController.m */; };
+		8B44D3E71D1CD69200413F2F /* RoundPushAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B44D3E61D1CD69200413F2F /* RoundPushAnimation.m */; };
+		8B44D3EA1D1CDB5800413F2F /* RoundPOPAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B44D3E91D1CDB5800413F2F /* RoundPOPAnimation.m */; };
+		8B44D3EC1D1CE3FE00413F2F /* RoundPust2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 8B44D3EB1D1CE3FE00413F2F /* RoundPust2.PNG */; };
+		8B44D3EE1D1CE40500413F2F /* RoundPust1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 8B44D3ED1D1CE40500413F2F /* RoundPust1.PNG */; };
 		8B4F9D661C55C63A00F552D7 /* BannnerMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4F9D651C55C63A00F552D7 /* BannnerMaskView.m */; };
 		8B4F9D681C561BF300F552D7 /* snow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B4F9D671C561BF300F552D7 /* snow.jpg */; };
 		8B4F9D6E1C57407E00F552D7 /* LightHomeBasePage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4F9D6D1C57407E00F552D7 /* LightHomeBasePage.m */; };
@@ -287,6 +293,16 @@
 		8B3CC1A81C3E6D5C0071F6E5 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
 		8B3CC1A91C3E6D5C0071F6E5 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
 		8B3CC1AA1C3E6D5C0071F6E5 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		8B44D3DF1D1CD62D00413F2F /* RoundPushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundPushViewController.h; sourceTree = "<group>"; };
+		8B44D3E01D1CD62D00413F2F /* RoundPushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundPushViewController.m; sourceTree = "<group>"; };
+		8B44D3E21D1CD64300413F2F /* RoundPushNextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundPushNextViewController.h; sourceTree = "<group>"; };
+		8B44D3E31D1CD64300413F2F /* RoundPushNextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundPushNextViewController.m; sourceTree = "<group>"; };
+		8B44D3E51D1CD69200413F2F /* RoundPushAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundPushAnimation.h; sourceTree = "<group>"; };
+		8B44D3E61D1CD69200413F2F /* RoundPushAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundPushAnimation.m; sourceTree = "<group>"; };
+		8B44D3E81D1CDB5800413F2F /* RoundPOPAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundPOPAnimation.h; sourceTree = "<group>"; };
+		8B44D3E91D1CDB5800413F2F /* RoundPOPAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundPOPAnimation.m; sourceTree = "<group>"; };
+		8B44D3EB1D1CE3FE00413F2F /* RoundPust2.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RoundPust2.PNG; sourceTree = "<group>"; };
+		8B44D3ED1D1CE40500413F2F /* RoundPust1.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RoundPust1.PNG; sourceTree = "<group>"; };
 		8B4F9D641C55C63A00F552D7 /* BannnerMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannnerMaskView.h; sourceTree = "<group>"; };
 		8B4F9D651C55C63A00F552D7 /* BannnerMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannnerMaskView.m; sourceTree = "<group>"; };
 		8B4F9D671C561BF300F552D7 /* snow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = snow.jpg; sourceTree = "<group>"; };
@@ -678,6 +694,16 @@
 			isa = PBXGroup;
 			children = (
 				8B3CC19F1C3E6C080071F6E5 /* 点击圆形转场.rtf */,
+				8B44D3ED1D1CE40500413F2F /* RoundPust1.PNG */,
+				8B44D3EB1D1CE3FE00413F2F /* RoundPust2.PNG */,
+				8B44D3DF1D1CD62D00413F2F /* RoundPushViewController.h */,
+				8B44D3E01D1CD62D00413F2F /* RoundPushViewController.m */,
+				8B44D3E21D1CD64300413F2F /* RoundPushNextViewController.h */,
+				8B44D3E31D1CD64300413F2F /* RoundPushNextViewController.m */,
+				8B44D3E51D1CD69200413F2F /* RoundPushAnimation.h */,
+				8B44D3E61D1CD69200413F2F /* RoundPushAnimation.m */,
+				8B44D3E81D1CDB5800413F2F /* RoundPOPAnimation.h */,
+				8B44D3E91D1CDB5800413F2F /* RoundPOPAnimation.m */,
 			);
 			name = "点击圆形转场";
 			sourceTree = "<group>";
@@ -884,6 +910,7 @@
 				8B3173E41C4E184A00DC634B /* BanTangViewController.xib in Resources */,
 				8B1601DD1CAA6524009A13CF /* TestCollectionViewCell.xib in Resources */,
 				8B3A2C031C3CE85E001F4E93 /* LaunchScreen.storyboard in Resources */,
+				8B44D3EC1D1CE3FE00413F2F /* RoundPust2.PNG in Resources */,
 				8B89BF1F1C51BAB600E66F0D /* Light下拉首页图片变形.rtf in Resources */,
 				8B3CC1711C3E4EBD0071F6E5 /* QQMusicViewController.xib in Resources */,
 				8B3CC1AC1C3E6D5C0071F6E5 /* 2.jpg in Resources */,
@@ -908,6 +935,7 @@
 				8BF8F0BF1C3F564C00C9B9FB /* 学习彦祖类似购物车动画.rtf in Resources */,
 				8B3CC1A01C3E6C080071F6E5 /* 点击圆形转场.rtf in Resources */,
 				8B3CC18E1C3E69310071F6E5 /* 漂移.rtfd in Resources */,
+				8B44D3EE1D1CE40500413F2F /* RoundPust1.PNG in Resources */,
 				8B4F9DAE1C58A68E00F552D7 /* Sun.png in Resources */,
 				8B4F9DA31C58548800F552D7 /* LightSunViewController.xib in Resources */,
 				8B3CC1B31C3E6D5C0071F6E5 /* 9.jpg in Resources */,
@@ -953,6 +981,7 @@
 				8B4F9DA91C58556C00F552D7 /* SunMoonView.m in Sources */,
 				8B3A2BFB1C3CE85E001F4E93 /* ViewController.m in Sources */,
 				8B3A2BF81C3CE85E001F4E93 /* AppDelegate.m in Sources */,
+				8B44D3E71D1CD69200413F2F /* RoundPushAnimation.m in Sources */,
 				8BF97B561CA4DF19004C76A6 /* MenuTableViewController.m in Sources */,
 				8B4F9D661C55C63A00F552D7 /* BannnerMaskView.m in Sources */,
 				8B00195F1C476D0700805B5D /* SystemAnimationViewController.m in Sources */,
@@ -960,8 +989,10 @@
 				78A520F71C3DB52600D8F8A5 /* MASCompositeConstraint.m in Sources */,
 				8B3173C01C4CD1F300DC634B /* YXBJCollectionViewCell.m in Sources */,
 				8B1601E01CAA6E21009A13CF /* TestFlowLayout.m in Sources */,
+				8B44D3E41D1CD64300413F2F /* RoundPushNextViewController.m in Sources */,
 				8B1601D81CAA64CC009A13CF /* YunisCollectionLayout.m in Sources */,
 				8B00195A1C4741F300805B5D /* ManageTransitionAnimation.m in Sources */,
+				8B44D3EA1D1CDB5800413F2F /* RoundPOPAnimation.m in Sources */,
 				8B3173D01C4DC0B500DC634B /* YunisTopShowHUD.m in Sources */,
 				8B89BF321C51D7C600E66F0D /* UIView+layer.m in Sources */,
 				8B3173DC1C4E0D5600DC634B /* UIImageView+Reflect.m in Sources */,
@@ -983,6 +1014,7 @@
 				8B3CC1701C3E4EBD0071F6E5 /* QQMusicViewController.m in Sources */,
 				8B3CC16A1C3E47480071F6E5 /* Line.m in Sources */,
 				8B4F9DAC1C58564700F552D7 /* RoundView.m in Sources */,
+				8B44D3E11D1CD62D00413F2F /* RoundPushViewController.m in Sources */,
 				8B3173B91C4CCBED00DC634B /* YinXiangBiJiViewController.m in Sources */,
 				78A520F81C3DB52600D8F8A5 /* MASConstraint.m in Sources */,
 				8B89BF271C51BB5800E66F0D /* PullTableViewController.m in Sources */,

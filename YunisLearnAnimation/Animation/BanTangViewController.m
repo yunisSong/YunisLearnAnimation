@@ -72,15 +72,22 @@
     CGPoint roofTip		= CGPointMake(CGRectGetMidX(pathRect), CGRectGetMaxY(pathRect));
     
     UIBezierPath *path = [UIBezierPath bezierPath];
-    [path moveToPoint:bottomLeft];
-    [path addLineToPoint:topLeft];
-    [path addLineToPoint:roofTip];
-    [path addLineToPoint:topRight];
-    [path addLineToPoint:topLeft];
-    [path addLineToPoint:bottomRight];
-    [path addLineToPoint:topRight];
-    [path addLineToPoint:bottomLeft];
-    [path addLineToPoint:bottomRight];
+//    [path moveToPoint:bottomLeft];
+//    [path addLineToPoint:topLeft];
+//    [path addLineToPoint:roofTip];
+//    [path addLineToPoint:topRight];
+//    [path addLineToPoint:topLeft];
+//    [path addLineToPoint:bottomRight];
+//    [path addLineToPoint:topRight];
+//    [path addLineToPoint:bottomLeft];
+//    [path addLineToPoint:bottomRight];
+    
+    
+    [path moveToPoint:CGPointMake(self.view.center.x - 50, self.view.center.y)];
+
+    [path addArcWithCenter:self.view.center radius:50 startAngle:M_PI endAngle:M_PI*3 clockwise:YES];
+    
+    
     
     CAShapeLayer *pathLayer = [CAShapeLayer layer];
     pathLayer.frame = self.animationLayer.bounds;

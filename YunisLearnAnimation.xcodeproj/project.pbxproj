@@ -20,40 +20,41 @@
 		78A520FE1C3DB52600D8F8A5 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A520F31C3DB52600D8F8A5 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		78A520FF1C3DB52600D8F8A5 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A520F51C3DB52600D8F8A5 /* View+MASAdditions.m */; };
 		78A521031C3DB6F600D8F8A5 /* DrawSettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A521021C3DB6F600D8F8A5 /* DrawSettingView.m */; };
-		8B00190F1C44CE7900805B5D /* Transion3DPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B00190E1C44CE7900805B5D /* Transion3DPush.m */; settings = {ASSET_TAGS = (); }; };
-		8B0019121C44CE8600805B5D /* Transion3DDiss.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0019111C44CE8600805B5D /* Transion3DDiss.m */; settings = {ASSET_TAGS = (); }; };
-		8B0019151C44D51800805B5D /* DissInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0019141C44D51800805B5D /* DissInteractiveTransition.m */; settings = {ASSET_TAGS = (); }; };
-		8B00195A1C4741F300805B5D /* ManageTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0019591C4741F300805B5D /* ManageTransitionAnimation.m */; settings = {ASSET_TAGS = (); }; };
-		8B00195F1C476D0700805B5D /* SystemAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B00195D1C476D0700805B5D /* SystemAnimationViewController.m */; settings = {ASSET_TAGS = (); }; };
-		8B0019601C476D0700805B5D /* SystemAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B00195E1C476D0700805B5D /* SystemAnimationViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		8B1601D41CAA6488009A13CF /* YunisLearnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1601D21CAA6488009A13CF /* YunisLearnViewController.m */; settings = {ASSET_TAGS = (); }; };
-		8B1601D51CAA6488009A13CF /* YunisLearnViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B1601D31CAA6488009A13CF /* YunisLearnViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		8B1601D81CAA64CC009A13CF /* YunisCollectionLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1601D71CAA64CC009A13CF /* YunisCollectionLayout.m */; settings = {ASSET_TAGS = (); }; };
-		8B1601DC1CAA6524009A13CF /* TestCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1601DA1CAA6524009A13CF /* TestCollectionViewCell.m */; settings = {ASSET_TAGS = (); }; };
-		8B1601DD1CAA6524009A13CF /* TestCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B1601DB1CAA6524009A13CF /* TestCollectionViewCell.xib */; settings = {ASSET_TAGS = (); }; };
-		8B1601E01CAA6E21009A13CF /* TestFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1601DF1CAA6E21009A13CF /* TestFlowLayout.m */; settings = {ASSET_TAGS = (); }; };
-		8B1601E61CAA780B009A13CF /* RACollectionViewReorderableTripletLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1601E31CAA780B009A13CF /* RACollectionViewReorderableTripletLayout.m */; settings = {ASSET_TAGS = (); }; };
-		8B1601E71CAA780B009A13CF /* RACollectionViewTripletLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1601E51CAA780B009A13CF /* RACollectionViewTripletLayout.m */; settings = {ASSET_TAGS = (); }; };
-		8B1601EA1CAB6584009A13CF /* Testname.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1601E91CAB6583009A13CF /* Testname.m */; settings = {ASSET_TAGS = (); }; };
-		8B1601ED1CAB6B9C009A13CF /* ModuleLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1601EC1CAB6B9C009A13CF /* ModuleLayoutAttributes.m */; settings = {ASSET_TAGS = (); }; };
-		8B3173B61C4CCB7000DC634B /* 印象笔记动画效果OC版本.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3173B51C4CCB7000DC634B /* 印象笔记动画效果OC版本.rtf */; settings = {ASSET_TAGS = (); }; };
-		8B3173B91C4CCBED00DC634B /* YinXiangBiJiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3173B81C4CCBED00DC634B /* YinXiangBiJiViewController.m */; settings = {ASSET_TAGS = (); }; };
-		8B3173BC1C4CCCA400DC634B /* YXBJCellLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3173BB1C4CCCA400DC634B /* YXBJCellLayout.m */; settings = {ASSET_TAGS = (); }; };
-		8B3173C01C4CD1F300DC634B /* YXBJCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3173BE1C4CD1F300DC634B /* YXBJCollectionViewCell.m */; settings = {ASSET_TAGS = (); }; };
-		8B3173C11C4CD1F300DC634B /* YXBJCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B3173BF1C4CD1F300DC634B /* YXBJCollectionViewCell.xib */; settings = {ASSET_TAGS = (); }; };
-		8B3173C41C4CD22500DC634B /* YXBJTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3173C31C4CD22500DC634B /* YXBJTransition.m */; settings = {ASSET_TAGS = (); }; };
-		8B3173C81C4CD56500DC634B /* NewYXBJDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3173C61C4CD56500DC634B /* NewYXBJDetailViewController.m */; settings = {ASSET_TAGS = (); }; };
-		8B3173C91C4CD56500DC634B /* NewYXBJDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B3173C71C4CD56500DC634B /* NewYXBJDetailViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		8B3173CC1C4CE9F000DC634B /* YunisLearnDynamicFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3173CB1C4CE9F000DC634B /* YunisLearnDynamicFlowLayout.m */; settings = {ASSET_TAGS = (); }; };
-		8B3173D01C4DC0B500DC634B /* YunisTopShowHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3173CF1C4DC0B500DC634B /* YunisTopShowHUD.m */; settings = {ASSET_TAGS = (); }; };
-		8B3173D31C4DC51800DC634B /* YunisAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3173D21C4DC51800DC634B /* YunisAlertViewController.m */; settings = {ASSET_TAGS = (); }; };
-		8B3173D61C4DC7D200DC634B /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3173D51C4DC7D200DC634B /* UIImage+ImageEffects.m */; settings = {ASSET_TAGS = (); }; };
-		8B3173D91C4E032400DC634B /* YunisAlertTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3173D81C4E032400DC634B /* YunisAlertTitleView.m */; settings = {ASSET_TAGS = (); }; };
-		8B3173DC1C4E0D5600DC634B /* UIImageView+Reflect.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3173DB1C4E0D5600DC634B /* UIImageView+Reflect.m */; settings = {ASSET_TAGS = (); }; };
-		8B3173DF1C4E17F700DC634B /* 半糖动画效果.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3173DE1C4E17F700DC634B /* 半糖动画效果.rtf */; settings = {ASSET_TAGS = (); }; };
-		8B3173E31C4E184A00DC634B /* BanTangViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3173E11C4E184A00DC634B /* BanTangViewController.m */; settings = {ASSET_TAGS = (); }; };
-		8B3173E41C4E184A00DC634B /* BanTangViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B3173E21C4E184A00DC634B /* BanTangViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		8B3173E61C4E3B8300DC634B /* 断断续续需要看的东西.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = 8B3173E51C4E3B8300DC634B /* 断断续续需要看的东西.rtfd */; settings = {ASSET_TAGS = (); }; };
+		8B00190F1C44CE7900805B5D /* Transion3DPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B00190E1C44CE7900805B5D /* Transion3DPush.m */; };
+		8B0019121C44CE8600805B5D /* Transion3DDiss.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0019111C44CE8600805B5D /* Transion3DDiss.m */; };
+		8B0019151C44D51800805B5D /* DissInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0019141C44D51800805B5D /* DissInteractiveTransition.m */; };
+		8B00195A1C4741F300805B5D /* ManageTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0019591C4741F300805B5D /* ManageTransitionAnimation.m */; };
+		8B00195F1C476D0700805B5D /* SystemAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B00195D1C476D0700805B5D /* SystemAnimationViewController.m */; };
+		8B0019601C476D0700805B5D /* SystemAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B00195E1C476D0700805B5D /* SystemAnimationViewController.xib */; };
+		8B1601D41CAA6488009A13CF /* YunisLearnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1601D21CAA6488009A13CF /* YunisLearnViewController.m */; };
+		8B1601D51CAA6488009A13CF /* YunisLearnViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B1601D31CAA6488009A13CF /* YunisLearnViewController.xib */; };
+		8B1601D81CAA64CC009A13CF /* YunisCollectionLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1601D71CAA64CC009A13CF /* YunisCollectionLayout.m */; };
+		8B1601DC1CAA6524009A13CF /* TestCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1601DA1CAA6524009A13CF /* TestCollectionViewCell.m */; };
+		8B1601DD1CAA6524009A13CF /* TestCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B1601DB1CAA6524009A13CF /* TestCollectionViewCell.xib */; };
+		8B1601E01CAA6E21009A13CF /* TestFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1601DF1CAA6E21009A13CF /* TestFlowLayout.m */; };
+		8B1601E61CAA780B009A13CF /* RACollectionViewReorderableTripletLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1601E31CAA780B009A13CF /* RACollectionViewReorderableTripletLayout.m */; };
+		8B1601E71CAA780B009A13CF /* RACollectionViewTripletLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1601E51CAA780B009A13CF /* RACollectionViewTripletLayout.m */; };
+		8B1601EA1CAB6584009A13CF /* Testname.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1601E91CAB6583009A13CF /* Testname.m */; };
+		8B1601ED1CAB6B9C009A13CF /* ModuleLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1601EC1CAB6B9C009A13CF /* ModuleLayoutAttributes.m */; };
+		8B17D4871D1BC93E002EC093 /* GroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B17D4861D1BC93E002EC093 /* GroupViewController.m */; };
+		8B3173B61C4CCB7000DC634B /* 印象笔记动画效果OC版本.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3173B51C4CCB7000DC634B /* 印象笔记动画效果OC版本.rtf */; };
+		8B3173B91C4CCBED00DC634B /* YinXiangBiJiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3173B81C4CCBED00DC634B /* YinXiangBiJiViewController.m */; };
+		8B3173BC1C4CCCA400DC634B /* YXBJCellLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3173BB1C4CCCA400DC634B /* YXBJCellLayout.m */; };
+		8B3173C01C4CD1F300DC634B /* YXBJCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3173BE1C4CD1F300DC634B /* YXBJCollectionViewCell.m */; };
+		8B3173C11C4CD1F300DC634B /* YXBJCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B3173BF1C4CD1F300DC634B /* YXBJCollectionViewCell.xib */; };
+		8B3173C41C4CD22500DC634B /* YXBJTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3173C31C4CD22500DC634B /* YXBJTransition.m */; };
+		8B3173C81C4CD56500DC634B /* NewYXBJDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3173C61C4CD56500DC634B /* NewYXBJDetailViewController.m */; };
+		8B3173C91C4CD56500DC634B /* NewYXBJDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B3173C71C4CD56500DC634B /* NewYXBJDetailViewController.xib */; };
+		8B3173CC1C4CE9F000DC634B /* YunisLearnDynamicFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3173CB1C4CE9F000DC634B /* YunisLearnDynamicFlowLayout.m */; };
+		8B3173D01C4DC0B500DC634B /* YunisTopShowHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3173CF1C4DC0B500DC634B /* YunisTopShowHUD.m */; };
+		8B3173D31C4DC51800DC634B /* YunisAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3173D21C4DC51800DC634B /* YunisAlertViewController.m */; };
+		8B3173D61C4DC7D200DC634B /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3173D51C4DC7D200DC634B /* UIImage+ImageEffects.m */; };
+		8B3173D91C4E032400DC634B /* YunisAlertTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3173D81C4E032400DC634B /* YunisAlertTitleView.m */; };
+		8B3173DC1C4E0D5600DC634B /* UIImageView+Reflect.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3173DB1C4E0D5600DC634B /* UIImageView+Reflect.m */; };
+		8B3173DF1C4E17F700DC634B /* 半糖动画效果.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3173DE1C4E17F700DC634B /* 半糖动画效果.rtf */; };
+		8B3173E31C4E184A00DC634B /* BanTangViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3173E11C4E184A00DC634B /* BanTangViewController.m */; };
+		8B3173E41C4E184A00DC634B /* BanTangViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B3173E21C4E184A00DC634B /* BanTangViewController.xib */; };
+		8B3173E61C4E3B8300DC634B /* 断断续续需要看的东西.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = 8B3173E51C4E3B8300DC634B /* 断断续续需要看的东西.rtfd */; };
 		8B3A2BF51C3CE85E001F4E93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3A2BF41C3CE85E001F4E93 /* main.m */; };
 		8B3A2BF81C3CE85E001F4E93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3A2BF71C3CE85E001F4E93 /* AppDelegate.m */; };
 		8B3A2BFB1C3CE85E001F4E93 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3A2BFA1C3CE85E001F4E93 /* ViewController.m */; };
@@ -66,71 +67,71 @@
 		8B3A2C161C3D0062001F4E93 /* FollowWuYanZhu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B3A2C141C3D0062001F4E93 /* FollowWuYanZhu.xib */; };
 		8B3A2C181C3D0832001F4E93 /* wuyanzu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B3A2C171C3D0832001F4E93 /* wuyanzu.jpg */; };
 		8B3A2C1B1C3D0CC9001F4E93 /* TBAnimationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3A2C1A1C3D0CC9001F4E93 /* TBAnimationButton.m */; };
-		8B3CC15D1C3E34CA0071F6E5 /* UITableView+emptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3CC15C1C3E34CA0071F6E5 /* UITableView+emptyView.m */; settings = {ASSET_TAGS = (); }; };
-		8B3CC1601C3E38920071F6E5 /* UITableViewCell+hideSeparatorLeftInset.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3CC15F1C3E38920071F6E5 /* UITableViewCell+hideSeparatorLeftInset.m */; settings = {ASSET_TAGS = (); }; };
-		8B3CC1631C3E38B20071F6E5 /* UITableView+hideSeparatorLeftInset.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3CC1621C3E38B20071F6E5 /* UITableView+hideSeparatorLeftInset.m */; settings = {ASSET_TAGS = (); }; };
-		8B3CC16A1C3E47480071F6E5 /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3CC1691C3E47480071F6E5 /* Line.m */; settings = {ASSET_TAGS = (); }; };
-		8B3CC1701C3E4EBD0071F6E5 /* QQMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3CC16E1C3E4EBD0071F6E5 /* QQMusicViewController.m */; settings = {ASSET_TAGS = (); }; };
-		8B3CC1711C3E4EBD0071F6E5 /* QQMusicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC16F1C3E4EBD0071F6E5 /* QQMusicViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		8B3CC1751C3E4F1C0071F6E5 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3CC1731C3E4F1C0071F6E5 /* InfoViewController.m */; settings = {ASSET_TAGS = (); }; };
-		8B3CC17B1C3E508E0071F6E5 /* TransitionFromSecondToFirst.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3CC1781C3E508E0071F6E5 /* TransitionFromSecondToFirst.m */; settings = {ASSET_TAGS = (); }; };
-		8B3CC17C1C3E508E0071F6E5 /* TransitionFromFirstToSecond.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3CC17A1C3E508E0071F6E5 /* TransitionFromFirstToSecond.m */; settings = {ASSET_TAGS = (); }; };
-		8B3CC17F1C3E53E20071F6E5 /* UIView+snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3CC17E1C3E53E20071F6E5 /* UIView+snapshot.m */; settings = {ASSET_TAGS = (); }; };
-		8B3CC1831C3E601B0071F6E5 /* File in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC1821C3E601B0071F6E5 /* File */; settings = {ASSET_TAGS = (); }; };
-		8B3CC1851C3E60D80071F6E5 /* 动画思路.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC1841C3E60D80071F6E5 /* 动画思路.rtf */; settings = {ASSET_TAGS = (); }; };
-		8B3CC1891C3E67A30071F6E5 /* 3d.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC1881C3E67A30071F6E5 /* 3d.rtfd */; settings = {ASSET_TAGS = (); }; };
-		8B3CC18B1C3E68FC0071F6E5 /* File.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC18A1C3E68FC0071F6E5 /* File.rtf */; settings = {ASSET_TAGS = (); }; };
-		8B3CC18E1C3E69310071F6E5 /* 漂移.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC18D1C3E69310071F6E5 /* 漂移.rtfd */; settings = {ASSET_TAGS = (); }; };
-		8B3CC1971C3E6A6D0071F6E5 /* Transition3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3CC1951C3E6A6D0071F6E5 /* Transition3DViewController.m */; settings = {ASSET_TAGS = (); }; };
-		8B3CC1981C3E6A6D0071F6E5 /* Transition3DViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC1961C3E6A6D0071F6E5 /* Transition3DViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		8B3CC19C1C3E6A9C0071F6E5 /* TwoTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3CC19A1C3E6A9C0071F6E5 /* TwoTransitionViewController.m */; settings = {ASSET_TAGS = (); }; };
-		8B3CC19D1C3E6A9C0071F6E5 /* TwoTransitionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC19B1C3E6A9C0071F6E5 /* TwoTransitionViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		8B3CC1A01C3E6C080071F6E5 /* 点击圆形转场.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC19F1C3E6C080071F6E5 /* 点击圆形转场.rtf */; settings = {ASSET_TAGS = (); }; };
-		8B3CC1AB1C3E6D5C0071F6E5 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC1A21C3E6D5C0071F6E5 /* 1.jpg */; settings = {ASSET_TAGS = (); }; };
-		8B3CC1AC1C3E6D5C0071F6E5 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC1A31C3E6D5C0071F6E5 /* 2.jpg */; settings = {ASSET_TAGS = (); }; };
-		8B3CC1AD1C3E6D5C0071F6E5 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC1A41C3E6D5C0071F6E5 /* 3.jpg */; settings = {ASSET_TAGS = (); }; };
-		8B3CC1AE1C3E6D5C0071F6E5 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC1A51C3E6D5C0071F6E5 /* 4.jpg */; settings = {ASSET_TAGS = (); }; };
-		8B3CC1AF1C3E6D5C0071F6E5 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC1A61C3E6D5C0071F6E5 /* 5.jpg */; settings = {ASSET_TAGS = (); }; };
-		8B3CC1B01C3E6D5C0071F6E5 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC1A71C3E6D5C0071F6E5 /* 6.jpg */; settings = {ASSET_TAGS = (); }; };
-		8B3CC1B11C3E6D5C0071F6E5 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC1A81C3E6D5C0071F6E5 /* 7.jpg */; settings = {ASSET_TAGS = (); }; };
-		8B3CC1B21C3E6D5C0071F6E5 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC1A91C3E6D5C0071F6E5 /* 8.jpg */; settings = {ASSET_TAGS = (); }; };
-		8B3CC1B31C3E6D5C0071F6E5 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC1AA1C3E6D5C0071F6E5 /* 9.jpg */; settings = {ASSET_TAGS = (); }; };
-		8B4F9D661C55C63A00F552D7 /* BannnerMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4F9D651C55C63A00F552D7 /* BannnerMaskView.m */; settings = {ASSET_TAGS = (); }; };
-		8B4F9D681C561BF300F552D7 /* snow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B4F9D671C561BF300F552D7 /* snow.jpg */; settings = {ASSET_TAGS = (); }; };
-		8B4F9D6E1C57407E00F552D7 /* LightHomeBasePage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4F9D6D1C57407E00F552D7 /* LightHomeBasePage.m */; settings = {ASSET_TAGS = (); }; };
-		8B4F9D711C5746BC00F552D7 /* BannerImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4F9D701C5746BC00F552D7 /* BannerImageView.m */; settings = {ASSET_TAGS = (); }; };
-		8B4F9DA21C58548800F552D7 /* LightSunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4F9DA01C58548800F552D7 /* LightSunViewController.m */; settings = {ASSET_TAGS = (); }; };
-		8B4F9DA31C58548800F552D7 /* LightSunViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B4F9DA11C58548800F552D7 /* LightSunViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		8B4F9DA61C58552100F552D7 /* RoundAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4F9DA51C58552100F552D7 /* RoundAnimationView.m */; settings = {ASSET_TAGS = (); }; };
-		8B4F9DA91C58556C00F552D7 /* SunMoonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4F9DA81C58556C00F552D7 /* SunMoonView.m */; settings = {ASSET_TAGS = (); }; };
-		8B4F9DAC1C58564700F552D7 /* RoundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4F9DAB1C58564700F552D7 /* RoundView.m */; settings = {ASSET_TAGS = (); }; };
-		8B4F9DAE1C58A68E00F552D7 /* Sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B4F9DAD1C58A68E00F552D7 /* Sun.png */; settings = {ASSET_TAGS = (); }; };
-		8B89BF1F1C51BAB600E66F0D /* Light下拉首页图片变形.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8B89BF1E1C51BAB600E66F0D /* Light下拉首页图片变形.rtf */; settings = {ASSET_TAGS = (); }; };
-		8B89BF271C51BB5800E66F0D /* PullTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B89BF261C51BB5800E66F0D /* PullTableViewController.m */; settings = {ASSET_TAGS = (); }; };
-		8B89BF2E1C51C0D700E66F0D /* MBTwitterScroll.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B89BF2A1C51C0D700E66F0D /* MBTwitterScroll.m */; settings = {ASSET_TAGS = (); }; };
-		8B89BF2F1C51C0D700E66F0D /* UIScrollView+TwitterCover.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B89BF2D1C51C0D700E66F0D /* UIScrollView+TwitterCover.m */; settings = {ASSET_TAGS = (); }; };
-		8B89BF321C51D7C600E66F0D /* UIView+layer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B89BF311C51D7C600E66F0D /* UIView+layer.m */; settings = {ASSET_TAGS = (); }; };
-		8B89BF371C5217BA00E66F0D /* CircleInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B89BF361C5217BA00E66F0D /* CircleInfo.m */; settings = {ASSET_TAGS = (); }; };
-		8BA0F6F01C9001A100F735F3 /* 仪表盘.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8BA0F6EF1C9001A100F735F3 /* 仪表盘.rtf */; settings = {ASSET_TAGS = (); }; };
-		8BA0F6F41C90022F00F735F3 /* DashBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA0F6F21C90022F00F735F3 /* DashBoardViewController.m */; settings = {ASSET_TAGS = (); }; };
-		8BA0F6F51C90022F00F735F3 /* DashBoardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BA0F6F31C90022F00F735F3 /* DashBoardViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		8BA0F6F81C900FAA00F735F3 /* PanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA0F6F71C900FAA00F735F3 /* PanelView.m */; settings = {ASSET_TAGS = (); }; };
-		8BF8F0B51C3F3B1A00C9B9FB /* BaseTransitionObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8F0B41C3F3B1A00C9B9FB /* BaseTransitionObject.m */; settings = {ASSET_TAGS = (); }; };
-		8BF8F0B81C3F545000C9B9FB /* 另一种画线方式.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8BF8F0B71C3F545000C9B9FB /* 另一种画线方式.rtf */; settings = {ASSET_TAGS = (); }; };
-		8BF8F0BC1C3F54E100C9B9FB /* OtherDrawLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8F0BA1C3F54E100C9B9FB /* OtherDrawLineViewController.m */; settings = {ASSET_TAGS = (); }; };
-		8BF8F0BD1C3F54E100C9B9FB /* OtherDrawLineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BF8F0BB1C3F54E100C9B9FB /* OtherDrawLineViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		8BF8F0BF1C3F564C00C9B9FB /* 学习彦祖类似购物车动画.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8BF8F0BE1C3F564C00C9B9FB /* 学习彦祖类似购物车动画.rtf */; settings = {ASSET_TAGS = (); }; };
-		8BF8F0C21C3F5BA500C9B9FB /* BaseEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8F0C11C3F5BA500C9B9FB /* BaseEditView.m */; settings = {ASSET_TAGS = (); }; };
-		8BF8F0C51C3F5F7300C9B9FB /* UIView+Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8F0C41C3F5F7300C9B9FB /* UIView+Controller.m */; settings = {ASSET_TAGS = (); }; };
-		8BF8F0C81C3F605800C9B9FB /* DrawLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8F0C71C3F605800C9B9FB /* DrawLineView.m */; settings = {ASSET_TAGS = (); }; };
-		8BF8F0CB1C3F636B00C9B9FB /* UIButton+block.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8F0CA1C3F636B00C9B9FB /* UIButton+block.m */; settings = {ASSET_TAGS = (); }; };
-		8BF8F0CE1C3F88C800C9B9FB /* DrawBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8F0CD1C3F88C800C9B9FB /* DrawBezierPath.m */; settings = {ASSET_TAGS = (); }; };
-		8BF97B561CA4DF19004C76A6 /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF97B4E1CA4DF19004C76A6 /* MenuTableViewController.m */; settings = {ASSET_TAGS = (); }; };
-		8BF97B571CA4DF19004C76A6 /* YunisCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF97B501CA4DF19004C76A6 /* YunisCollectionViewController.m */; settings = {ASSET_TAGS = (); }; };
-		8BF97B581CA4DF19004C76A6 /* YunisLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF97B521CA4DF19004C76A6 /* YunisLayout.m */; settings = {ASSET_TAGS = (); }; };
-		8BF97B591CA4DF19004C76A6 /* YunisCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF97B541CA4DF19004C76A6 /* YunisCollectionViewCell.m */; settings = {ASSET_TAGS = (); }; };
-		8BF97B5A1CA4DF19004C76A6 /* YunisCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BF97B551CA4DF19004C76A6 /* YunisCollectionViewCell.xib */; settings = {ASSET_TAGS = (); }; };
-		8BF97B5C1CA53433004C76A6 /* WillWork.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8BF97B5B1CA53433004C76A6 /* WillWork.rtf */; settings = {ASSET_TAGS = (); }; };
+		8B3CC15D1C3E34CA0071F6E5 /* UITableView+emptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3CC15C1C3E34CA0071F6E5 /* UITableView+emptyView.m */; };
+		8B3CC1601C3E38920071F6E5 /* UITableViewCell+hideSeparatorLeftInset.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3CC15F1C3E38920071F6E5 /* UITableViewCell+hideSeparatorLeftInset.m */; };
+		8B3CC1631C3E38B20071F6E5 /* UITableView+hideSeparatorLeftInset.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3CC1621C3E38B20071F6E5 /* UITableView+hideSeparatorLeftInset.m */; };
+		8B3CC16A1C3E47480071F6E5 /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3CC1691C3E47480071F6E5 /* Line.m */; };
+		8B3CC1701C3E4EBD0071F6E5 /* QQMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3CC16E1C3E4EBD0071F6E5 /* QQMusicViewController.m */; };
+		8B3CC1711C3E4EBD0071F6E5 /* QQMusicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC16F1C3E4EBD0071F6E5 /* QQMusicViewController.xib */; };
+		8B3CC1751C3E4F1C0071F6E5 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3CC1731C3E4F1C0071F6E5 /* InfoViewController.m */; };
+		8B3CC17B1C3E508E0071F6E5 /* TransitionFromSecondToFirst.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3CC1781C3E508E0071F6E5 /* TransitionFromSecondToFirst.m */; };
+		8B3CC17C1C3E508E0071F6E5 /* TransitionFromFirstToSecond.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3CC17A1C3E508E0071F6E5 /* TransitionFromFirstToSecond.m */; };
+		8B3CC17F1C3E53E20071F6E5 /* UIView+snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3CC17E1C3E53E20071F6E5 /* UIView+snapshot.m */; };
+		8B3CC1831C3E601B0071F6E5 /* File in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC1821C3E601B0071F6E5 /* File */; };
+		8B3CC1851C3E60D80071F6E5 /* 动画思路.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC1841C3E60D80071F6E5 /* 动画思路.rtf */; };
+		8B3CC1891C3E67A30071F6E5 /* 3d.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC1881C3E67A30071F6E5 /* 3d.rtfd */; };
+		8B3CC18B1C3E68FC0071F6E5 /* File.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC18A1C3E68FC0071F6E5 /* File.rtf */; };
+		8B3CC18E1C3E69310071F6E5 /* 漂移.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC18D1C3E69310071F6E5 /* 漂移.rtfd */; };
+		8B3CC1971C3E6A6D0071F6E5 /* Transition3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3CC1951C3E6A6D0071F6E5 /* Transition3DViewController.m */; };
+		8B3CC1981C3E6A6D0071F6E5 /* Transition3DViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC1961C3E6A6D0071F6E5 /* Transition3DViewController.xib */; };
+		8B3CC19C1C3E6A9C0071F6E5 /* TwoTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3CC19A1C3E6A9C0071F6E5 /* TwoTransitionViewController.m */; };
+		8B3CC19D1C3E6A9C0071F6E5 /* TwoTransitionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC19B1C3E6A9C0071F6E5 /* TwoTransitionViewController.xib */; };
+		8B3CC1A01C3E6C080071F6E5 /* 点击圆形转场.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC19F1C3E6C080071F6E5 /* 点击圆形转场.rtf */; };
+		8B3CC1AB1C3E6D5C0071F6E5 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC1A21C3E6D5C0071F6E5 /* 1.jpg */; };
+		8B3CC1AC1C3E6D5C0071F6E5 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC1A31C3E6D5C0071F6E5 /* 2.jpg */; };
+		8B3CC1AD1C3E6D5C0071F6E5 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC1A41C3E6D5C0071F6E5 /* 3.jpg */; };
+		8B3CC1AE1C3E6D5C0071F6E5 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC1A51C3E6D5C0071F6E5 /* 4.jpg */; };
+		8B3CC1AF1C3E6D5C0071F6E5 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC1A61C3E6D5C0071F6E5 /* 5.jpg */; };
+		8B3CC1B01C3E6D5C0071F6E5 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC1A71C3E6D5C0071F6E5 /* 6.jpg */; };
+		8B3CC1B11C3E6D5C0071F6E5 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC1A81C3E6D5C0071F6E5 /* 7.jpg */; };
+		8B3CC1B21C3E6D5C0071F6E5 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC1A91C3E6D5C0071F6E5 /* 8.jpg */; };
+		8B3CC1B31C3E6D5C0071F6E5 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B3CC1AA1C3E6D5C0071F6E5 /* 9.jpg */; };
+		8B4F9D661C55C63A00F552D7 /* BannnerMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4F9D651C55C63A00F552D7 /* BannnerMaskView.m */; };
+		8B4F9D681C561BF300F552D7 /* snow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B4F9D671C561BF300F552D7 /* snow.jpg */; };
+		8B4F9D6E1C57407E00F552D7 /* LightHomeBasePage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4F9D6D1C57407E00F552D7 /* LightHomeBasePage.m */; };
+		8B4F9D711C5746BC00F552D7 /* BannerImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4F9D701C5746BC00F552D7 /* BannerImageView.m */; };
+		8B4F9DA21C58548800F552D7 /* LightSunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4F9DA01C58548800F552D7 /* LightSunViewController.m */; };
+		8B4F9DA31C58548800F552D7 /* LightSunViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B4F9DA11C58548800F552D7 /* LightSunViewController.xib */; };
+		8B4F9DA61C58552100F552D7 /* RoundAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4F9DA51C58552100F552D7 /* RoundAnimationView.m */; };
+		8B4F9DA91C58556C00F552D7 /* SunMoonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4F9DA81C58556C00F552D7 /* SunMoonView.m */; };
+		8B4F9DAC1C58564700F552D7 /* RoundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4F9DAB1C58564700F552D7 /* RoundView.m */; };
+		8B4F9DAE1C58A68E00F552D7 /* Sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B4F9DAD1C58A68E00F552D7 /* Sun.png */; };
+		8B89BF1F1C51BAB600E66F0D /* Light下拉首页图片变形.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8B89BF1E1C51BAB600E66F0D /* Light下拉首页图片变形.rtf */; };
+		8B89BF271C51BB5800E66F0D /* PullTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B89BF261C51BB5800E66F0D /* PullTableViewController.m */; };
+		8B89BF2E1C51C0D700E66F0D /* MBTwitterScroll.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B89BF2A1C51C0D700E66F0D /* MBTwitterScroll.m */; };
+		8B89BF2F1C51C0D700E66F0D /* UIScrollView+TwitterCover.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B89BF2D1C51C0D700E66F0D /* UIScrollView+TwitterCover.m */; };
+		8B89BF321C51D7C600E66F0D /* UIView+layer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B89BF311C51D7C600E66F0D /* UIView+layer.m */; };
+		8B89BF371C5217BA00E66F0D /* CircleInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B89BF361C5217BA00E66F0D /* CircleInfo.m */; };
+		8BA0F6F01C9001A100F735F3 /* 仪表盘.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8BA0F6EF1C9001A100F735F3 /* 仪表盘.rtf */; };
+		8BA0F6F41C90022F00F735F3 /* DashBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA0F6F21C90022F00F735F3 /* DashBoardViewController.m */; };
+		8BA0F6F51C90022F00F735F3 /* DashBoardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BA0F6F31C90022F00F735F3 /* DashBoardViewController.xib */; };
+		8BA0F6F81C900FAA00F735F3 /* PanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA0F6F71C900FAA00F735F3 /* PanelView.m */; };
+		8BF8F0B51C3F3B1A00C9B9FB /* BaseTransitionObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8F0B41C3F3B1A00C9B9FB /* BaseTransitionObject.m */; };
+		8BF8F0B81C3F545000C9B9FB /* 另一种画线方式.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8BF8F0B71C3F545000C9B9FB /* 另一种画线方式.rtf */; };
+		8BF8F0BC1C3F54E100C9B9FB /* OtherDrawLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8F0BA1C3F54E100C9B9FB /* OtherDrawLineViewController.m */; };
+		8BF8F0BD1C3F54E100C9B9FB /* OtherDrawLineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BF8F0BB1C3F54E100C9B9FB /* OtherDrawLineViewController.xib */; };
+		8BF8F0BF1C3F564C00C9B9FB /* 学习彦祖类似购物车动画.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8BF8F0BE1C3F564C00C9B9FB /* 学习彦祖类似购物车动画.rtf */; };
+		8BF8F0C21C3F5BA500C9B9FB /* BaseEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8F0C11C3F5BA500C9B9FB /* BaseEditView.m */; };
+		8BF8F0C51C3F5F7300C9B9FB /* UIView+Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8F0C41C3F5F7300C9B9FB /* UIView+Controller.m */; };
+		8BF8F0C81C3F605800C9B9FB /* DrawLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8F0C71C3F605800C9B9FB /* DrawLineView.m */; };
+		8BF8F0CB1C3F636B00C9B9FB /* UIButton+block.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8F0CA1C3F636B00C9B9FB /* UIButton+block.m */; };
+		8BF8F0CE1C3F88C800C9B9FB /* DrawBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8F0CD1C3F88C800C9B9FB /* DrawBezierPath.m */; };
+		8BF97B561CA4DF19004C76A6 /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF97B4E1CA4DF19004C76A6 /* MenuTableViewController.m */; };
+		8BF97B571CA4DF19004C76A6 /* YunisCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF97B501CA4DF19004C76A6 /* YunisCollectionViewController.m */; };
+		8BF97B581CA4DF19004C76A6 /* YunisLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF97B521CA4DF19004C76A6 /* YunisLayout.m */; };
+		8BF97B591CA4DF19004C76A6 /* YunisCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF97B541CA4DF19004C76A6 /* YunisCollectionViewCell.m */; };
+		8BF97B5A1CA4DF19004C76A6 /* YunisCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BF97B551CA4DF19004C76A6 /* YunisCollectionViewCell.xib */; };
+		8BF97B5C1CA53433004C76A6 /* WillWork.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8BF97B5B1CA53433004C76A6 /* WillWork.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -194,6 +195,8 @@
 		8B1601E91CAB6583009A13CF /* Testname.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Testname.m; sourceTree = "<group>"; };
 		8B1601EB1CAB6B9C009A13CF /* ModuleLayoutAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleLayoutAttributes.h; sourceTree = "<group>"; };
 		8B1601EC1CAB6B9C009A13CF /* ModuleLayoutAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleLayoutAttributes.m; sourceTree = "<group>"; };
+		8B17D4851D1BC93E002EC093 /* GroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupViewController.h; sourceTree = "<group>"; };
+		8B17D4861D1BC93E002EC093 /* GroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupViewController.m; sourceTree = "<group>"; };
 		8B3173B51C4CCB7000DC634B /* 印象笔记动画效果OC版本.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "印象笔记动画效果OC版本.rtf"; sourceTree = "<group>"; };
 		8B3173B71C4CCBED00DC634B /* YinXiangBiJiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YinXiangBiJiViewController.h; sourceTree = "<group>"; };
 		8B3173B81C4CCBED00DC634B /* YinXiangBiJiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YinXiangBiJiViewController.m; sourceTree = "<group>"; };
@@ -450,6 +453,15 @@
 			path = RACollectionViewReorderableTripletLayout;
 			sourceTree = "<group>";
 		};
+		8B17D4841D1BC8FD002EC093 /* 组合动画 */ = {
+			isa = PBXGroup;
+			children = (
+				8B17D4851D1BC93E002EC093 /* GroupViewController.h */,
+				8B17D4861D1BC93E002EC093 /* GroupViewController.m */,
+			);
+			name = "组合动画";
+			sourceTree = "<group>";
+		};
 		8B3173B41C4CCB3D00DC634B /* 印象笔记动画效果OC版本 */ = {
 			isa = PBXGroup;
 			children = (
@@ -565,6 +577,7 @@
 				8B3CC19E1C3E6BED0071F6E5 /* 点击圆形转场 */,
 				8B3CC18C1C3E69200071F6E5 /* 点击漂移转场 */,
 				8BF97B4C1CA4DEDA004C76A6 /* UICollectionView */,
+				8B17D4841D1BC8FD002EC093 /* 组合动画 */,
 				8BF8F0B31C3F3B1A00C9B9FB /* BaseTransitionObject.h */,
 				8BF8F0B41C3F3B1A00C9B9FB /* BaseTransitionObject.m */,
 			);
@@ -961,6 +974,7 @@
 				8B3CC17B1C3E508E0071F6E5 /* TransitionFromSecondToFirst.m in Sources */,
 				8B89BF371C5217BA00E66F0D /* CircleInfo.m in Sources */,
 				8B4F9DA21C58548800F552D7 /* LightSunViewController.m in Sources */,
+				8B17D4871D1BC93E002EC093 /* GroupViewController.m in Sources */,
 				8BF8F0BC1C3F54E100C9B9FB /* OtherDrawLineViewController.m in Sources */,
 				8B3173C81C4CD56500DC634B /* NewYXBJDetailViewController.m in Sources */,
 				78A520FF1C3DB52600D8F8A5 /* View+MASAdditions.m in Sources */,
